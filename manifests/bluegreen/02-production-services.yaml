@@ -1,0 +1,37 @@
+# Purpose: Route internal and external production traffic to the selected colour.
+# Apply: kubectl --context kind-cte412-02230135 apply -f manifests/bluegreen/02-production-services.yaml
+
+apiVersion: v1
+kind: Service
+metadata:
+  name: notice-board # Preserve the monitor's production Service address.
+  namespace: nb-02230135 # Select this student's Pods.
+  labels:
+    app: notice-board # Group the Service with the application.
+spec:
+  type: ClusterIP # Provide internal production access.
+  selector:
+    app: notice-board # Select application Pods.
+    slot: green # Initially route production to blue.
+  ports:
+    - name: http # Identify the HTTP port.
+      port: 80 # Required internal Service port.
+      targetPort: http # Use the named application container port.
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: notice-board-ext # Preserve the external production Service.
+  namespace: nb-02230135 # Select this student's Pods.
+  labels:
+    app: notice-board # Group the Service with the application.
+spec:
+  type: NodePort # Provide host access through kind's port mapping.
+  selector:
+    app: notice-board # Select application Pods.
+    slot: green # Keep external production aligned with internal production.
+  ports:
+    - name: http # Identify the HTTP port.
+      port: 80 # Internal Service port.
+      targetPort: http # Use the named application container port.
+      nodePort: 30090 # Match the existing kind host mapping.

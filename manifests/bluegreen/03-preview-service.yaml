@@ -1,0 +1,19 @@
+# Purpose: Always expose the green release for testing inside the cluster.
+# Apply: kubectl --context kind-cte412-02230135 apply -f manifests/bluegreen/03-preview-service.yaml
+
+apiVersion: v1
+kind: Service
+metadata:
+  name: notice-board-preview # Dedicated green preview address.
+  namespace: nb-02230135 # Select green Pods in this namespace.
+  labels:
+    app: notice-board # Group the Service with the application.
+spec:
+  type: ClusterIP # Preview access is internal to the cluster.
+  selector:
+    app: notice-board # Select application Pods.
+    slot: green # Always route preview traffic to green.
+  ports:
+    - name: http # Identify the HTTP port.
+      port: 80 # Preview Service port.
+      targetPort: http # Forward to the named container port.
