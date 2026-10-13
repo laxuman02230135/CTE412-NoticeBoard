@@ -1,0 +1,13 @@
+# Purpose: Isolate the Campus Notice Board resources for student 02230135.
+# Apply: kubectl --context kind-cte412-02230135 apply -f manifests/base/00-namespace.yaml
+
+apiVersion: v1
+kind: Namespace
+
+metadata:
+  name: nb-02230135 # Required namespace containing the student ID.
+  labels:
+    app.kubernetes.io/part-of: campus-notice-board # Required application grouping.
+    cte412/practical: "06" # Required practical label from the task specification.
+  annotations:
+    cte412/student-name: "YOUR FULL NAME" # Records the student's full name.

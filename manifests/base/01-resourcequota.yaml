@@ -1,0 +1,18 @@
+# Purpose: Enforce the namespace resource budget required by Task 1.
+# Apply: kubectl --context kind-cte412-02230135 apply -f manifests/base/01-resourcequota.yaml
+
+apiVersion: v1
+kind: ResourceQuota
+
+metadata:
+  name: notice-board-quota # Identifies the lab's resource budget.
+  namespace: nb-02230135 # Apply the budget only to this student's namespace.
+
+spec:
+  hard:
+    requests.cpu: "1" # Required total CPU request budget: one CPU core.
+    requests.memory: 1Gi # Required total memory request budget.
+    limits.cpu: "2" # Required total CPU limit budget: two CPU cores.
+    limits.memory: 2Gi # Required total memory limit budget.
+    pods: "15" # Required maximum number of namespace Pods.
+    count/services: "4" # Required maximum number of namespace Services.

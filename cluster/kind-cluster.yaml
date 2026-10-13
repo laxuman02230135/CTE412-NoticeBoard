@@ -1,0 +1,16 @@
+# Purpose: Create the three-node kind cluster for student 02230135.
+# Command: kind create cluster --name cte412-02230135 --config cluster/kind-cluster.yaml
+
+kind: Cluster
+apiVersion: kind.x-k8s.io/v1alpha4
+
+nodes:
+  - role: control-plane # One control-plane node is required by Task 1.
+    extraPortMappings: # Expose the later NodePort Service to the host.
+      - containerPort: 30090 # Must match the Service's nodePort.
+        hostPort: 30090 # Required host port for the lab.
+        listenAddress: "127.0.0.1" # Restrict access to this computer.
+        protocol: TCP # The application uses HTTP over TCP.
+
+  - role: worker # First of two required worker nodes.
+  - role: worker # Second of two required worker nodes.

@@ -1,0 +1,19 @@
+# Purpose: Supply conservative resource defaults for containers missing explicit values.
+# Apply: kubectl --context kind-cte412-02230135 apply -f manifests/base/02-limitrange.yaml
+
+apiVersion: v1
+kind: LimitRange
+
+metadata:
+  name: notice-board-defaults # Identifies the namespace's container defaults.
+  namespace: nb-02230135 # Keep these defaults inside the student's namespace.
+
+spec:
+  limits:
+    - type: Container # Apply defaults to each container.
+      defaultRequest:
+        cpu: 50m # Fifteen single-container Pods would request 750m, below the 1-core quota.
+        memory: 32Mi # Fifteen single-container Pods would request 480Mi, below 1Gi.
+      default:
+        cpu: 100m # Fifteen single-container Pods would have 1500m limits, below 2 cores.
+        memory: 64Mi # Fifteen single-container Pods would have 960Mi limits, below 2Gi.
