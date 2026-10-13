@@ -17,3 +17,7 @@ feature-flag updates.
 - kubectl version: TO BE RECORDED
 - Cluster Kubernetes version: TO BE RECORDED
 - Application language and Alpine base image: TO BE RECORDED
+- Application language: Python 3.12
+- Base image: python:3.12-alpine
+- Application port: 8080
+- Runtime user UID: 10001
