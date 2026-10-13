@@ -1,0 +1,20 @@
+# Purpose: Provide internal access to ready Campus Notice Board Pods.
+# Apply: kubectl --context kind-cte412-02230135 apply -f manifests/rolling/01-service.yaml
+
+apiVersion: v1
+kind: Service
+
+metadata:
+  name: notice-board # Required internal Service name; used by the future monitor.
+  namespace: nb-02230135 # Select Pods inside this student's namespace.
+  labels:
+    app: notice-board # Group the Service with the application.
+
+spec:
+  type: ClusterIP # Provide access inside the cluster.
+  selector:
+    app: notice-board # Select every application version so releases can be measured.
+  ports:
+    - name: http # Identify the HTTP Service port.
+      port: 80 # Required internal Service port.
+      targetPort: http # Forward to the named container port, currently 8080.

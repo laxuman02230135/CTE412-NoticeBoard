@@ -1,0 +1,21 @@
+# Purpose: Expose the Campus Notice Board through the kind host port mapping.
+# Apply: kubectl --context kind-cte412-02230135 apply -f manifests/rolling/02-service-external.yaml
+
+apiVersion: v1
+kind: Service
+
+metadata:
+  name: notice-board-ext # Required external Service name.
+  namespace: nb-02230135 # Select this student's application Pods.
+  labels:
+    app: notice-board # Group the Service with the application.
+
+spec:
+  type: NodePort # Expose the Service on a fixed node port.
+  selector:
+    app: notice-board # Route requests to ready application Pods across versions.
+  ports:
+    - name: http # Identify the HTTP Service port.
+      port: 80 # Service port inside the cluster.
+      targetPort: http # Forward to the named container port.
+      nodePort: 30090 # Match the host-to-node mapping configured in Task 1.

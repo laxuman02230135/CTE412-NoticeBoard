@@ -21,3 +21,15 @@ feature-flag updates.
 - Base image: python:3.12-alpine
 - Application port: 8080
 - Runtime user UID: 10001
+
+### Deploy the baseline application
+
+```powershell
+kubectl --context kind-cte412-02230135 apply -f manifests/rolling/00-deployment.yaml
+kubectl --context kind-cte412-02230135 apply -f manifests/rolling/01-service.yaml
+kubectl --context kind-cte412-02230135 apply -f manifests/rolling/02-service-external.yaml
+
+kubectl --context kind-cte412-02230135 -n nb-02230135 rollout status deployment/notice-board --timeout=180s
+```
+
+Host endpoint: http://127.0.0.1:30090/version
