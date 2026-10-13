@@ -1,0 +1,37 @@
+# Purpose: Run the continuous availability monitor throughout Tasks 4 to 8.
+# Apply: kubectl --context kind-cte412-02230135 apply -f manifests/base/04-monitor-pod.yaml
+
+apiVersion: v1
+kind: Pod
+
+metadata:
+  name: monitor # Required monitor Pod name.
+  namespace: nb-02230135 # Resolve notice-board inside the application's namespace.
+  labels:
+    app: notice-board-monitor # Keep the monitor separate from application Service selectors.
+    cte412/student: "02230135" # Identify this student's measuring instrument.
+
+spec:
+  containers:
+    - name: monitor # Identify the logging container.
+      image: notice-board:02230135-1.0.0 # Reuse the locally loaded Alpine-based Python image.
+      imagePullPolicy: Never # Never fetch this application image from a registry.
+      command: ["python", "-u", "/monitor/monitor.py"] # Run the monitor with unbuffered output.
+
+      resources:
+        requests:
+          cpu: 10m # Leave most of the CPU request quota for application Pods.
+          memory: 16Mi # Reserve memory for this lightweight Python process.
+        limits:
+          cpu: 50m # Bound monitor CPU use while leaving room for both colours.
+          memory: 64Mi # Allow Python runtime overhead within the namespace budget.
+
+      volumeMounts:
+        - name: monitor-code # Connect the script volume to this container.
+          mountPath: /monitor # Python reads the script from this directory.
+          readOnly: true # The monitor does not need to modify its source.
+
+  volumes:
+    - name: monitor-code # Match the container's volume mount.
+      configMap:
+        name: notice-board-monitor-code # Provide monitor.py from the ConfigMap.

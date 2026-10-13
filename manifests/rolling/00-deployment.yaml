@@ -10,10 +10,16 @@ metadata:
   labels:
     app: notice-board # Allow application-wide evidence queries.
   annotations:
-    kubernetes.io/change-cause: "Task 3: baseline 02230135-1.0.0" # Describe the initial revision.
+    kubernetes.io/change-cause: "Task 5: restore baseline 02230135-1.0.0" # Describe the baseline restoration.
 
 spec:
   replicas: 3 # Required baseline replica count.
+  strategy:
+    type: RollingUpdate # Replace Pods gradually while maintaining ready capacity.
+    rollingUpdate:
+      maxUnavailable: 0 # Keep all three Pods ready during the rolling update.
+      maxSurge: 1 # Allow one extra Pod to be created during the rolling update.
+    minReadySeconds: 5 # Wait five seconds after a Pod becomes ready before replacing it.
   selector:
     matchLabels:
       app: notice-board # Keep the selector stable across release versions.
@@ -22,12 +28,12 @@ spec:
     metadata:
       labels:
         app: notice-board # Match the Deployment and Service selectors.
-        version: "1.0.0" # Identify the image version running in each Pod.
+        version: "1.1.0" # Identify the image version running in each Pod.
 
     spec:
       containers:
         - name: notice-board # Identify the application container.
-          image: notice-board:02230135-1.0.0 # Locally loaded baseline image with student ID.
+          image: notice-board:02230135-1.1.0 # Locally loaded baseline image with student ID.
           imagePullPolicy: Never # Never attempt to pull this image from a registry.
 
           ports:

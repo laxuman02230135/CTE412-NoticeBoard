@@ -1,0 +1,55 @@
+# Purpose: Store the continuous availability-monitor script for student 02230135.
+# Apply: kubectl --context kind-cte412-02230135 apply -f manifests/base/03-monitor-code.yaml
+
+apiVersion: v1
+kind: ConfigMap
+
+metadata:
+  name: notice-board-monitor-code # Holds the monitor's Python script.
+  namespace: nb-02230135 # Keep the script in this student's namespace.
+
+data:
+  monitor.py: | # Mount this script into the monitor container.
+    import json
+    import time
+    import urllib.request
+    from datetime import datetime, timezone
+
+    URL = "http://notice-board/version"
+    INTERVAL = 0.5
+    opener = urllib.request.build_opener(urllib.request.ProxyHandler({}))
+    next_request = time.monotonic()
+
+    while True:
+        timestamp = datetime.now(timezone.utc).isoformat(
+            timespec="milliseconds"
+        ).replace("+00:00", "Z")
+
+        try:
+            with opener.open(URL, timeout=0.4) as response:
+                body = response.read().decode("utf-8")
+                payload = json.loads(body)
+
+                if payload.get("student") != "02230135":
+                    raise ValueError("Unexpected or missing student ID")
+
+                if not payload.get("version"):
+                    raise ValueError("Missing version")
+
+                body = json.dumps(payload, separators=(",", ":"))
+                print(f"{timestamp} OK {body}", flush=True)
+
+        except Exception as error:
+            message = " ".join(str(error).split())
+            print(
+                f"{timestamp} FAIL student=02230135 {type(error).__name__}: {message}",
+                flush=True,
+            )
+
+        next_request += INTERVAL
+        now = time.monotonic()
+
+        if next_request < now:
+            next_request = now
+
+        time.sleep(max(0, next_request - now))

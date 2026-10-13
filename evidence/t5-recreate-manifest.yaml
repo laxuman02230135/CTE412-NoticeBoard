@@ -1,0 +1,61 @@
+# Purpose: Run three baseline Campus Notice Board Pods for student 02230135.
+# Apply: kubectl --context kind-cte412-02230135 apply -f manifests/rolling/00-deployment.yaml
+
+apiVersion: apps/v1
+kind: Deployment
+
+metadata:
+  name: notice-board # Required single-Deployment application name.
+  namespace: nb-02230135 # Isolate this student's application.
+  labels:
+    app: notice-board # Allow application-wide evidence queries.
+  annotations:
+    kubernetes.io/change-cause: "Task 5: Recreate release 02230135-1.1.0" # Describe this release revision.
+
+spec:
+  replicas: 3 # Required baseline replica count.
+  strategy:
+    type: Recreate # Terminate the old Pods before creating the new database
+  selector:
+    matchLabels:
+      app: notice-board # Keep the selector stable across release versions.
+
+  template:
+    metadata:
+      labels:
+        app: notice-board # Match the Deployment and Service selectors.
+        version: "1.1f.0" # Identify the image version running in each Pod.
+
+    spec:
+      containers:
+        - name: notice-board # Identify the application container.
+          image: notice-board:02230135-1.1.0 # Locally loaded release image with student ID.
+          imagePullPolicy: Never # Never attempt to pull this image from a registry.
+
+          ports:
+            - name: http # Services and probes reference this named port.
+              containerPort: 8080 # The application's listening port.
+
+          resources:
+            requests:
+              cpu: 50m # Seven application Pods request 350m, leaving room within the 1-core quota.
+              memory: 64Mi # Seven application Pods request 448Mi, leaving room within 1Gi.
+            limits:
+              cpu: 100m # Seven application Pods use 700m of the 2-core limit budget.
+              memory: 128Mi # Seven application Pods use 896Mi of the 2Gi limit budget.
+
+          readinessProbe:
+            httpGet:
+              path: /healthz # Prevent traffic during warm-up and to the broken release.
+              port: http # Use the named application port.
+            periodSeconds: 1 # Detect completion of the five-second warm-up promptly.
+            timeoutSeconds: 1 # Avoid waiting too long for an unresponsive application.
+            failureThreshold: 1 # Remove an unhealthy Pod from ready endpoints promptly.
+
+          livenessProbe:
+            httpGet:
+              path: /version # Check responsiveness without restarting a deliberately unready broken release.
+              port: http # Use the named application port.
+            initialDelaySeconds: 10 # Allow the application time to start before checking liveness.
+            periodSeconds: 10 # Check responsiveness without excessive probe traffic.
+            timeoutSeconds: 2 # Allow brief scheduling delays.
