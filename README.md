@@ -37,3 +37,10 @@ Host endpoint: http://127.0.0.1:30090/version
 kubectl --context kind-cte412-02230135 apply -f manifests/base/03-monitor-code.yaml
 kubectl --context kind-cte412-02230135 apply -f manifests/base/04-monitor-pod.yaml
 kubectl --context kind-cte412-02230135 -n nb-02230135 wait --for=condition=Ready pod/monitor --timeout=120s
+
+Image: notice-board:02230135-1.1.0
+Strategy: RollingUpdate
+maxUnavailable: 0
+maxSurge: 1
+minReadySeconds: 5
+progressDeadlineSeconds: 60

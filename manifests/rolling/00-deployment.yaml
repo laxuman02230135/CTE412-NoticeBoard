@@ -10,10 +10,10 @@ metadata:
   labels:
     app: notice-board # Allow application-wide evidence queries.
   annotations:
-    kubernetes.io/change-cause: "Task 5: restore baseline 02230135-1.0.0" # Describe the baseline restoration.
-
+    kubernetes.io/change-cause: "Task 5: RollingUpdate release 02230135-1.1.0" # Match the revision restored by rollback.
 spec:
   replicas: 3 # Required baseline replica count.
+  postgressDeadlineSeconds: 60 # Allow the Deployment controller to clean up Pods after a failed rollout.
   strategy:
     type: RollingUpdate # Replace Pods gradually while maintaining ready capacity.
     rollingUpdate:
@@ -28,12 +28,12 @@ spec:
     metadata:
       labels:
         app: notice-board # Match the Deployment and Service selectors.
-        version: "1.1.0" # Identify the image version running in each Pod.
+        version: "1.1.0" # Match the successfully restored release.
 
     spec:
       containers:
         - name: notice-board # Identify the application container.
-          image: notice-board:02230135-1.1.0 # Locally loaded baseline image with student ID.
+          image:  notice-board:02230135-1.1.0 # Match the restored live Deployment.
           imagePullPolicy: Never # Never attempt to pull this image from a registry.
 
           ports:
