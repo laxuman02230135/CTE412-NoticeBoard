@@ -5,12 +5,12 @@ apiVersion: apps/v1
 kind: Deployment
 
 metadata:
-  name: notice-board-green  # Required single-Deployment application name.
+  name: notice-board-green  # Identify the green Deployment.
   namespace: nb-02230135 # Isolate this student's application.
   labels:
     app: notice-board # Allow application-wide evidence queries.
   annotations:
-    kubernetes.io/change-cause: "Task 8: green reads FEATURE_PINNED=false" # Record the flag integration.
+    kubernetes.io/change-cause: "Task 8: roll green Pods to enable pinned notices" # Record the flag integration.
 spec:
   replicas: 3 # Run three replicas of this colour.
   progressDeadlineSeconds: 60 # Report a stalled rollout after sixty seconds.
@@ -35,6 +35,7 @@ spec:
         version: "1.1.0" # Keep the same application image version.
 
     spec:
+      terminationGracePeriodSeconds: 10 # Allow endpoint propagation and orderly termination.
       containers:
         - name: notice-board # Identify the application container.
           image:  notice-board:02230135-1.1.0 # Match the restored live Deployment.
@@ -45,6 +46,11 @@ spec:
                 configMapKeyRef:
                   name: notice-board-flags # Read the flag from this ConfigMap.
                   key: FEATURE_PINNED # Use its FEATURE_PINNED value.
+
+          lifecycle:
+            preStop:
+              exec:
+                command: ["python", "-c", "import time; time.sleep(2)"] # Keep serving while endpoint removal propagates.
 
           ports:
             - name: http # Services and probes reference this named port.

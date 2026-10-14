@@ -1,0 +1,13 @@
+PASS t5-recreate: 100 requests, 25 failures, peak 3 application Pods
+PASS t5-rolling: 144 requests, 0 failures, peak 5 application Pods
+PASS t6-monitor: 166 requests, 0 failures, peak 4 application Pods
+PASS t7-switch1: 43 requests, 0 failures, peak 6 application Pods
+PASS t7-switch2: 43 requests, 0 failures, peak 6 application Pods
+PASS t7-switch3: 44 requests, 0 failures, peak 6 application Pods
+PASS t8-monitor: 156 requests, 0 failures, peak 8 application Pods
+PASS Task 4: 60.996 seconds at rest, zero failures
+PASS Task 6: Kubernetes deadline condition and zero manifest diff
+PASS Task 8: false before replacement, true after; same monitor without restarts
+PASS Task 9: actual README rebuild and lab-cluster deletion
+PASS manifest checks, report headings, analysis questions and README
+Student ID: 02230135 - all canonical evidence checks passed.

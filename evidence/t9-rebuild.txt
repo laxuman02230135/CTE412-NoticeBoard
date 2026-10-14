@@ -1,0 +1,99 @@
+Student ID: 02230135
+Command: powershell -NoProfile -ExecutionPolicy Bypass -File scripts/rebuild-final.ps1
+> kubectl --context kind-cte412-02230135 apply -f manifests/base/00-namespace.yaml
+namespace/nb-02230135 unchanged
+> kubectl --context kind-cte412-02230135 apply -f manifests/base/01-resourcequota.yaml
+resourcequota/notice-board-quota unchanged
+> kubectl --context kind-cte412-02230135 apply -f manifests/base/02-limitrange.yaml
+limitrange/notice-board-defaults unchanged
+> kubectl config set-context kind-cte412-02230135 --namespace=nb-02230135
+Context "kind-cte412-02230135" modified.
+> kind load docker-image notice-board:02230135-1.0.0 notice-board:02230135-1.1.0 notice-board:02230135-1.2.0-broken --name cte412-02230135
+Image: "notice-board:02230135-1.0.0" with ID "sha256:dc4553060fa09c81a081b7accdc815902122afb86887d1ac62c8f9da8fa70c4a" not yet present on node "cte412-02230135-worker2", loading...
+Image: "notice-board:02230135-1.0.0" with ID "sha256:dc4553060fa09c81a081b7accdc815902122afb86887d1ac62c8f9da8fa70c4a" not yet present on node "cte412-02230135-control-plane", loading...
+Image: "notice-board:02230135-1.0.0" with ID "sha256:dc4553060fa09c81a081b7accdc815902122afb86887d1ac62c8f9da8fa70c4a" not yet present on node "cte412-02230135-worker", loading...
+Image: "notice-board:02230135-1.1.0" with ID "sha256:5dec8754c14b304ae384487df2771874d65744ba762d51602fd39adc52f9f51d" not yet present on node "cte412-02230135-worker2", loading...
+Image: "notice-board:02230135-1.1.0" with ID "sha256:5dec8754c14b304ae384487df2771874d65744ba762d51602fd39adc52f9f51d" not yet present on node "cte412-02230135-control-plane", loading...
+Image: "notice-board:02230135-1.1.0" with ID "sha256:5dec8754c14b304ae384487df2771874d65744ba762d51602fd39adc52f9f51d" not yet present on node "cte412-02230135-worker", loading...
+Image: "notice-board:02230135-1.2.0-broken" with ID "sha256:219a4db167daa8c710b64ec726d53f7143519cdf4b52170b8181c2bdb71a2f7c" not yet present on node "cte412-02230135-worker2", loading...
+Image: "notice-board:02230135-1.2.0-broken" with ID "sha256:219a4db167daa8c710b64ec726d53f7143519cdf4b52170b8181c2bdb71a2f7c" not yet present on node "cte412-02230135-control-plane", loading...
+Image: "notice-board:02230135-1.2.0-broken" with ID "sha256:219a4db167daa8c710b64ec726d53f7143519cdf4b52170b8181c2bdb71a2f7c" not yet present on node "cte412-02230135-worker", loading...
+> kubectl --context kind-cte412-02230135 apply -f manifests/bluegreen/04-feature-flags.yaml
+configmap/notice-board-flags created
+> kubectl --context kind-cte412-02230135 apply -f manifests/bluegreen/00-blue-deployment.yaml
+deployment.apps/notice-board-blue created
+> kubectl --context kind-cte412-02230135 apply -f manifests/bluegreen/01-green-deployment.yaml
+deployment.apps/notice-board-green created
+> kubectl --context kind-cte412-02230135 apply -f manifests/bluegreen/02-production-services.yaml
+service/notice-board created
+service/notice-board-ext created
+> kubectl --context kind-cte412-02230135 apply -f manifests/bluegreen/03-preview-service.yaml
+service/notice-board-preview created
+> kubectl --context kind-cte412-02230135 -n nb-02230135 rollout status deployment/notice-board-blue --timeout=240s
+Waiting for deployment "notice-board-blue" rollout to finish: 0 of 3 updated replicas are available...
+Waiting for deployment "notice-board-blue" rollout to finish: 0 of 3 updated replicas are available...
+Waiting for deployment "notice-board-blue" rollout to finish: 0 of 3 updated replicas are available...
+Waiting for deployment "notice-board-blue" rollout to finish: 0 of 3 updated replicas are available...
+deployment "notice-board-blue" successfully rolled out
+> kubectl --context kind-cte412-02230135 -n nb-02230135 rollout status deployment/notice-board-green --timeout=240s
+deployment "notice-board-green" successfully rolled out
+> kubectl --context kind-cte412-02230135 apply -f manifests/base/03-monitor-code.yaml
+configmap/notice-board-monitor-code created
+> kubectl --context kind-cte412-02230135 apply -f manifests/base/04-monitor-pod.yaml
+pod/monitor created
+> kubectl --context kind-cte412-02230135 -n nb-02230135 wait --for=condition=Ready pod/monitor --timeout=120s
+pod/monitor condition met
+> kubectl --context kind-cte412-02230135 -n nb-02230135 get deployments,pods,services
+NAME                                 READY   UP-TO-DATE   AVAILABLE   AGE
+deployment.apps/notice-board-blue    3/3     3            3           19s
+deployment.apps/notice-board-green   3/3     3            3           19s
+
+NAME                                     READY   STATUS    RESTARTS   AGE
+pod/monitor                              1/1     Running   0          2s
+pod/notice-board-blue-845f74c5b9-86jbs   1/1     Running   0          19s
+pod/notice-board-blue-845f74c5b9-dtp4r   1/1     Running   0          19s
+pod/notice-board-blue-845f74c5b9-qn22f   1/1     Running   0          19s
+pod/notice-board-green-7bd95bbcf-9lm6w   1/1     Running   0          19s
+pod/notice-board-green-7bd95bbcf-w7dwx   1/1     Running   0          19s
+pod/notice-board-green-7bd95bbcf-x7sf7   1/1     Running   0          19s
+
+NAME                           TYPE        CLUSTER-IP      EXTERNAL-IP   PORT(S)        AGE
+service/notice-board           ClusterIP   10.96.235.238   <none>        80/TCP         19s
+service/notice-board-ext       NodePort    10.96.20.193    <none>        80:30090/TCP   19s
+service/notice-board-preview   ClusterIP   10.96.97.132    <none>        80/TCP         18s
+{
+    "version":  "1.1.0",
+    "student":  "02230135",
+    "pod":  "notice-board-green-7bd95bbcf-9lm6w",
+    "uptimeSeconds":  12.666
+}
+{
+    "student":  "02230135",
+    "notices":  [
+                    {
+                        "id":  2,
+                        "title":  "Exam registration",
+                        "message":  "Register by Friday.",
+                        "category":  "Academic",
+                        "pinned":  true
+                    },
+                    {
+                        "id":  1,
+                        "title":  "Library hours",
+                        "message":  "Library closes at 8 PM.",
+                        "category":  "Library",
+                        "pinned":  false
+                    },
+                    {
+                        "id":  3,
+                        "title":  "Campus sports",
+                        "message":  "Sports day is on Saturday.",
+                        "category":  "Events",
+                        "pinned":  false
+                    }
+                ],
+    "pinnedFirst":  true
+}
+Student 02230135: final Task 8 state verified successfully.
+
+Exit code: 0

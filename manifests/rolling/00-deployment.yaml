@@ -13,13 +13,13 @@ metadata:
     kubernetes.io/change-cause: "Task 5: RollingUpdate release 02230135-1.1.0" # Match the revision restored by rollback.
 spec:
   replicas: 3 # Required baseline replica count.
-  postgressDeadlineSeconds: 60 # Allow the Deployment controller to clean up Pods after a failed rollout.
+  progressDeadlineSeconds: 60 # Report a rollout that makes no progress for sixty seconds.
   strategy:
     type: RollingUpdate # Replace Pods gradually while maintaining ready capacity.
     rollingUpdate:
       maxUnavailable: 0 # Keep all three Pods ready during the rolling update.
       maxSurge: 1 # Allow one extra Pod to be created during the rolling update.
-    minReadySeconds: 5 # Wait five seconds after a Pod becomes ready before replacing it.
+  minReadySeconds: 5 # Require sustained readiness before replacing old Pods.
   selector:
     matchLabels:
       app: notice-board # Keep the selector stable across release versions.
@@ -31,10 +31,16 @@ spec:
         version: "1.1.0" # Match the successfully restored release.
 
     spec:
+      terminationGracePeriodSeconds: 10 # Allow endpoint propagation and orderly termination.
       containers:
         - name: notice-board # Identify the application container.
           image:  notice-board:02230135-1.1.0 # Match the restored live Deployment.
           imagePullPolicy: Never # Never attempt to pull this image from a registry.
+
+          lifecycle:
+            preStop:
+              exec:
+                command: ["python", "-c", "import time; time.sleep(2)"] # Keep serving while endpoint removal propagates.
 
           ports:
             - name: http # Services and probes reference this named port.

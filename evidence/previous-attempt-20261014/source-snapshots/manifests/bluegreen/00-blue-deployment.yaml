@@ -1,0 +1,66 @@
+# Purpose: Run the blue baseline release for student 02230135.
+# Apply: kubectl --context kind-cte412-02230135 apply -f manifests/bluegreen/00-blue-deployment.yaml
+
+apiVersion: apps/v1
+kind: Deployment
+
+metadata:
+  name: notice-board-blue # Required single-Deployment application name.
+  namespace: nb-02230135 # Isolate this student's application.
+  labels:
+    app: notice-board # Allow application-wide evidence queries.
+  annotations:
+    kubernetes.io/change-cause: "Task 7: blue 02230135-1.0.0" # Identify the blue release.
+spec:
+  replicas: 3 # Run three replicas of this colour.
+  progressDeadlineSeconds: 60 # Report a stalled rollout after sixty seconds.
+  minReadySeconds: 5 # Require five seconds of sustained readiness.
+  strategy:
+    type: RollingUpdate # Replace Pods gradually.
+    rollingUpdate:
+      maxUnavailable: 0 # Keep all required replicas available.
+      maxSurge: 1 # Allow one additional Pod during updates.
+  selector:
+    matchLabels:
+      app: notice-board # Select application Pods.
+      slot: blue # Manage only blue Pods.
+  template:
+    metadata:
+      labels:
+        app: notice-board # Match the Deployment and Service selectors.
+        slot: blue # This template only creates blue Pods.
+        version: "1.1.0" # Match the successfully restored release.
+
+    spec:
+      containers:
+        - name: notice-board # Identify the application container.
+          image:  notice-board:02230135-1.0.0 # Match the restored live Deployment.
+          imagePullPolicy: Never # Never attempt to pull this image from a registry.
+
+          ports:
+            - name: http # Services and probes reference this named port.
+              containerPort: 8080 # The application's listening port.
+
+          resources:
+            requests:
+              cpu: 50m # Seven application Pods request 350m, leaving room within the 1-core quota.
+              memory: 64Mi # Seven application Pods request 448Mi, leaving room within 1Gi.
+            limits:
+              cpu: 100m # Seven application Pods use 700m of the 2-core limit budget.
+              memory: 128Mi # Seven application Pods use 896Mi of the 2Gi limit budget.
+
+          readinessProbe:
+            httpGet:
+              path: /healthz # Prevent traffic during warm-up and to the broken release.
+              port: http # Use the named application port.
+            periodSeconds: 1 # Detect completion of the five-second warm-up promptly.
+            timeoutSeconds: 1 # Avoid waiting too long for an unresponsive application.
+            failureThreshold: 1 # Remove an unhealthy Pod from ready endpoints promptly.
+
+          livenessProbe:
+            httpGet:
+              path: /version # Check responsiveness without restarting a deliberately unready broken release.
+              port: http # Use the named application port.
+            initialDelaySeconds: 10 # Allow the application time to start before checking liveness.
+            periodSeconds: 10 # Check responsiveness without excessive probe traffic.
+            timeoutSeconds: 2 # Allow brief scheduling delays.

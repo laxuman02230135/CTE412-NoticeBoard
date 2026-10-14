@@ -1,0 +1,6 @@
+Student ID: 02230135
+Context "kind-cte412-02230135" modified.
+Deleting cluster "cte412-02230135" ...
+Deleted nodes: ["cte412-02230135-worker2" "cte412-02230135-control-plane" "cte412-02230135-worker"]
+Remaining clusters:
+dso202

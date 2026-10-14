@@ -10,12 +10,13 @@ metadata:
   labels:
     app: notice-board # Allow application-wide evidence queries.
   annotations:
-    kubernetes.io/change-cause: "Task 5: Recreate release 02230135-1.1.0" # Describe this release revision.
-
+    kubernetes.io/change-cause: "Task 5: Recreate release 02230135-1.1.0" # Explain this revision.
 spec:
   replicas: 3 # Required baseline replica count.
+  progressDeadlineSeconds: 60 # Report a rollout that makes no progress for sixty seconds.
   strategy:
-    type: Recreate # Terminate the old Pods before creating the new database
+    type: Recreate # Remove old Pods before starting the new release.
+  minReadySeconds: 5 # Require sustained readiness before replacing old Pods.
   selector:
     matchLabels:
       app: notice-board # Keep the selector stable across release versions.
@@ -24,13 +25,19 @@ spec:
     metadata:
       labels:
         app: notice-board # Match the Deployment and Service selectors.
-        version: "1.1f.0" # Identify the image version running in each Pod.
+        version: "1.1.0" # Match the successfully restored release.
 
     spec:
+      terminationGracePeriodSeconds: 10 # Allow endpoint propagation and orderly termination.
       containers:
         - name: notice-board # Identify the application container.
-          image: notice-board:02230135-1.1.0 # Locally loaded release image with student ID.
+          image:  notice-board:02230135-1.1.0 # Match the restored live Deployment.
           imagePullPolicy: Never # Never attempt to pull this image from a registry.
+
+          lifecycle:
+            preStop:
+              exec:
+                command: ["python", "-c", "import time; time.sleep(2)"] # Keep serving while endpoint removal propagates.
 
           ports:
             - name: http # Services and probes reference this named port.

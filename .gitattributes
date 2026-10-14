@@ -1,0 +1,9 @@
+*.sh text eol=lf
+*.py text eol=lf
+*.ps1 text eol=lf
+*.yaml text eol=lf
+*.md text eol=lf
+evidence/t*.txt text eol=lf -whitespace
+evidence/t*.log text eol=lf -whitespace
+evidence/*.json text eol=lf
+evidence/previous-attempt-20261014/** -text -whitespace

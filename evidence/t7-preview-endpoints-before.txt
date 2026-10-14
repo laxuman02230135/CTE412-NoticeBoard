@@ -1,10 +1,24 @@
-﻿apiVersion: v1
+Student ID: 02230135
+Command: kubectl --context kind-cte412-02230135 -n nb-02230135 get endpointslices -l kubernetes.io/service-name=notice-board-preview -o yaml
+apiVersion: v1
 items:
 - addressType: IPv4
   apiVersion: discovery.k8s.io/v1
   endpoints:
   - addresses:
-    - 10.244.1.7
+    - 10.244.2.12
+    conditions:
+      ready: true
+      serving: true
+      terminating: false
+    nodeName: cte412-02230135-worker
+    targetRef:
+      kind: Pod
+      name: notice-board-green-848b84b5f5-ldfbv
+      namespace: nb-02230135
+      uid: 387f7248-0156-44c3-8493-65534b192d0c
+  - addresses:
+    - 10.244.1.9
     conditions:
       ready: true
       serving: true
@@ -12,11 +26,11 @@ items:
     nodeName: cte412-02230135-worker2
     targetRef:
       kind: Pod
-      name: notice-board-green-6fbfbf7cbb-79kgz
+      name: notice-board-green-848b84b5f5-xml9l
       namespace: nb-02230135
-      uid: e6b7adb0-5aa1-4d00-868c-c4c95465feb3
+      uid: 697a369a-4f9a-4ad4-b8cb-d7d957cdf6e0
   - addresses:
-    - 10.244.2.11
+    - 10.244.2.13
     conditions:
       ready: true
       serving: true
@@ -24,33 +38,21 @@ items:
     nodeName: cte412-02230135-worker
     targetRef:
       kind: Pod
-      name: notice-board-green-6fbfbf7cbb-tmm9f
+      name: notice-board-green-848b84b5f5-dnn4c
       namespace: nb-02230135
-      uid: dbe2ca74-4602-4d93-8a43-9b6fffdc6fd5
-  - addresses:
-    - 10.244.2.10
-    conditions:
-      ready: true
-      serving: true
-      terminating: false
-    nodeName: cte412-02230135-worker
-    targetRef:
-      kind: Pod
-      name: notice-board-green-6fbfbf7cbb-kc2xj
-      namespace: nb-02230135
-      uid: 85ab81c6-27e5-472b-ae3f-3730ff23ea94
+      uid: 503c24b2-175e-44c6-bb5f-82418eae47d1
   kind: EndpointSlice
   metadata:
     annotations:
-      endpoints.kubernetes.io/last-change-trigger-time: "2026-10-13T15:37:55Z"
-    creationTimestamp: "2026-10-13T15:37:47Z"
+      endpoints.kubernetes.io/last-change-trigger-time: "2026-10-14T12:30:58Z"
+    creationTimestamp: "2026-10-14T12:30:46Z"
     generateName: notice-board-preview-
-    generation: 4
+    generation: 7
     labels:
       app: notice-board
       endpointslice.kubernetes.io/managed-by: endpointslice-controller.k8s.io
       kubernetes.io/service-name: notice-board-preview
-    name: notice-board-preview-qd2gg
+    name: notice-board-preview-5bpcp
     namespace: nb-02230135
     ownerReferences:
     - apiVersion: v1
@@ -58,9 +60,9 @@ items:
       controller: true
       kind: Service
       name: notice-board-preview
-      uid: eab0bad0-78fa-4fcb-b93b-a27b8120784e
-    resourceVersion: "16534"
-    uid: 1ad2d59a-5d57-449b-a151-b6b9b3c145ea
+      uid: 4706f7d2-d0be-4ebb-b4f6-47ecae5617ef
+    resourceVersion: "2228"
+    uid: 7fa152cd-b4d3-4572-b0d2-d7f793761de1
   ports:
   - name: http
     port: 8080
@@ -68,3 +70,5 @@ items:
 kind: List
 metadata:
   resourceVersion: ""
+
+Exit code: 0

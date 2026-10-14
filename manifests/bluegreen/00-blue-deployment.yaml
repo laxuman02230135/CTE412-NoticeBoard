@@ -5,7 +5,7 @@ apiVersion: apps/v1
 kind: Deployment
 
 metadata:
-  name: notice-board-blue # Required single-Deployment application name.
+  name: notice-board-blue # Identify the blue Deployment.
   namespace: nb-02230135 # Isolate this student's application.
   labels:
     app: notice-board # Allow application-wide evidence queries.
@@ -29,13 +29,19 @@ spec:
       labels:
         app: notice-board # Match the Deployment and Service selectors.
         slot: blue # This template only creates blue Pods.
-        version: "1.1.0" # Match the successfully restored release.
+        version: "1.0.0" # Match the blue baseline image.
 
     spec:
+      terminationGracePeriodSeconds: 10 # Allow endpoint propagation and orderly termination.
       containers:
         - name: notice-board # Identify the application container.
           image:  notice-board:02230135-1.0.0 # Match the restored live Deployment.
           imagePullPolicy: Never # Never attempt to pull this image from a registry.
+
+          lifecycle:
+            preStop:
+              exec:
+                command: ["python", "-c", "import time; time.sleep(2)"] # Keep serving while endpoint removal propagates.
 
           ports:
             - name: http # Services and probes reference this named port.

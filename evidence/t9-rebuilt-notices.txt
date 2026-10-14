@@ -1,0 +1,27 @@
+{
+  "student": "02230135",
+  "notices": [
+    {
+      "id": 2,
+      "title": "Exam registration",
+      "message": "Register by Friday.",
+      "category": "Academic",
+      "pinned": true
+    },
+    {
+      "id": 1,
+      "title": "Library hours",
+      "message": "Library closes at 8 PM.",
+      "category": "Library",
+      "pinned": false
+    },
+    {
+      "id": 3,
+      "title": "Campus sports",
+      "message": "Sports day is on Saturday.",
+      "category": "Events",
+      "pinned": false
+    }
+  ],
+  "pinnedFirst": true
+}

@@ -1,0 +1,4800 @@
+[
+  {
+    "timestamp": "2026-10-14T12:32:37.676Z",
+    "total": 6,
+    "nonTerminating": 6,
+    "pods": [
+      {
+        "name": "notice-board-blue-845f74c5b9-cx92z",
+        "version": "1.0.0",
+        "terminating": false,
+        "ready": true
+      },
+      {
+        "name": "notice-board-blue-845f74c5b9-mxz62",
+        "version": "1.0.0",
+        "terminating": false,
+        "ready": true
+      },
+      {
+        "name": "notice-board-blue-845f74c5b9-rrrml",
+        "version": "1.0.0",
+        "terminating": false,
+        "ready": true
+      },
+      {
+        "name": "notice-board-green-848b84b5f5-dnn4c",
+        "version": "1.1.0",
+        "terminating": false,
+        "ready": true
+      },
+      {
+        "name": "notice-board-green-848b84b5f5-ldfbv",
+        "version": "1.1.0",
+        "terminating": false,
+        "ready": true
+      },
+      {
+        "name": "notice-board-green-848b84b5f5-xml9l",
+        "version": "1.1.0",
+        "terminating": false,
+        "ready": true
+      }
+    ],
+    "student": "02230135"
+  },
+  {
+    "timestamp": "2026-10-14T12:32:38.483Z",
+    "total": 6,
+    "nonTerminating": 6,
+    "pods": [
+      {
+        "name": "notice-board-blue-845f74c5b9-cx92z",
+        "version": "1.0.0",
+        "terminating": false,
+        "ready": true
+      },
+      {
+        "name": "notice-board-blue-845f74c5b9-mxz62",
+        "version": "1.0.0",
+        "terminating": false,
+        "ready": true
+      },
+      {
+        "name": "notice-board-blue-845f74c5b9-rrrml",
+        "version": "1.0.0",
+        "terminating": false,
+        "ready": true
+      },
+      {
+        "name": "notice-board-green-848b84b5f5-dnn4c",
+        "version": "1.1.0",
+        "terminating": false,
+        "ready": true
+      },
+      {
+        "name": "notice-board-green-848b84b5f5-ldfbv",
+        "version": "1.1.0",
+        "terminating": false,
+        "ready": true
+      },
+      {
+        "name": "notice-board-green-848b84b5f5-xml9l",
+        "version": "1.1.0",
+        "terminating": false,
+        "ready": true
+      }
+    ],
+    "student": "02230135"
+  },
+  {
+    "timestamp": "2026-10-14T12:32:39.318Z",
+    "total": 6,
+    "nonTerminating": 6,
+    "pods": [
+      {
+        "name": "notice-board-blue-845f74c5b9-cx92z",
+        "version": "1.0.0",
+        "terminating": false,
+        "ready": true
+      },
+      {
+        "name": "notice-board-blue-845f74c5b9-mxz62",
+        "version": "1.0.0",
+        "terminating": false,
+        "ready": true
+      },
+      {
+        "name": "notice-board-blue-845f74c5b9-rrrml",
+        "version": "1.0.0",
+        "terminating": false,
+        "ready": true
+      },
+      {
+        "name": "notice-board-green-848b84b5f5-dnn4c",
+        "version": "1.1.0",
+        "terminating": false,
+        "ready": true
+      },
+      {
+        "name": "notice-board-green-848b84b5f5-ldfbv",
+        "version": "1.1.0",
+        "terminating": false,
+        "ready": true
+      },
+      {
+        "name": "notice-board-green-848b84b5f5-xml9l",
+        "version": "1.1.0",
+        "terminating": false,
+        "ready": true
+      }
+    ],
+    "student": "02230135"
+  },
+  {
+    "timestamp": "2026-10-14T12:32:40.130Z",
+    "total": 6,
+    "nonTerminating": 6,
+    "pods": [
+      {
+        "name": "notice-board-blue-845f74c5b9-cx92z",
+        "version": "1.0.0",
+        "terminating": false,
+        "ready": true
+      },
+      {
+        "name": "notice-board-blue-845f74c5b9-mxz62",
+        "version": "1.0.0",
+        "terminating": false,
+        "ready": true
+      },
+      {
+        "name": "notice-board-blue-845f74c5b9-rrrml",
+        "version": "1.0.0",
+        "terminating": false,
+        "ready": true
+      },
+      {
+        "name": "notice-board-green-848b84b5f5-dnn4c",
+        "version": "1.1.0",
+        "terminating": false,
+        "ready": true
+      },
+      {
+        "name": "notice-board-green-848b84b5f5-ldfbv",
+        "version": "1.1.0",
+        "terminating": false,
+        "ready": true
+      },
+      {
+        "name": "notice-board-green-848b84b5f5-xml9l",
+        "version": "1.1.0",
+        "terminating": false,
+        "ready": true
+      }
+    ],
+    "student": "02230135"
+  },
+  {
+    "timestamp": "2026-10-14T12:32:40.944Z",
+    "total": 6,
+    "nonTerminating": 6,
+    "pods": [
+      {
+        "name": "notice-board-blue-845f74c5b9-cx92z",
+        "version": "1.0.0",
+        "terminating": false,
+        "ready": true
+      },
+      {
+        "name": "notice-board-blue-845f74c5b9-mxz62",
+        "version": "1.0.0",
+        "terminating": false,
+        "ready": true
+      },
+      {
+        "name": "notice-board-blue-845f74c5b9-rrrml",
+        "version": "1.0.0",
+        "terminating": false,
+        "ready": true
+      },
+      {
+        "name": "notice-board-green-848b84b5f5-dnn4c",
+        "version": "1.1.0",
+        "terminating": false,
+        "ready": true
+      },
+      {
+        "name": "notice-board-green-848b84b5f5-ldfbv",
+        "version": "1.1.0",
+        "terminating": false,
+        "ready": true
+      },
+      {
+        "name": "notice-board-green-848b84b5f5-xml9l",
+        "version": "1.1.0",
+        "terminating": false,
+        "ready": true
+      }
+    ],
+    "student": "02230135"
+  },
+  {
+    "timestamp": "2026-10-14T12:32:41.754Z",
+    "total": 6,
+    "nonTerminating": 6,
+    "pods": [
+      {
+        "name": "notice-board-blue-845f74c5b9-cx92z",
+        "version": "1.0.0",
+        "terminating": false,
+        "ready": true
+      },
+      {
+        "name": "notice-board-blue-845f74c5b9-mxz62",
+        "version": "1.0.0",
+        "terminating": false,
+        "ready": true
+      },
+      {
+        "name": "notice-board-blue-845f74c5b9-rrrml",
+        "version": "1.0.0",
+        "terminating": false,
+        "ready": true
+      },
+      {
+        "name": "notice-board-green-848b84b5f5-dnn4c",
+        "version": "1.1.0",
+        "terminating": false,
+        "ready": true
+      },
+      {
+        "name": "notice-board-green-848b84b5f5-ldfbv",
+        "version": "1.1.0",
+        "terminating": false,
+        "ready": true
+      },
+      {
+        "name": "notice-board-green-848b84b5f5-xml9l",
+        "version": "1.1.0",
+        "terminating": false,
+        "ready": true
+      }
+    ],
+    "student": "02230135"
+  },
+  {
+    "timestamp": "2026-10-14T12:32:42.569Z",
+    "total": 6,
+    "nonTerminating": 6,
+    "pods": [
+      {
+        "name": "notice-board-blue-845f74c5b9-cx92z",
+        "version": "1.0.0",
+        "terminating": false,
+        "ready": true
+      },
+      {
+        "name": "notice-board-blue-845f74c5b9-mxz62",
+        "version": "1.0.0",
+        "terminating": false,
+        "ready": true
+      },
+      {
+        "name": "notice-board-blue-845f74c5b9-rrrml",
+        "version": "1.0.0",
+        "terminating": false,
+        "ready": true
+      },
+      {
+        "name": "notice-board-green-848b84b5f5-dnn4c",
+        "version": "1.1.0",
+        "terminating": false,
+        "ready": true
+      },
+      {
+        "name": "notice-board-green-848b84b5f5-ldfbv",
+        "version": "1.1.0",
+        "terminating": false,
+        "ready": true
+      },
+      {
+        "name": "notice-board-green-848b84b5f5-xml9l",
+        "version": "1.1.0",
+        "terminating": false,
+        "ready": true
+      }
+    ],
+    "student": "02230135"
+  },
+  {
+    "timestamp": "2026-10-14T12:32:43.377Z",
+    "total": 6,
+    "nonTerminating": 6,
+    "pods": [
+      {
+        "name": "notice-board-blue-845f74c5b9-cx92z",
+        "version": "1.0.0",
+        "terminating": false,
+        "ready": true
+      },
+      {
+        "name": "notice-board-blue-845f74c5b9-mxz62",
+        "version": "1.0.0",
+        "terminating": false,
+        "ready": true
+      },
+      {
+        "name": "notice-board-blue-845f74c5b9-rrrml",
+        "version": "1.0.0",
+        "terminating": false,
+        "ready": true
+      },
+      {
+        "name": "notice-board-green-848b84b5f5-dnn4c",
+        "version": "1.1.0",
+        "terminating": false,
+        "ready": true
+      },
+      {
+        "name": "notice-board-green-848b84b5f5-ldfbv",
+        "version": "1.1.0",
+        "terminating": false,
+        "ready": true
+      },
+      {
+        "name": "notice-board-green-848b84b5f5-xml9l",
+        "version": "1.1.0",
+        "terminating": false,
+        "ready": true
+      }
+    ],
+    "student": "02230135"
+  },
+  {
+    "timestamp": "2026-10-14T12:32:44.199Z",
+    "total": 6,
+    "nonTerminating": 6,
+    "pods": [
+      {
+        "name": "notice-board-blue-845f74c5b9-cx92z",
+        "version": "1.0.0",
+        "terminating": false,
+        "ready": true
+      },
+      {
+        "name": "notice-board-blue-845f74c5b9-mxz62",
+        "version": "1.0.0",
+        "terminating": false,
+        "ready": true
+      },
+      {
+        "name": "notice-board-blue-845f74c5b9-rrrml",
+        "version": "1.0.0",
+        "terminating": false,
+        "ready": true
+      },
+      {
+        "name": "notice-board-green-848b84b5f5-dnn4c",
+        "version": "1.1.0",
+        "terminating": false,
+        "ready": true
+      },
+      {
+        "name": "notice-board-green-848b84b5f5-ldfbv",
+        "version": "1.1.0",
+        "terminating": false,
+        "ready": true
+      },
+      {
+        "name": "notice-board-green-848b84b5f5-xml9l",
+        "version": "1.1.0",
+        "terminating": false,
+        "ready": true
+      }
+    ],
+    "student": "02230135"
+  },
+  {
+    "timestamp": "2026-10-14T12:32:45.018Z",
+    "total": 6,
+    "nonTerminating": 6,
+    "pods": [
+      {
+        "name": "notice-board-blue-845f74c5b9-cx92z",
+        "version": "1.0.0",
+        "terminating": false,
+        "ready": true
+      },
+      {
+        "name": "notice-board-blue-845f74c5b9-mxz62",
+        "version": "1.0.0",
+        "terminating": false,
+        "ready": true
+      },
+      {
+        "name": "notice-board-blue-845f74c5b9-rrrml",
+        "version": "1.0.0",
+        "terminating": false,
+        "ready": true
+      },
+      {
+        "name": "notice-board-green-848b84b5f5-dnn4c",
+        "version": "1.1.0",
+        "terminating": false,
+        "ready": true
+      },
+      {
+        "name": "notice-board-green-848b84b5f5-ldfbv",
+        "version": "1.1.0",
+        "terminating": false,
+        "ready": true
+      },
+      {
+        "name": "notice-board-green-848b84b5f5-xml9l",
+        "version": "1.1.0",
+        "terminating": false,
+        "ready": true
+      }
+    ],
+    "student": "02230135"
+  },
+  {
+    "timestamp": "2026-10-14T12:32:45.824Z",
+    "total": 6,
+    "nonTerminating": 6,
+    "pods": [
+      {
+        "name": "notice-board-blue-845f74c5b9-cx92z",
+        "version": "1.0.0",
+        "terminating": false,
+        "ready": true
+      },
+      {
+        "name": "notice-board-blue-845f74c5b9-mxz62",
+        "version": "1.0.0",
+        "terminating": false,
+        "ready": true
+      },
+      {
+        "name": "notice-board-blue-845f74c5b9-rrrml",
+        "version": "1.0.0",
+        "terminating": false,
+        "ready": true
+      },
+      {
+        "name": "notice-board-green-848b84b5f5-dnn4c",
+        "version": "1.1.0",
+        "terminating": false,
+        "ready": true
+      },
+      {
+        "name": "notice-board-green-848b84b5f5-ldfbv",
+        "version": "1.1.0",
+        "terminating": false,
+        "ready": true
+      },
+      {
+        "name": "notice-board-green-848b84b5f5-xml9l",
+        "version": "1.1.0",
+        "terminating": false,
+        "ready": true
+      }
+    ],
+    "student": "02230135"
+  },
+  {
+    "timestamp": "2026-10-14T12:32:46.634Z",
+    "total": 6,
+    "nonTerminating": 6,
+    "pods": [
+      {
+        "name": "notice-board-blue-845f74c5b9-cx92z",
+        "version": "1.0.0",
+        "terminating": false,
+        "ready": true
+      },
+      {
+        "name": "notice-board-blue-845f74c5b9-mxz62",
+        "version": "1.0.0",
+        "terminating": false,
+        "ready": true
+      },
+      {
+        "name": "notice-board-blue-845f74c5b9-rrrml",
+        "version": "1.0.0",
+        "terminating": false,
+        "ready": true
+      },
+      {
+        "name": "notice-board-green-848b84b5f5-dnn4c",
+        "version": "1.1.0",
+        "terminating": false,
+        "ready": true
+      },
+      {
+        "name": "notice-board-green-848b84b5f5-ldfbv",
+        "version": "1.1.0",
+        "terminating": false,
+        "ready": true
+      },
+      {
+        "name": "notice-board-green-848b84b5f5-xml9l",
+        "version": "1.1.0",
+        "terminating": false,
+        "ready": true
+      }
+    ],
+    "student": "02230135"
+  },
+  {
+    "timestamp": "2026-10-14T12:32:47.442Z",
+    "total": 6,
+    "nonTerminating": 6,
+    "pods": [
+      {
+        "name": "notice-board-blue-845f74c5b9-cx92z",
+        "version": "1.0.0",
+        "terminating": false,
+        "ready": true
+      },
+      {
+        "name": "notice-board-blue-845f74c5b9-mxz62",
+        "version": "1.0.0",
+        "terminating": false,
+        "ready": true
+      },
+      {
+        "name": "notice-board-blue-845f74c5b9-rrrml",
+        "version": "1.0.0",
+        "terminating": false,
+        "ready": true
+      },
+      {
+        "name": "notice-board-green-848b84b5f5-dnn4c",
+        "version": "1.1.0",
+        "terminating": false,
+        "ready": true
+      },
+      {
+        "name": "notice-board-green-848b84b5f5-ldfbv",
+        "version": "1.1.0",
+        "terminating": false,
+        "ready": true
+      },
+      {
+        "name": "notice-board-green-848b84b5f5-xml9l",
+        "version": "1.1.0",
+        "terminating": false,
+        "ready": true
+      }
+    ],
+    "student": "02230135"
+  },
+  {
+    "timestamp": "2026-10-14T12:32:48.312Z",
+    "total": 6,
+    "nonTerminating": 6,
+    "pods": [
+      {
+        "name": "notice-board-blue-845f74c5b9-cx92z",
+        "version": "1.0.0",
+        "terminating": false,
+        "ready": true
+      },
+      {
+        "name": "notice-board-blue-845f74c5b9-mxz62",
+        "version": "1.0.0",
+        "terminating": false,
+        "ready": true
+      },
+      {
+        "name": "notice-board-blue-845f74c5b9-rrrml",
+        "version": "1.0.0",
+        "terminating": false,
+        "ready": true
+      },
+      {
+        "name": "notice-board-green-848b84b5f5-dnn4c",
+        "version": "1.1.0",
+        "terminating": false,
+        "ready": true
+      },
+      {
+        "name": "notice-board-green-848b84b5f5-ldfbv",
+        "version": "1.1.0",
+        "terminating": false,
+        "ready": true
+      },
+      {
+        "name": "notice-board-green-848b84b5f5-xml9l",
+        "version": "1.1.0",
+        "terminating": false,
+        "ready": true
+      }
+    ],
+    "student": "02230135"
+  },
+  {
+    "timestamp": "2026-10-14T12:32:49.126Z",
+    "total": 6,
+    "nonTerminating": 6,
+    "pods": [
+      {
+        "name": "notice-board-blue-845f74c5b9-cx92z",
+        "version": "1.0.0",
+        "terminating": false,
+        "ready": true
+      },
+      {
+        "name": "notice-board-blue-845f74c5b9-mxz62",
+        "version": "1.0.0",
+        "terminating": false,
+        "ready": true
+      },
+      {
+        "name": "notice-board-blue-845f74c5b9-rrrml",
+        "version": "1.0.0",
+        "terminating": false,
+        "ready": true
+      },
+      {
+        "name": "notice-board-green-848b84b5f5-dnn4c",
+        "version": "1.1.0",
+        "terminating": false,
+        "ready": true
+      },
+      {
+        "name": "notice-board-green-848b84b5f5-ldfbv",
+        "version": "1.1.0",
+        "terminating": false,
+        "ready": true
+      },
+      {
+        "name": "notice-board-green-848b84b5f5-xml9l",
+        "version": "1.1.0",
+        "terminating": false,
+        "ready": true
+      }
+    ],
+    "student": "02230135"
+  },
+  {
+    "timestamp": "2026-10-14T12:32:49.934Z",
+    "total": 6,
+    "nonTerminating": 6,
+    "pods": [
+      {
+        "name": "notice-board-blue-845f74c5b9-cx92z",
+        "version": "1.0.0",
+        "terminating": false,
+        "ready": true
+      },
+      {
+        "name": "notice-board-blue-845f74c5b9-mxz62",
+        "version": "1.0.0",
+        "terminating": false,
+        "ready": true
+      },
+      {
+        "name": "notice-board-blue-845f74c5b9-rrrml",
+        "version": "1.0.0",
+        "terminating": false,
+        "ready": true
+      },
+      {
+        "name": "notice-board-green-848b84b5f5-dnn4c",
+        "version": "1.1.0",
+        "terminating": false,
+        "ready": true
+      },
+      {
+        "name": "notice-board-green-848b84b5f5-ldfbv",
+        "version": "1.1.0",
+        "terminating": false,
+        "ready": true
+      },
+      {
+        "name": "notice-board-green-848b84b5f5-xml9l",
+        "version": "1.1.0",
+        "terminating": false,
+        "ready": true
+      }
+    ],
+    "student": "02230135"
+  },
+  {
+    "timestamp": "2026-10-14T12:32:50.759Z",
+    "total": 6,
+    "nonTerminating": 6,
+    "pods": [
+      {
+        "name": "notice-board-blue-845f74c5b9-cx92z",
+        "version": "1.0.0",
+        "terminating": false,
+        "ready": true
+      },
+      {
+        "name": "notice-board-blue-845f74c5b9-mxz62",
+        "version": "1.0.0",
+        "terminating": false,
+        "ready": true
+      },
+      {
+        "name": "notice-board-blue-845f74c5b9-rrrml",
+        "version": "1.0.0",
+        "terminating": false,
+        "ready": true
+      },
+      {
+        "name": "notice-board-green-848b84b5f5-dnn4c",
+        "version": "1.1.0",
+        "terminating": false,
+        "ready": true
+      },
+      {
+        "name": "notice-board-green-848b84b5f5-ldfbv",
+        "version": "1.1.0",
+        "terminating": false,
+        "ready": true
+      },
+      {
+        "name": "notice-board-green-848b84b5f5-xml9l",
+        "version": "1.1.0",
+        "terminating": false,
+        "ready": true
+      }
+    ],
+    "student": "02230135"
+  },
+  {
+    "timestamp": "2026-10-14T12:32:51.604Z",
+    "total": 6,
+    "nonTerminating": 6,
+    "pods": [
+      {
+        "name": "notice-board-blue-845f74c5b9-cx92z",
+        "version": "1.0.0",
+        "terminating": false,
+        "ready": true
+      },
+      {
+        "name": "notice-board-blue-845f74c5b9-mxz62",
+        "version": "1.0.0",
+        "terminating": false,
+        "ready": true
+      },
+      {
+        "name": "notice-board-blue-845f74c5b9-rrrml",
+        "version": "1.0.0",
+        "terminating": false,
+        "ready": true
+      },
+      {
+        "name": "notice-board-green-848b84b5f5-dnn4c",
+        "version": "1.1.0",
+        "terminating": false,
+        "ready": true
+      },
+      {
+        "name": "notice-board-green-848b84b5f5-ldfbv",
+        "version": "1.1.0",
+        "terminating": false,
+        "ready": true
+      },
+      {
+        "name": "notice-board-green-848b84b5f5-xml9l",
+        "version": "1.1.0",
+        "terminating": false,
+        "ready": true
+      }
+    ],
+    "student": "02230135"
+  },
+  {
+    "timestamp": "2026-10-14T12:32:52.451Z",
+    "total": 6,
+    "nonTerminating": 6,
+    "pods": [
+      {
+        "name": "notice-board-blue-845f74c5b9-cx92z",
+        "version": "1.0.0",
+        "terminating": false,
+        "ready": true
+      },
+      {
+        "name": "notice-board-blue-845f74c5b9-mxz62",
+        "version": "1.0.0",
+        "terminating": false,
+        "ready": true
+      },
+      {
+        "name": "notice-board-blue-845f74c5b9-rrrml",
+        "version": "1.0.0",
+        "terminating": false,
+        "ready": true
+      },
+      {
+        "name": "notice-board-green-848b84b5f5-dnn4c",
+        "version": "1.1.0",
+        "terminating": false,
+        "ready": true
+      },
+      {
+        "name": "notice-board-green-848b84b5f5-ldfbv",
+        "version": "1.1.0",
+        "terminating": false,
+        "ready": true
+      },
+      {
+        "name": "notice-board-green-848b84b5f5-xml9l",
+        "version": "1.1.0",
+        "terminating": false,
+        "ready": true
+      }
+    ],
+    "student": "02230135"
+  },
+  {
+    "timestamp": "2026-10-14T12:32:53.293Z",
+    "total": 7,
+    "nonTerminating": 7,
+    "pods": [
+      {
+        "name": "notice-board-blue-845f74c5b9-cx92z",
+        "version": "1.0.0",
+        "terminating": false,
+        "ready": true
+      },
+      {
+        "name": "notice-board-blue-845f74c5b9-mxz62",
+        "version": "1.0.0",
+        "terminating": false,
+        "ready": true
+      },
+      {
+        "name": "notice-board-blue-845f74c5b9-rrrml",
+        "version": "1.0.0",
+        "terminating": false,
+        "ready": true
+      },
+      {
+        "name": "notice-board-green-7bd95bbcf-7dk9d",
+        "version": "1.1.0",
+        "terminating": false,
+        "ready": false
+      },
+      {
+        "name": "notice-board-green-848b84b5f5-dnn4c",
+        "version": "1.1.0",
+        "terminating": false,
+        "ready": true
+      },
+      {
+        "name": "notice-board-green-848b84b5f5-ldfbv",
+        "version": "1.1.0",
+        "terminating": false,
+        "ready": true
+      },
+      {
+        "name": "notice-board-green-848b84b5f5-xml9l",
+        "version": "1.1.0",
+        "terminating": false,
+        "ready": true
+      }
+    ],
+    "student": "02230135"
+  },
+  {
+    "timestamp": "2026-10-14T12:32:54.109Z",
+    "total": 7,
+    "nonTerminating": 7,
+    "pods": [
+      {
+        "name": "notice-board-blue-845f74c5b9-cx92z",
+        "version": "1.0.0",
+        "terminating": false,
+        "ready": true
+      },
+      {
+        "name": "notice-board-blue-845f74c5b9-mxz62",
+        "version": "1.0.0",
+        "terminating": false,
+        "ready": true
+      },
+      {
+        "name": "notice-board-blue-845f74c5b9-rrrml",
+        "version": "1.0.0",
+        "terminating": false,
+        "ready": true
+      },
+      {
+        "name": "notice-board-green-7bd95bbcf-7dk9d",
+        "version": "1.1.0",
+        "terminating": false,
+        "ready": false
+      },
+      {
+        "name": "notice-board-green-848b84b5f5-dnn4c",
+        "version": "1.1.0",
+        "terminating": false,
+        "ready": true
+      },
+      {
+        "name": "notice-board-green-848b84b5f5-ldfbv",
+        "version": "1.1.0",
+        "terminating": false,
+        "ready": true
+      },
+      {
+        "name": "notice-board-green-848b84b5f5-xml9l",
+        "version": "1.1.0",
+        "terminating": false,
+        "ready": true
+      }
+    ],
+    "student": "02230135"
+  },
+  {
+    "timestamp": "2026-10-14T12:32:54.919Z",
+    "total": 7,
+    "nonTerminating": 7,
+    "pods": [
+      {
+        "name": "notice-board-blue-845f74c5b9-cx92z",
+        "version": "1.0.0",
+        "terminating": false,
+        "ready": true
+      },
+      {
+        "name": "notice-board-blue-845f74c5b9-mxz62",
+        "version": "1.0.0",
+        "terminating": false,
+        "ready": true
+      },
+      {
+        "name": "notice-board-blue-845f74c5b9-rrrml",
+        "version": "1.0.0",
+        "terminating": false,
+        "ready": true
+      },
+      {
+        "name": "notice-board-green-7bd95bbcf-7dk9d",
+        "version": "1.1.0",
+        "terminating": false,
+        "ready": false
+      },
+      {
+        "name": "notice-board-green-848b84b5f5-dnn4c",
+        "version": "1.1.0",
+        "terminating": false,
+        "ready": true
+      },
+      {
+        "name": "notice-board-green-848b84b5f5-ldfbv",
+        "version": "1.1.0",
+        "terminating": false,
+        "ready": true
+      },
+      {
+        "name": "notice-board-green-848b84b5f5-xml9l",
+        "version": "1.1.0",
+        "terminating": false,
+        "ready": true
+      }
+    ],
+    "student": "02230135"
+  },
+  {
+    "timestamp": "2026-10-14T12:32:55.731Z",
+    "total": 7,
+    "nonTerminating": 7,
+    "pods": [
+      {
+        "name": "notice-board-blue-845f74c5b9-cx92z",
+        "version": "1.0.0",
+        "terminating": false,
+        "ready": true
+      },
+      {
+        "name": "notice-board-blue-845f74c5b9-mxz62",
+        "version": "1.0.0",
+        "terminating": false,
+        "ready": true
+      },
+      {
+        "name": "notice-board-blue-845f74c5b9-rrrml",
+        "version": "1.0.0",
+        "terminating": false,
+        "ready": true
+      },
+      {
+        "name": "notice-board-green-7bd95bbcf-7dk9d",
+        "version": "1.1.0",
+        "terminating": false,
+        "ready": false
+      },
+      {
+        "name": "notice-board-green-848b84b5f5-dnn4c",
+        "version": "1.1.0",
+        "terminating": false,
+        "ready": true
+      },
+      {
+        "name": "notice-board-green-848b84b5f5-ldfbv",
+        "version": "1.1.0",
+        "terminating": false,
+        "ready": true
+      },
+      {
+        "name": "notice-board-green-848b84b5f5-xml9l",
+        "version": "1.1.0",
+        "terminating": false,
+        "ready": true
+      }
+    ],
+    "student": "02230135"
+  },
+  {
+    "timestamp": "2026-10-14T12:32:56.549Z",
+    "total": 7,
+    "nonTerminating": 7,
+    "pods": [
+      {
+        "name": "notice-board-blue-845f74c5b9-cx92z",
+        "version": "1.0.0",
+        "terminating": false,
+        "ready": true
+      },
+      {
+        "name": "notice-board-blue-845f74c5b9-mxz62",
+        "version": "1.0.0",
+        "terminating": false,
+        "ready": true
+      },
+      {
+        "name": "notice-board-blue-845f74c5b9-rrrml",
+        "version": "1.0.0",
+        "terminating": false,
+        "ready": true
+      },
+      {
+        "name": "notice-board-green-7bd95bbcf-7dk9d",
+        "version": "1.1.0",
+        "terminating": false,
+        "ready": false
+      },
+      {
+        "name": "notice-board-green-848b84b5f5-dnn4c",
+        "version": "1.1.0",
+        "terminating": false,
+        "ready": true
+      },
+      {
+        "name": "notice-board-green-848b84b5f5-ldfbv",
+        "version": "1.1.0",
+        "terminating": false,
+        "ready": true
+      },
+      {
+        "name": "notice-board-green-848b84b5f5-xml9l",
+        "version": "1.1.0",
+        "terminating": false,
+        "ready": true
+      }
+    ],
+    "student": "02230135"
+  },
+  {
+    "timestamp": "2026-10-14T12:32:57.369Z",
+    "total": 7,
+    "nonTerminating": 7,
+    "pods": [
+      {
+        "name": "notice-board-blue-845f74c5b9-cx92z",
+        "version": "1.0.0",
+        "terminating": false,
+        "ready": true
+      },
+      {
+        "name": "notice-board-blue-845f74c5b9-mxz62",
+        "version": "1.0.0",
+        "terminating": false,
+        "ready": true
+      },
+      {
+        "name": "notice-board-blue-845f74c5b9-rrrml",
+        "version": "1.0.0",
+        "terminating": false,
+        "ready": true
+      },
+      {
+        "name": "notice-board-green-7bd95bbcf-7dk9d",
+        "version": "1.1.0",
+        "terminating": false,
+        "ready": false
+      },
+      {
+        "name": "notice-board-green-848b84b5f5-dnn4c",
+        "version": "1.1.0",
+        "terminating": false,
+        "ready": true
+      },
+      {
+        "name": "notice-board-green-848b84b5f5-ldfbv",
+        "version": "1.1.0",
+        "terminating": false,
+        "ready": true
+      },
+      {
+        "name": "notice-board-green-848b84b5f5-xml9l",
+        "version": "1.1.0",
+        "terminating": false,
+        "ready": true
+      }
+    ],
+    "student": "02230135"
+  },
+  {
+    "timestamp": "2026-10-14T12:32:58.179Z",
+    "total": 7,
+    "nonTerminating": 7,
+    "pods": [
+      {
+        "name": "notice-board-blue-845f74c5b9-cx92z",
+        "version": "1.0.0",
+        "terminating": false,
+        "ready": true
+      },
+      {
+        "name": "notice-board-blue-845f74c5b9-mxz62",
+        "version": "1.0.0",
+        "terminating": false,
+        "ready": true
+      },
+      {
+        "name": "notice-board-blue-845f74c5b9-rrrml",
+        "version": "1.0.0",
+        "terminating": false,
+        "ready": true
+      },
+      {
+        "name": "notice-board-green-7bd95bbcf-7dk9d",
+        "version": "1.1.0",
+        "terminating": false,
+        "ready": false
+      },
+      {
+        "name": "notice-board-green-848b84b5f5-dnn4c",
+        "version": "1.1.0",
+        "terminating": false,
+        "ready": true
+      },
+      {
+        "name": "notice-board-green-848b84b5f5-ldfbv",
+        "version": "1.1.0",
+        "terminating": false,
+        "ready": true
+      },
+      {
+        "name": "notice-board-green-848b84b5f5-xml9l",
+        "version": "1.1.0",
+        "terminating": false,
+        "ready": true
+      }
+    ],
+    "student": "02230135"
+  },
+  {
+    "timestamp": "2026-10-14T12:32:58.987Z",
+    "total": 7,
+    "nonTerminating": 7,
+    "pods": [
+      {
+        "name": "notice-board-blue-845f74c5b9-cx92z",
+        "version": "1.0.0",
+        "terminating": false,
+        "ready": true
+      },
+      {
+        "name": "notice-board-blue-845f74c5b9-mxz62",
+        "version": "1.0.0",
+        "terminating": false,
+        "ready": true
+      },
+      {
+        "name": "notice-board-blue-845f74c5b9-rrrml",
+        "version": "1.0.0",
+        "terminating": false,
+        "ready": true
+      },
+      {
+        "name": "notice-board-green-7bd95bbcf-7dk9d",
+        "version": "1.1.0",
+        "terminating": false,
+        "ready": false
+      },
+      {
+        "name": "notice-board-green-848b84b5f5-dnn4c",
+        "version": "1.1.0",
+        "terminating": false,
+        "ready": true
+      },
+      {
+        "name": "notice-board-green-848b84b5f5-ldfbv",
+        "version": "1.1.0",
+        "terminating": false,
+        "ready": true
+      },
+      {
+        "name": "notice-board-green-848b84b5f5-xml9l",
+        "version": "1.1.0",
+        "terminating": false,
+        "ready": true
+      }
+    ],
+    "student": "02230135"
+  },
+  {
+    "timestamp": "2026-10-14T12:32:59.812Z",
+    "total": 7,
+    "nonTerminating": 7,
+    "pods": [
+      {
+        "name": "notice-board-blue-845f74c5b9-cx92z",
+        "version": "1.0.0",
+        "terminating": false,
+        "ready": true
+      },
+      {
+        "name": "notice-board-blue-845f74c5b9-mxz62",
+        "version": "1.0.0",
+        "terminating": false,
+        "ready": true
+      },
+      {
+        "name": "notice-board-blue-845f74c5b9-rrrml",
+        "version": "1.0.0",
+        "terminating": false,
+        "ready": true
+      },
+      {
+        "name": "notice-board-green-7bd95bbcf-7dk9d",
+        "version": "1.1.0",
+        "terminating": false,
+        "ready": false
+      },
+      {
+        "name": "notice-board-green-848b84b5f5-dnn4c",
+        "version": "1.1.0",
+        "terminating": false,
+        "ready": true
+      },
+      {
+        "name": "notice-board-green-848b84b5f5-ldfbv",
+        "version": "1.1.0",
+        "terminating": false,
+        "ready": true
+      },
+      {
+        "name": "notice-board-green-848b84b5f5-xml9l",
+        "version": "1.1.0",
+        "terminating": false,
+        "ready": true
+      }
+    ],
+    "student": "02230135"
+  },
+  {
+    "timestamp": "2026-10-14T12:33:00.657Z",
+    "total": 7,
+    "nonTerminating": 7,
+    "pods": [
+      {
+        "name": "notice-board-blue-845f74c5b9-cx92z",
+        "version": "1.0.0",
+        "terminating": false,
+        "ready": true
+      },
+      {
+        "name": "notice-board-blue-845f74c5b9-mxz62",
+        "version": "1.0.0",
+        "terminating": false,
+        "ready": true
+      },
+      {
+        "name": "notice-board-blue-845f74c5b9-rrrml",
+        "version": "1.0.0",
+        "terminating": false,
+        "ready": true
+      },
+      {
+        "name": "notice-board-green-7bd95bbcf-7dk9d",
+        "version": "1.1.0",
+        "terminating": false,
+        "ready": false
+      },
+      {
+        "name": "notice-board-green-848b84b5f5-dnn4c",
+        "version": "1.1.0",
+        "terminating": false,
+        "ready": true
+      },
+      {
+        "name": "notice-board-green-848b84b5f5-ldfbv",
+        "version": "1.1.0",
+        "terminating": false,
+        "ready": true
+      },
+      {
+        "name": "notice-board-green-848b84b5f5-xml9l",
+        "version": "1.1.0",
+        "terminating": false,
+        "ready": true
+      }
+    ],
+    "student": "02230135"
+  },
+  {
+    "timestamp": "2026-10-14T12:33:01.463Z",
+    "total": 7,
+    "nonTerminating": 7,
+    "pods": [
+      {
+        "name": "notice-board-blue-845f74c5b9-cx92z",
+        "version": "1.0.0",
+        "terminating": false,
+        "ready": true
+      },
+      {
+        "name": "notice-board-blue-845f74c5b9-mxz62",
+        "version": "1.0.0",
+        "terminating": false,
+        "ready": true
+      },
+      {
+        "name": "notice-board-blue-845f74c5b9-rrrml",
+        "version": "1.0.0",
+        "terminating": false,
+        "ready": true
+      },
+      {
+        "name": "notice-board-green-7bd95bbcf-7dk9d",
+        "version": "1.1.0",
+        "terminating": false,
+        "ready": false
+      },
+      {
+        "name": "notice-board-green-848b84b5f5-dnn4c",
+        "version": "1.1.0",
+        "terminating": false,
+        "ready": true
+      },
+      {
+        "name": "notice-board-green-848b84b5f5-ldfbv",
+        "version": "1.1.0",
+        "terminating": false,
+        "ready": true
+      },
+      {
+        "name": "notice-board-green-848b84b5f5-xml9l",
+        "version": "1.1.0",
+        "terminating": false,
+        "ready": true
+      }
+    ],
+    "student": "02230135"
+  },
+  {
+    "timestamp": "2026-10-14T12:33:02.304Z",
+    "total": 7,
+    "nonTerminating": 7,
+    "pods": [
+      {
+        "name": "notice-board-blue-845f74c5b9-cx92z",
+        "version": "1.0.0",
+        "terminating": false,
+        "ready": true
+      },
+      {
+        "name": "notice-board-blue-845f74c5b9-mxz62",
+        "version": "1.0.0",
+        "terminating": false,
+        "ready": true
+      },
+      {
+        "name": "notice-board-blue-845f74c5b9-rrrml",
+        "version": "1.0.0",
+        "terminating": false,
+        "ready": true
+      },
+      {
+        "name": "notice-board-green-7bd95bbcf-7dk9d",
+        "version": "1.1.0",
+        "terminating": false,
+        "ready": false
+      },
+      {
+        "name": "notice-board-green-848b84b5f5-dnn4c",
+        "version": "1.1.0",
+        "terminating": false,
+        "ready": true
+      },
+      {
+        "name": "notice-board-green-848b84b5f5-ldfbv",
+        "version": "1.1.0",
+        "terminating": false,
+        "ready": true
+      },
+      {
+        "name": "notice-board-green-848b84b5f5-xml9l",
+        "version": "1.1.0",
+        "terminating": false,
+        "ready": true
+      }
+    ],
+    "student": "02230135"
+  },
+  {
+    "timestamp": "2026-10-14T12:33:03.122Z",
+    "total": 7,
+    "nonTerminating": 7,
+    "pods": [
+      {
+        "name": "notice-board-blue-845f74c5b9-cx92z",
+        "version": "1.0.0",
+        "terminating": false,
+        "ready": true
+      },
+      {
+        "name": "notice-board-blue-845f74c5b9-mxz62",
+        "version": "1.0.0",
+        "terminating": false,
+        "ready": true
+      },
+      {
+        "name": "notice-board-blue-845f74c5b9-rrrml",
+        "version": "1.0.0",
+        "terminating": false,
+        "ready": true
+      },
+      {
+        "name": "notice-board-green-7bd95bbcf-7dk9d",
+        "version": "1.1.0",
+        "terminating": false,
+        "ready": false
+      },
+      {
+        "name": "notice-board-green-848b84b5f5-dnn4c",
+        "version": "1.1.0",
+        "terminating": false,
+        "ready": true
+      },
+      {
+        "name": "notice-board-green-848b84b5f5-ldfbv",
+        "version": "1.1.0",
+        "terminating": false,
+        "ready": true
+      },
+      {
+        "name": "notice-board-green-848b84b5f5-xml9l",
+        "version": "1.1.0",
+        "terminating": false,
+        "ready": true
+      }
+    ],
+    "student": "02230135"
+  },
+  {
+    "timestamp": "2026-10-14T12:33:03.944Z",
+    "total": 7,
+    "nonTerminating": 7,
+    "pods": [
+      {
+        "name": "notice-board-blue-845f74c5b9-cx92z",
+        "version": "1.0.0",
+        "terminating": false,
+        "ready": true
+      },
+      {
+        "name": "notice-board-blue-845f74c5b9-mxz62",
+        "version": "1.0.0",
+        "terminating": false,
+        "ready": true
+      },
+      {
+        "name": "notice-board-blue-845f74c5b9-rrrml",
+        "version": "1.0.0",
+        "terminating": false,
+        "ready": true
+      },
+      {
+        "name": "notice-board-green-7bd95bbcf-7dk9d",
+        "version": "1.1.0",
+        "terminating": false,
+        "ready": false
+      },
+      {
+        "name": "notice-board-green-848b84b5f5-dnn4c",
+        "version": "1.1.0",
+        "terminating": false,
+        "ready": true
+      },
+      {
+        "name": "notice-board-green-848b84b5f5-ldfbv",
+        "version": "1.1.0",
+        "terminating": false,
+        "ready": true
+      },
+      {
+        "name": "notice-board-green-848b84b5f5-xml9l",
+        "version": "1.1.0",
+        "terminating": false,
+        "ready": true
+      }
+    ],
+    "student": "02230135"
+  },
+  {
+    "timestamp": "2026-10-14T12:33:04.775Z",
+    "total": 7,
+    "nonTerminating": 7,
+    "pods": [
+      {
+        "name": "notice-board-blue-845f74c5b9-cx92z",
+        "version": "1.0.0",
+        "terminating": false,
+        "ready": true
+      },
+      {
+        "name": "notice-board-blue-845f74c5b9-mxz62",
+        "version": "1.0.0",
+        "terminating": false,
+        "ready": true
+      },
+      {
+        "name": "notice-board-blue-845f74c5b9-rrrml",
+        "version": "1.0.0",
+        "terminating": false,
+        "ready": true
+      },
+      {
+        "name": "notice-board-green-7bd95bbcf-7dk9d",
+        "version": "1.1.0",
+        "terminating": false,
+        "ready": false
+      },
+      {
+        "name": "notice-board-green-848b84b5f5-dnn4c",
+        "version": "1.1.0",
+        "terminating": false,
+        "ready": true
+      },
+      {
+        "name": "notice-board-green-848b84b5f5-ldfbv",
+        "version": "1.1.0",
+        "terminating": false,
+        "ready": true
+      },
+      {
+        "name": "notice-board-green-848b84b5f5-xml9l",
+        "version": "1.1.0",
+        "terminating": false,
+        "ready": true
+      }
+    ],
+    "student": "02230135"
+  },
+  {
+    "timestamp": "2026-10-14T12:33:05.588Z",
+    "total": 7,
+    "nonTerminating": 7,
+    "pods": [
+      {
+        "name": "notice-board-blue-845f74c5b9-cx92z",
+        "version": "1.0.0",
+        "terminating": false,
+        "ready": true
+      },
+      {
+        "name": "notice-board-blue-845f74c5b9-mxz62",
+        "version": "1.0.0",
+        "terminating": false,
+        "ready": true
+      },
+      {
+        "name": "notice-board-blue-845f74c5b9-rrrml",
+        "version": "1.0.0",
+        "terminating": false,
+        "ready": true
+      },
+      {
+        "name": "notice-board-green-7bd95bbcf-7dk9d",
+        "version": "1.1.0",
+        "terminating": false,
+        "ready": true
+      },
+      {
+        "name": "notice-board-green-848b84b5f5-dnn4c",
+        "version": "1.1.0",
+        "terminating": false,
+        "ready": true
+      },
+      {
+        "name": "notice-board-green-848b84b5f5-ldfbv",
+        "version": "1.1.0",
+        "terminating": false,
+        "ready": true
+      },
+      {
+        "name": "notice-board-green-848b84b5f5-xml9l",
+        "version": "1.1.0",
+        "terminating": false,
+        "ready": true
+      }
+    ],
+    "student": "02230135"
+  },
+  {
+    "timestamp": "2026-10-14T12:33:06.413Z",
+    "total": 7,
+    "nonTerminating": 7,
+    "pods": [
+      {
+        "name": "notice-board-blue-845f74c5b9-cx92z",
+        "version": "1.0.0",
+        "terminating": false,
+        "ready": true
+      },
+      {
+        "name": "notice-board-blue-845f74c5b9-mxz62",
+        "version": "1.0.0",
+        "terminating": false,
+        "ready": true
+      },
+      {
+        "name": "notice-board-blue-845f74c5b9-rrrml",
+        "version": "1.0.0",
+        "terminating": false,
+        "ready": true
+      },
+      {
+        "name": "notice-board-green-7bd95bbcf-7dk9d",
+        "version": "1.1.0",
+        "terminating": false,
+        "ready": true
+      },
+      {
+        "name": "notice-board-green-848b84b5f5-dnn4c",
+        "version": "1.1.0",
+        "terminating": false,
+        "ready": true
+      },
+      {
+        "name": "notice-board-green-848b84b5f5-ldfbv",
+        "version": "1.1.0",
+        "terminating": false,
+        "ready": true
+      },
+      {
+        "name": "notice-board-green-848b84b5f5-xml9l",
+        "version": "1.1.0",
+        "terminating": false,
+        "ready": true
+      }
+    ],
+    "student": "02230135"
+  },
+  {
+    "timestamp": "2026-10-14T12:33:07.223Z",
+    "total": 7,
+    "nonTerminating": 7,
+    "pods": [
+      {
+        "name": "notice-board-blue-845f74c5b9-cx92z",
+        "version": "1.0.0",
+        "terminating": false,
+        "ready": true
+      },
+      {
+        "name": "notice-board-blue-845f74c5b9-mxz62",
+        "version": "1.0.0",
+        "terminating": false,
+        "ready": true
+      },
+      {
+        "name": "notice-board-blue-845f74c5b9-rrrml",
+        "version": "1.0.0",
+        "terminating": false,
+        "ready": true
+      },
+      {
+        "name": "notice-board-green-7bd95bbcf-7dk9d",
+        "version": "1.1.0",
+        "terminating": false,
+        "ready": true
+      },
+      {
+        "name": "notice-board-green-848b84b5f5-dnn4c",
+        "version": "1.1.0",
+        "terminating": false,
+        "ready": true
+      },
+      {
+        "name": "notice-board-green-848b84b5f5-ldfbv",
+        "version": "1.1.0",
+        "terminating": false,
+        "ready": true
+      },
+      {
+        "name": "notice-board-green-848b84b5f5-xml9l",
+        "version": "1.1.0",
+        "terminating": false,
+        "ready": true
+      }
+    ],
+    "student": "02230135"
+  },
+  {
+    "timestamp": "2026-10-14T12:33:08.041Z",
+    "total": 7,
+    "nonTerminating": 7,
+    "pods": [
+      {
+        "name": "notice-board-blue-845f74c5b9-cx92z",
+        "version": "1.0.0",
+        "terminating": false,
+        "ready": true
+      },
+      {
+        "name": "notice-board-blue-845f74c5b9-mxz62",
+        "version": "1.0.0",
+        "terminating": false,
+        "ready": true
+      },
+      {
+        "name": "notice-board-blue-845f74c5b9-rrrml",
+        "version": "1.0.0",
+        "terminating": false,
+        "ready": true
+      },
+      {
+        "name": "notice-board-green-7bd95bbcf-7dk9d",
+        "version": "1.1.0",
+        "terminating": false,
+        "ready": true
+      },
+      {
+        "name": "notice-board-green-848b84b5f5-dnn4c",
+        "version": "1.1.0",
+        "terminating": false,
+        "ready": true
+      },
+      {
+        "name": "notice-board-green-848b84b5f5-ldfbv",
+        "version": "1.1.0",
+        "terminating": false,
+        "ready": true
+      },
+      {
+        "name": "notice-board-green-848b84b5f5-xml9l",
+        "version": "1.1.0",
+        "terminating": false,
+        "ready": true
+      }
+    ],
+    "student": "02230135"
+  },
+  {
+    "timestamp": "2026-10-14T12:33:08.856Z",
+    "total": 7,
+    "nonTerminating": 7,
+    "pods": [
+      {
+        "name": "notice-board-blue-845f74c5b9-cx92z",
+        "version": "1.0.0",
+        "terminating": false,
+        "ready": true
+      },
+      {
+        "name": "notice-board-blue-845f74c5b9-mxz62",
+        "version": "1.0.0",
+        "terminating": false,
+        "ready": true
+      },
+      {
+        "name": "notice-board-blue-845f74c5b9-rrrml",
+        "version": "1.0.0",
+        "terminating": false,
+        "ready": true
+      },
+      {
+        "name": "notice-board-green-7bd95bbcf-7dk9d",
+        "version": "1.1.0",
+        "terminating": false,
+        "ready": true
+      },
+      {
+        "name": "notice-board-green-848b84b5f5-dnn4c",
+        "version": "1.1.0",
+        "terminating": false,
+        "ready": true
+      },
+      {
+        "name": "notice-board-green-848b84b5f5-ldfbv",
+        "version": "1.1.0",
+        "terminating": false,
+        "ready": true
+      },
+      {
+        "name": "notice-board-green-848b84b5f5-xml9l",
+        "version": "1.1.0",
+        "terminating": false,
+        "ready": true
+      }
+    ],
+    "student": "02230135"
+  },
+  {
+    "timestamp": "2026-10-14T12:33:09.677Z",
+    "total": 7,
+    "nonTerminating": 7,
+    "pods": [
+      {
+        "name": "notice-board-blue-845f74c5b9-cx92z",
+        "version": "1.0.0",
+        "terminating": false,
+        "ready": true
+      },
+      {
+        "name": "notice-board-blue-845f74c5b9-mxz62",
+        "version": "1.0.0",
+        "terminating": false,
+        "ready": true
+      },
+      {
+        "name": "notice-board-blue-845f74c5b9-rrrml",
+        "version": "1.0.0",
+        "terminating": false,
+        "ready": true
+      },
+      {
+        "name": "notice-board-green-7bd95bbcf-7dk9d",
+        "version": "1.1.0",
+        "terminating": false,
+        "ready": true
+      },
+      {
+        "name": "notice-board-green-848b84b5f5-dnn4c",
+        "version": "1.1.0",
+        "terminating": false,
+        "ready": true
+      },
+      {
+        "name": "notice-board-green-848b84b5f5-ldfbv",
+        "version": "1.1.0",
+        "terminating": false,
+        "ready": true
+      },
+      {
+        "name": "notice-board-green-848b84b5f5-xml9l",
+        "version": "1.1.0",
+        "terminating": false,
+        "ready": true
+      }
+    ],
+    "student": "02230135"
+  },
+  {
+    "timestamp": "2026-10-14T12:33:10.502Z",
+    "total": 8,
+    "nonTerminating": 7,
+    "pods": [
+      {
+        "name": "notice-board-blue-845f74c5b9-cx92z",
+        "version": "1.0.0",
+        "terminating": false,
+        "ready": true
+      },
+      {
+        "name": "notice-board-blue-845f74c5b9-mxz62",
+        "version": "1.0.0",
+        "terminating": false,
+        "ready": true
+      },
+      {
+        "name": "notice-board-blue-845f74c5b9-rrrml",
+        "version": "1.0.0",
+        "terminating": false,
+        "ready": true
+      },
+      {
+        "name": "notice-board-green-7bd95bbcf-7dk9d",
+        "version": "1.1.0",
+        "terminating": false,
+        "ready": true
+      },
+      {
+        "name": "notice-board-green-7bd95bbcf-hgwzn",
+        "version": "1.1.0",
+        "terminating": false,
+        "ready": false
+      },
+      {
+        "name": "notice-board-green-848b84b5f5-dnn4c",
+        "version": "1.1.0",
+        "terminating": false,
+        "ready": true
+      },
+      {
+        "name": "notice-board-green-848b84b5f5-ldfbv",
+        "version": "1.1.0",
+        "terminating": true,
+        "ready": true
+      },
+      {
+        "name": "notice-board-green-848b84b5f5-xml9l",
+        "version": "1.1.0",
+        "terminating": false,
+        "ready": true
+      }
+    ],
+    "student": "02230135"
+  },
+  {
+    "timestamp": "2026-10-14T12:33:11.331Z",
+    "total": 8,
+    "nonTerminating": 7,
+    "pods": [
+      {
+        "name": "notice-board-blue-845f74c5b9-cx92z",
+        "version": "1.0.0",
+        "terminating": false,
+        "ready": true
+      },
+      {
+        "name": "notice-board-blue-845f74c5b9-mxz62",
+        "version": "1.0.0",
+        "terminating": false,
+        "ready": true
+      },
+      {
+        "name": "notice-board-blue-845f74c5b9-rrrml",
+        "version": "1.0.0",
+        "terminating": false,
+        "ready": true
+      },
+      {
+        "name": "notice-board-green-7bd95bbcf-7dk9d",
+        "version": "1.1.0",
+        "terminating": false,
+        "ready": true
+      },
+      {
+        "name": "notice-board-green-7bd95bbcf-hgwzn",
+        "version": "1.1.0",
+        "terminating": false,
+        "ready": false
+      },
+      {
+        "name": "notice-board-green-848b84b5f5-dnn4c",
+        "version": "1.1.0",
+        "terminating": false,
+        "ready": true
+      },
+      {
+        "name": "notice-board-green-848b84b5f5-ldfbv",
+        "version": "1.1.0",
+        "terminating": true,
+        "ready": true
+      },
+      {
+        "name": "notice-board-green-848b84b5f5-xml9l",
+        "version": "1.1.0",
+        "terminating": false,
+        "ready": true
+      }
+    ],
+    "student": "02230135"
+  },
+  {
+    "timestamp": "2026-10-14T12:33:12.165Z",
+    "total": 8,
+    "nonTerminating": 7,
+    "pods": [
+      {
+        "name": "notice-board-blue-845f74c5b9-cx92z",
+        "version": "1.0.0",
+        "terminating": false,
+        "ready": true
+      },
+      {
+        "name": "notice-board-blue-845f74c5b9-mxz62",
+        "version": "1.0.0",
+        "terminating": false,
+        "ready": true
+      },
+      {
+        "name": "notice-board-blue-845f74c5b9-rrrml",
+        "version": "1.0.0",
+        "terminating": false,
+        "ready": true
+      },
+      {
+        "name": "notice-board-green-7bd95bbcf-7dk9d",
+        "version": "1.1.0",
+        "terminating": false,
+        "ready": true
+      },
+      {
+        "name": "notice-board-green-7bd95bbcf-hgwzn",
+        "version": "1.1.0",
+        "terminating": false,
+        "ready": false
+      },
+      {
+        "name": "notice-board-green-848b84b5f5-dnn4c",
+        "version": "1.1.0",
+        "terminating": false,
+        "ready": true
+      },
+      {
+        "name": "notice-board-green-848b84b5f5-ldfbv",
+        "version": "1.1.0",
+        "terminating": true,
+        "ready": true
+      },
+      {
+        "name": "notice-board-green-848b84b5f5-xml9l",
+        "version": "1.1.0",
+        "terminating": false,
+        "ready": true
+      }
+    ],
+    "student": "02230135"
+  },
+  {
+    "timestamp": "2026-10-14T12:33:12.988Z",
+    "total": 8,
+    "nonTerminating": 7,
+    "pods": [
+      {
+        "name": "notice-board-blue-845f74c5b9-cx92z",
+        "version": "1.0.0",
+        "terminating": false,
+        "ready": true
+      },
+      {
+        "name": "notice-board-blue-845f74c5b9-mxz62",
+        "version": "1.0.0",
+        "terminating": false,
+        "ready": true
+      },
+      {
+        "name": "notice-board-blue-845f74c5b9-rrrml",
+        "version": "1.0.0",
+        "terminating": false,
+        "ready": true
+      },
+      {
+        "name": "notice-board-green-7bd95bbcf-7dk9d",
+        "version": "1.1.0",
+        "terminating": false,
+        "ready": true
+      },
+      {
+        "name": "notice-board-green-7bd95bbcf-hgwzn",
+        "version": "1.1.0",
+        "terminating": false,
+        "ready": false
+      },
+      {
+        "name": "notice-board-green-848b84b5f5-dnn4c",
+        "version": "1.1.0",
+        "terminating": false,
+        "ready": true
+      },
+      {
+        "name": "notice-board-green-848b84b5f5-ldfbv",
+        "version": "1.1.0",
+        "terminating": true,
+        "ready": true
+      },
+      {
+        "name": "notice-board-green-848b84b5f5-xml9l",
+        "version": "1.1.0",
+        "terminating": false,
+        "ready": true
+      }
+    ],
+    "student": "02230135"
+  },
+  {
+    "timestamp": "2026-10-14T12:33:13.820Z",
+    "total": 8,
+    "nonTerminating": 7,
+    "pods": [
+      {
+        "name": "notice-board-blue-845f74c5b9-cx92z",
+        "version": "1.0.0",
+        "terminating": false,
+        "ready": true
+      },
+      {
+        "name": "notice-board-blue-845f74c5b9-mxz62",
+        "version": "1.0.0",
+        "terminating": false,
+        "ready": true
+      },
+      {
+        "name": "notice-board-blue-845f74c5b9-rrrml",
+        "version": "1.0.0",
+        "terminating": false,
+        "ready": true
+      },
+      {
+        "name": "notice-board-green-7bd95bbcf-7dk9d",
+        "version": "1.1.0",
+        "terminating": false,
+        "ready": true
+      },
+      {
+        "name": "notice-board-green-7bd95bbcf-hgwzn",
+        "version": "1.1.0",
+        "terminating": false,
+        "ready": false
+      },
+      {
+        "name": "notice-board-green-848b84b5f5-dnn4c",
+        "version": "1.1.0",
+        "terminating": false,
+        "ready": true
+      },
+      {
+        "name": "notice-board-green-848b84b5f5-ldfbv",
+        "version": "1.1.0",
+        "terminating": true,
+        "ready": true
+      },
+      {
+        "name": "notice-board-green-848b84b5f5-xml9l",
+        "version": "1.1.0",
+        "terminating": false,
+        "ready": true
+      }
+    ],
+    "student": "02230135"
+  },
+  {
+    "timestamp": "2026-10-14T12:33:14.647Z",
+    "total": 8,
+    "nonTerminating": 7,
+    "pods": [
+      {
+        "name": "notice-board-blue-845f74c5b9-cx92z",
+        "version": "1.0.0",
+        "terminating": false,
+        "ready": true
+      },
+      {
+        "name": "notice-board-blue-845f74c5b9-mxz62",
+        "version": "1.0.0",
+        "terminating": false,
+        "ready": true
+      },
+      {
+        "name": "notice-board-blue-845f74c5b9-rrrml",
+        "version": "1.0.0",
+        "terminating": false,
+        "ready": true
+      },
+      {
+        "name": "notice-board-green-7bd95bbcf-7dk9d",
+        "version": "1.1.0",
+        "terminating": false,
+        "ready": true
+      },
+      {
+        "name": "notice-board-green-7bd95bbcf-hgwzn",
+        "version": "1.1.0",
+        "terminating": false,
+        "ready": false
+      },
+      {
+        "name": "notice-board-green-848b84b5f5-dnn4c",
+        "version": "1.1.0",
+        "terminating": false,
+        "ready": true
+      },
+      {
+        "name": "notice-board-green-848b84b5f5-ldfbv",
+        "version": "1.1.0",
+        "terminating": true,
+        "ready": true
+      },
+      {
+        "name": "notice-board-green-848b84b5f5-xml9l",
+        "version": "1.1.0",
+        "terminating": false,
+        "ready": true
+      }
+    ],
+    "student": "02230135"
+  },
+  {
+    "timestamp": "2026-10-14T12:33:15.486Z",
+    "total": 8,
+    "nonTerminating": 7,
+    "pods": [
+      {
+        "name": "notice-board-blue-845f74c5b9-cx92z",
+        "version": "1.0.0",
+        "terminating": false,
+        "ready": true
+      },
+      {
+        "name": "notice-board-blue-845f74c5b9-mxz62",
+        "version": "1.0.0",
+        "terminating": false,
+        "ready": true
+      },
+      {
+        "name": "notice-board-blue-845f74c5b9-rrrml",
+        "version": "1.0.0",
+        "terminating": false,
+        "ready": true
+      },
+      {
+        "name": "notice-board-green-7bd95bbcf-7dk9d",
+        "version": "1.1.0",
+        "terminating": false,
+        "ready": true
+      },
+      {
+        "name": "notice-board-green-7bd95bbcf-hgwzn",
+        "version": "1.1.0",
+        "terminating": false,
+        "ready": false
+      },
+      {
+        "name": "notice-board-green-848b84b5f5-dnn4c",
+        "version": "1.1.0",
+        "terminating": false,
+        "ready": true
+      },
+      {
+        "name": "notice-board-green-848b84b5f5-ldfbv",
+        "version": "1.1.0",
+        "terminating": true,
+        "ready": true
+      },
+      {
+        "name": "notice-board-green-848b84b5f5-xml9l",
+        "version": "1.1.0",
+        "terminating": false,
+        "ready": true
+      }
+    ],
+    "student": "02230135"
+  },
+  {
+    "timestamp": "2026-10-14T12:33:16.326Z",
+    "total": 8,
+    "nonTerminating": 7,
+    "pods": [
+      {
+        "name": "notice-board-blue-845f74c5b9-cx92z",
+        "version": "1.0.0",
+        "terminating": false,
+        "ready": true
+      },
+      {
+        "name": "notice-board-blue-845f74c5b9-mxz62",
+        "version": "1.0.0",
+        "terminating": false,
+        "ready": true
+      },
+      {
+        "name": "notice-board-blue-845f74c5b9-rrrml",
+        "version": "1.0.0",
+        "terminating": false,
+        "ready": true
+      },
+      {
+        "name": "notice-board-green-7bd95bbcf-7dk9d",
+        "version": "1.1.0",
+        "terminating": false,
+        "ready": true
+      },
+      {
+        "name": "notice-board-green-7bd95bbcf-hgwzn",
+        "version": "1.1.0",
+        "terminating": false,
+        "ready": false
+      },
+      {
+        "name": "notice-board-green-848b84b5f5-dnn4c",
+        "version": "1.1.0",
+        "terminating": false,
+        "ready": true
+      },
+      {
+        "name": "notice-board-green-848b84b5f5-ldfbv",
+        "version": "1.1.0",
+        "terminating": true,
+        "ready": true
+      },
+      {
+        "name": "notice-board-green-848b84b5f5-xml9l",
+        "version": "1.1.0",
+        "terminating": false,
+        "ready": true
+      }
+    ],
+    "student": "02230135"
+  },
+  {
+    "timestamp": "2026-10-14T12:33:17.139Z",
+    "total": 8,
+    "nonTerminating": 7,
+    "pods": [
+      {
+        "name": "notice-board-blue-845f74c5b9-cx92z",
+        "version": "1.0.0",
+        "terminating": false,
+        "ready": true
+      },
+      {
+        "name": "notice-board-blue-845f74c5b9-mxz62",
+        "version": "1.0.0",
+        "terminating": false,
+        "ready": true
+      },
+      {
+        "name": "notice-board-blue-845f74c5b9-rrrml",
+        "version": "1.0.0",
+        "terminating": false,
+        "ready": true
+      },
+      {
+        "name": "notice-board-green-7bd95bbcf-7dk9d",
+        "version": "1.1.0",
+        "terminating": false,
+        "ready": true
+      },
+      {
+        "name": "notice-board-green-7bd95bbcf-hgwzn",
+        "version": "1.1.0",
+        "terminating": false,
+        "ready": false
+      },
+      {
+        "name": "notice-board-green-848b84b5f5-dnn4c",
+        "version": "1.1.0",
+        "terminating": false,
+        "ready": true
+      },
+      {
+        "name": "notice-board-green-848b84b5f5-ldfbv",
+        "version": "1.1.0",
+        "terminating": true,
+        "ready": true
+      },
+      {
+        "name": "notice-board-green-848b84b5f5-xml9l",
+        "version": "1.1.0",
+        "terminating": false,
+        "ready": true
+      }
+    ],
+    "student": "02230135"
+  },
+  {
+    "timestamp": "2026-10-14T12:33:17.950Z",
+    "total": 8,
+    "nonTerminating": 7,
+    "pods": [
+      {
+        "name": "notice-board-blue-845f74c5b9-cx92z",
+        "version": "1.0.0",
+        "terminating": false,
+        "ready": true
+      },
+      {
+        "name": "notice-board-blue-845f74c5b9-mxz62",
+        "version": "1.0.0",
+        "terminating": false,
+        "ready": true
+      },
+      {
+        "name": "notice-board-blue-845f74c5b9-rrrml",
+        "version": "1.0.0",
+        "terminating": false,
+        "ready": true
+      },
+      {
+        "name": "notice-board-green-7bd95bbcf-7dk9d",
+        "version": "1.1.0",
+        "terminating": false,
+        "ready": true
+      },
+      {
+        "name": "notice-board-green-7bd95bbcf-hgwzn",
+        "version": "1.1.0",
+        "terminating": false,
+        "ready": false
+      },
+      {
+        "name": "notice-board-green-848b84b5f5-dnn4c",
+        "version": "1.1.0",
+        "terminating": false,
+        "ready": true
+      },
+      {
+        "name": "notice-board-green-848b84b5f5-ldfbv",
+        "version": "1.1.0",
+        "terminating": true,
+        "ready": true
+      },
+      {
+        "name": "notice-board-green-848b84b5f5-xml9l",
+        "version": "1.1.0",
+        "terminating": false,
+        "ready": true
+      }
+    ],
+    "student": "02230135"
+  },
+  {
+    "timestamp": "2026-10-14T12:33:18.765Z",
+    "total": 8,
+    "nonTerminating": 7,
+    "pods": [
+      {
+        "name": "notice-board-blue-845f74c5b9-cx92z",
+        "version": "1.0.0",
+        "terminating": false,
+        "ready": true
+      },
+      {
+        "name": "notice-board-blue-845f74c5b9-mxz62",
+        "version": "1.0.0",
+        "terminating": false,
+        "ready": true
+      },
+      {
+        "name": "notice-board-blue-845f74c5b9-rrrml",
+        "version": "1.0.0",
+        "terminating": false,
+        "ready": true
+      },
+      {
+        "name": "notice-board-green-7bd95bbcf-7dk9d",
+        "version": "1.1.0",
+        "terminating": false,
+        "ready": true
+      },
+      {
+        "name": "notice-board-green-7bd95bbcf-hgwzn",
+        "version": "1.1.0",
+        "terminating": false,
+        "ready": false
+      },
+      {
+        "name": "notice-board-green-848b84b5f5-dnn4c",
+        "version": "1.1.0",
+        "terminating": false,
+        "ready": true
+      },
+      {
+        "name": "notice-board-green-848b84b5f5-ldfbv",
+        "version": "1.1.0",
+        "terminating": true,
+        "ready": true
+      },
+      {
+        "name": "notice-board-green-848b84b5f5-xml9l",
+        "version": "1.1.0",
+        "terminating": false,
+        "ready": true
+      }
+    ],
+    "student": "02230135"
+  },
+  {
+    "timestamp": "2026-10-14T12:33:19.586Z",
+    "total": 8,
+    "nonTerminating": 7,
+    "pods": [
+      {
+        "name": "notice-board-blue-845f74c5b9-cx92z",
+        "version": "1.0.0",
+        "terminating": false,
+        "ready": true
+      },
+      {
+        "name": "notice-board-blue-845f74c5b9-mxz62",
+        "version": "1.0.0",
+        "terminating": false,
+        "ready": true
+      },
+      {
+        "name": "notice-board-blue-845f74c5b9-rrrml",
+        "version": "1.0.0",
+        "terminating": false,
+        "ready": true
+      },
+      {
+        "name": "notice-board-green-7bd95bbcf-7dk9d",
+        "version": "1.1.0",
+        "terminating": false,
+        "ready": true
+      },
+      {
+        "name": "notice-board-green-7bd95bbcf-hgwzn",
+        "version": "1.1.0",
+        "terminating": false,
+        "ready": false
+      },
+      {
+        "name": "notice-board-green-848b84b5f5-dnn4c",
+        "version": "1.1.0",
+        "terminating": false,
+        "ready": true
+      },
+      {
+        "name": "notice-board-green-848b84b5f5-ldfbv",
+        "version": "1.1.0",
+        "terminating": true,
+        "ready": true
+      },
+      {
+        "name": "notice-board-green-848b84b5f5-xml9l",
+        "version": "1.1.0",
+        "terminating": false,
+        "ready": true
+      }
+    ],
+    "student": "02230135"
+  },
+  {
+    "timestamp": "2026-10-14T12:33:20.402Z",
+    "total": 8,
+    "nonTerminating": 7,
+    "pods": [
+      {
+        "name": "notice-board-blue-845f74c5b9-cx92z",
+        "version": "1.0.0",
+        "terminating": false,
+        "ready": true
+      },
+      {
+        "name": "notice-board-blue-845f74c5b9-mxz62",
+        "version": "1.0.0",
+        "terminating": false,
+        "ready": true
+      },
+      {
+        "name": "notice-board-blue-845f74c5b9-rrrml",
+        "version": "1.0.0",
+        "terminating": false,
+        "ready": true
+      },
+      {
+        "name": "notice-board-green-7bd95bbcf-7dk9d",
+        "version": "1.1.0",
+        "terminating": false,
+        "ready": true
+      },
+      {
+        "name": "notice-board-green-7bd95bbcf-hgwzn",
+        "version": "1.1.0",
+        "terminating": false,
+        "ready": false
+      },
+      {
+        "name": "notice-board-green-848b84b5f5-dnn4c",
+        "version": "1.1.0",
+        "terminating": false,
+        "ready": true
+      },
+      {
+        "name": "notice-board-green-848b84b5f5-ldfbv",
+        "version": "1.1.0",
+        "terminating": true,
+        "ready": true
+      },
+      {
+        "name": "notice-board-green-848b84b5f5-xml9l",
+        "version": "1.1.0",
+        "terminating": false,
+        "ready": true
+      }
+    ],
+    "student": "02230135"
+  },
+  {
+    "timestamp": "2026-10-14T12:33:21.217Z",
+    "total": 8,
+    "nonTerminating": 7,
+    "pods": [
+      {
+        "name": "notice-board-blue-845f74c5b9-cx92z",
+        "version": "1.0.0",
+        "terminating": false,
+        "ready": true
+      },
+      {
+        "name": "notice-board-blue-845f74c5b9-mxz62",
+        "version": "1.0.0",
+        "terminating": false,
+        "ready": true
+      },
+      {
+        "name": "notice-board-blue-845f74c5b9-rrrml",
+        "version": "1.0.0",
+        "terminating": false,
+        "ready": true
+      },
+      {
+        "name": "notice-board-green-7bd95bbcf-7dk9d",
+        "version": "1.1.0",
+        "terminating": false,
+        "ready": true
+      },
+      {
+        "name": "notice-board-green-7bd95bbcf-hgwzn",
+        "version": "1.1.0",
+        "terminating": false,
+        "ready": false
+      },
+      {
+        "name": "notice-board-green-848b84b5f5-dnn4c",
+        "version": "1.1.0",
+        "terminating": false,
+        "ready": true
+      },
+      {
+        "name": "notice-board-green-848b84b5f5-ldfbv",
+        "version": "1.1.0",
+        "terminating": true,
+        "ready": false
+      },
+      {
+        "name": "notice-board-green-848b84b5f5-xml9l",
+        "version": "1.1.0",
+        "terminating": false,
+        "ready": true
+      }
+    ],
+    "student": "02230135"
+  },
+  {
+    "timestamp": "2026-10-14T12:33:22.032Z",
+    "total": 7,
+    "nonTerminating": 7,
+    "pods": [
+      {
+        "name": "notice-board-blue-845f74c5b9-cx92z",
+        "version": "1.0.0",
+        "terminating": false,
+        "ready": true
+      },
+      {
+        "name": "notice-board-blue-845f74c5b9-mxz62",
+        "version": "1.0.0",
+        "terminating": false,
+        "ready": true
+      },
+      {
+        "name": "notice-board-blue-845f74c5b9-rrrml",
+        "version": "1.0.0",
+        "terminating": false,
+        "ready": true
+      },
+      {
+        "name": "notice-board-green-7bd95bbcf-7dk9d",
+        "version": "1.1.0",
+        "terminating": false,
+        "ready": true
+      },
+      {
+        "name": "notice-board-green-7bd95bbcf-hgwzn",
+        "version": "1.1.0",
+        "terminating": false,
+        "ready": false
+      },
+      {
+        "name": "notice-board-green-848b84b5f5-dnn4c",
+        "version": "1.1.0",
+        "terminating": false,
+        "ready": true
+      },
+      {
+        "name": "notice-board-green-848b84b5f5-xml9l",
+        "version": "1.1.0",
+        "terminating": false,
+        "ready": true
+      }
+    ],
+    "student": "02230135"
+  },
+  {
+    "timestamp": "2026-10-14T12:33:22.854Z",
+    "total": 7,
+    "nonTerminating": 7,
+    "pods": [
+      {
+        "name": "notice-board-blue-845f74c5b9-cx92z",
+        "version": "1.0.0",
+        "terminating": false,
+        "ready": true
+      },
+      {
+        "name": "notice-board-blue-845f74c5b9-mxz62",
+        "version": "1.0.0",
+        "terminating": false,
+        "ready": true
+      },
+      {
+        "name": "notice-board-blue-845f74c5b9-rrrml",
+        "version": "1.0.0",
+        "terminating": false,
+        "ready": true
+      },
+      {
+        "name": "notice-board-green-7bd95bbcf-7dk9d",
+        "version": "1.1.0",
+        "terminating": false,
+        "ready": true
+      },
+      {
+        "name": "notice-board-green-7bd95bbcf-hgwzn",
+        "version": "1.1.0",
+        "terminating": false,
+        "ready": true
+      },
+      {
+        "name": "notice-board-green-848b84b5f5-dnn4c",
+        "version": "1.1.0",
+        "terminating": false,
+        "ready": true
+      },
+      {
+        "name": "notice-board-green-848b84b5f5-xml9l",
+        "version": "1.1.0",
+        "terminating": false,
+        "ready": true
+      }
+    ],
+    "student": "02230135"
+  },
+  {
+    "timestamp": "2026-10-14T12:33:23.688Z",
+    "total": 7,
+    "nonTerminating": 7,
+    "pods": [
+      {
+        "name": "notice-board-blue-845f74c5b9-cx92z",
+        "version": "1.0.0",
+        "terminating": false,
+        "ready": true
+      },
+      {
+        "name": "notice-board-blue-845f74c5b9-mxz62",
+        "version": "1.0.0",
+        "terminating": false,
+        "ready": true
+      },
+      {
+        "name": "notice-board-blue-845f74c5b9-rrrml",
+        "version": "1.0.0",
+        "terminating": false,
+        "ready": true
+      },
+      {
+        "name": "notice-board-green-7bd95bbcf-7dk9d",
+        "version": "1.1.0",
+        "terminating": false,
+        "ready": true
+      },
+      {
+        "name": "notice-board-green-7bd95bbcf-hgwzn",
+        "version": "1.1.0",
+        "terminating": false,
+        "ready": true
+      },
+      {
+        "name": "notice-board-green-848b84b5f5-dnn4c",
+        "version": "1.1.0",
+        "terminating": false,
+        "ready": true
+      },
+      {
+        "name": "notice-board-green-848b84b5f5-xml9l",
+        "version": "1.1.0",
+        "terminating": false,
+        "ready": true
+      }
+    ],
+    "student": "02230135"
+  },
+  {
+    "timestamp": "2026-10-14T12:33:24.521Z",
+    "total": 7,
+    "nonTerminating": 7,
+    "pods": [
+      {
+        "name": "notice-board-blue-845f74c5b9-cx92z",
+        "version": "1.0.0",
+        "terminating": false,
+        "ready": true
+      },
+      {
+        "name": "notice-board-blue-845f74c5b9-mxz62",
+        "version": "1.0.0",
+        "terminating": false,
+        "ready": true
+      },
+      {
+        "name": "notice-board-blue-845f74c5b9-rrrml",
+        "version": "1.0.0",
+        "terminating": false,
+        "ready": true
+      },
+      {
+        "name": "notice-board-green-7bd95bbcf-7dk9d",
+        "version": "1.1.0",
+        "terminating": false,
+        "ready": true
+      },
+      {
+        "name": "notice-board-green-7bd95bbcf-hgwzn",
+        "version": "1.1.0",
+        "terminating": false,
+        "ready": true
+      },
+      {
+        "name": "notice-board-green-848b84b5f5-dnn4c",
+        "version": "1.1.0",
+        "terminating": false,
+        "ready": true
+      },
+      {
+        "name": "notice-board-green-848b84b5f5-xml9l",
+        "version": "1.1.0",
+        "terminating": false,
+        "ready": true
+      }
+    ],
+    "student": "02230135"
+  },
+  {
+    "timestamp": "2026-10-14T12:33:25.380Z",
+    "total": 7,
+    "nonTerminating": 7,
+    "pods": [
+      {
+        "name": "notice-board-blue-845f74c5b9-cx92z",
+        "version": "1.0.0",
+        "terminating": false,
+        "ready": true
+      },
+      {
+        "name": "notice-board-blue-845f74c5b9-mxz62",
+        "version": "1.0.0",
+        "terminating": false,
+        "ready": true
+      },
+      {
+        "name": "notice-board-blue-845f74c5b9-rrrml",
+        "version": "1.0.0",
+        "terminating": false,
+        "ready": true
+      },
+      {
+        "name": "notice-board-green-7bd95bbcf-7dk9d",
+        "version": "1.1.0",
+        "terminating": false,
+        "ready": true
+      },
+      {
+        "name": "notice-board-green-7bd95bbcf-hgwzn",
+        "version": "1.1.0",
+        "terminating": false,
+        "ready": true
+      },
+      {
+        "name": "notice-board-green-848b84b5f5-dnn4c",
+        "version": "1.1.0",
+        "terminating": false,
+        "ready": true
+      },
+      {
+        "name": "notice-board-green-848b84b5f5-xml9l",
+        "version": "1.1.0",
+        "terminating": false,
+        "ready": true
+      }
+    ],
+    "student": "02230135"
+  },
+  {
+    "timestamp": "2026-10-14T12:33:26.193Z",
+    "total": 7,
+    "nonTerminating": 7,
+    "pods": [
+      {
+        "name": "notice-board-blue-845f74c5b9-cx92z",
+        "version": "1.0.0",
+        "terminating": false,
+        "ready": true
+      },
+      {
+        "name": "notice-board-blue-845f74c5b9-mxz62",
+        "version": "1.0.0",
+        "terminating": false,
+        "ready": true
+      },
+      {
+        "name": "notice-board-blue-845f74c5b9-rrrml",
+        "version": "1.0.0",
+        "terminating": false,
+        "ready": true
+      },
+      {
+        "name": "notice-board-green-7bd95bbcf-7dk9d",
+        "version": "1.1.0",
+        "terminating": false,
+        "ready": true
+      },
+      {
+        "name": "notice-board-green-7bd95bbcf-hgwzn",
+        "version": "1.1.0",
+        "terminating": false,
+        "ready": true
+      },
+      {
+        "name": "notice-board-green-848b84b5f5-dnn4c",
+        "version": "1.1.0",
+        "terminating": false,
+        "ready": true
+      },
+      {
+        "name": "notice-board-green-848b84b5f5-xml9l",
+        "version": "1.1.0",
+        "terminating": false,
+        "ready": true
+      }
+    ],
+    "student": "02230135"
+  },
+  {
+    "timestamp": "2026-10-14T12:33:27.017Z",
+    "total": 7,
+    "nonTerminating": 7,
+    "pods": [
+      {
+        "name": "notice-board-blue-845f74c5b9-cx92z",
+        "version": "1.0.0",
+        "terminating": false,
+        "ready": true
+      },
+      {
+        "name": "notice-board-blue-845f74c5b9-mxz62",
+        "version": "1.0.0",
+        "terminating": false,
+        "ready": true
+      },
+      {
+        "name": "notice-board-blue-845f74c5b9-rrrml",
+        "version": "1.0.0",
+        "terminating": false,
+        "ready": true
+      },
+      {
+        "name": "notice-board-green-7bd95bbcf-7dk9d",
+        "version": "1.1.0",
+        "terminating": false,
+        "ready": true
+      },
+      {
+        "name": "notice-board-green-7bd95bbcf-hgwzn",
+        "version": "1.1.0",
+        "terminating": false,
+        "ready": true
+      },
+      {
+        "name": "notice-board-green-848b84b5f5-dnn4c",
+        "version": "1.1.0",
+        "terminating": false,
+        "ready": true
+      },
+      {
+        "name": "notice-board-green-848b84b5f5-xml9l",
+        "version": "1.1.0",
+        "terminating": false,
+        "ready": true
+      }
+    ],
+    "student": "02230135"
+  },
+  {
+    "timestamp": "2026-10-14T12:33:27.835Z",
+    "total": 8,
+    "nonTerminating": 7,
+    "pods": [
+      {
+        "name": "notice-board-blue-845f74c5b9-cx92z",
+        "version": "1.0.0",
+        "terminating": false,
+        "ready": true
+      },
+      {
+        "name": "notice-board-blue-845f74c5b9-mxz62",
+        "version": "1.0.0",
+        "terminating": false,
+        "ready": true
+      },
+      {
+        "name": "notice-board-blue-845f74c5b9-rrrml",
+        "version": "1.0.0",
+        "terminating": false,
+        "ready": true
+      },
+      {
+        "name": "notice-board-green-7bd95bbcf-7dk9d",
+        "version": "1.1.0",
+        "terminating": false,
+        "ready": true
+      },
+      {
+        "name": "notice-board-green-7bd95bbcf-hgwzn",
+        "version": "1.1.0",
+        "terminating": false,
+        "ready": true
+      },
+      {
+        "name": "notice-board-green-7bd95bbcf-rgcgm",
+        "version": "1.1.0",
+        "terminating": false,
+        "ready": false
+      },
+      {
+        "name": "notice-board-green-848b84b5f5-dnn4c",
+        "version": "1.1.0",
+        "terminating": false,
+        "ready": true
+      },
+      {
+        "name": "notice-board-green-848b84b5f5-xml9l",
+        "version": "1.1.0",
+        "terminating": true,
+        "ready": true
+      }
+    ],
+    "student": "02230135"
+  },
+  {
+    "timestamp": "2026-10-14T12:33:28.677Z",
+    "total": 8,
+    "nonTerminating": 7,
+    "pods": [
+      {
+        "name": "notice-board-blue-845f74c5b9-cx92z",
+        "version": "1.0.0",
+        "terminating": false,
+        "ready": true
+      },
+      {
+        "name": "notice-board-blue-845f74c5b9-mxz62",
+        "version": "1.0.0",
+        "terminating": false,
+        "ready": true
+      },
+      {
+        "name": "notice-board-blue-845f74c5b9-rrrml",
+        "version": "1.0.0",
+        "terminating": false,
+        "ready": true
+      },
+      {
+        "name": "notice-board-green-7bd95bbcf-7dk9d",
+        "version": "1.1.0",
+        "terminating": false,
+        "ready": true
+      },
+      {
+        "name": "notice-board-green-7bd95bbcf-hgwzn",
+        "version": "1.1.0",
+        "terminating": false,
+        "ready": true
+      },
+      {
+        "name": "notice-board-green-7bd95bbcf-rgcgm",
+        "version": "1.1.0",
+        "terminating": false,
+        "ready": false
+      },
+      {
+        "name": "notice-board-green-848b84b5f5-dnn4c",
+        "version": "1.1.0",
+        "terminating": false,
+        "ready": true
+      },
+      {
+        "name": "notice-board-green-848b84b5f5-xml9l",
+        "version": "1.1.0",
+        "terminating": true,
+        "ready": true
+      }
+    ],
+    "student": "02230135"
+  },
+  {
+    "timestamp": "2026-10-14T12:33:29.519Z",
+    "total": 8,
+    "nonTerminating": 7,
+    "pods": [
+      {
+        "name": "notice-board-blue-845f74c5b9-cx92z",
+        "version": "1.0.0",
+        "terminating": false,
+        "ready": true
+      },
+      {
+        "name": "notice-board-blue-845f74c5b9-mxz62",
+        "version": "1.0.0",
+        "terminating": false,
+        "ready": true
+      },
+      {
+        "name": "notice-board-blue-845f74c5b9-rrrml",
+        "version": "1.0.0",
+        "terminating": false,
+        "ready": true
+      },
+      {
+        "name": "notice-board-green-7bd95bbcf-7dk9d",
+        "version": "1.1.0",
+        "terminating": false,
+        "ready": true
+      },
+      {
+        "name": "notice-board-green-7bd95bbcf-hgwzn",
+        "version": "1.1.0",
+        "terminating": false,
+        "ready": true
+      },
+      {
+        "name": "notice-board-green-7bd95bbcf-rgcgm",
+        "version": "1.1.0",
+        "terminating": false,
+        "ready": false
+      },
+      {
+        "name": "notice-board-green-848b84b5f5-dnn4c",
+        "version": "1.1.0",
+        "terminating": false,
+        "ready": true
+      },
+      {
+        "name": "notice-board-green-848b84b5f5-xml9l",
+        "version": "1.1.0",
+        "terminating": true,
+        "ready": true
+      }
+    ],
+    "student": "02230135"
+  },
+  {
+    "timestamp": "2026-10-14T12:33:30.405Z",
+    "total": 8,
+    "nonTerminating": 7,
+    "pods": [
+      {
+        "name": "notice-board-blue-845f74c5b9-cx92z",
+        "version": "1.0.0",
+        "terminating": false,
+        "ready": true
+      },
+      {
+        "name": "notice-board-blue-845f74c5b9-mxz62",
+        "version": "1.0.0",
+        "terminating": false,
+        "ready": true
+      },
+      {
+        "name": "notice-board-blue-845f74c5b9-rrrml",
+        "version": "1.0.0",
+        "terminating": false,
+        "ready": true
+      },
+      {
+        "name": "notice-board-green-7bd95bbcf-7dk9d",
+        "version": "1.1.0",
+        "terminating": false,
+        "ready": true
+      },
+      {
+        "name": "notice-board-green-7bd95bbcf-hgwzn",
+        "version": "1.1.0",
+        "terminating": false,
+        "ready": true
+      },
+      {
+        "name": "notice-board-green-7bd95bbcf-rgcgm",
+        "version": "1.1.0",
+        "terminating": false,
+        "ready": false
+      },
+      {
+        "name": "notice-board-green-848b84b5f5-dnn4c",
+        "version": "1.1.0",
+        "terminating": false,
+        "ready": true
+      },
+      {
+        "name": "notice-board-green-848b84b5f5-xml9l",
+        "version": "1.1.0",
+        "terminating": true,
+        "ready": true
+      }
+    ],
+    "student": "02230135"
+  },
+  {
+    "timestamp": "2026-10-14T12:33:31.227Z",
+    "total": 8,
+    "nonTerminating": 7,
+    "pods": [
+      {
+        "name": "notice-board-blue-845f74c5b9-cx92z",
+        "version": "1.0.0",
+        "terminating": false,
+        "ready": true
+      },
+      {
+        "name": "notice-board-blue-845f74c5b9-mxz62",
+        "version": "1.0.0",
+        "terminating": false,
+        "ready": true
+      },
+      {
+        "name": "notice-board-blue-845f74c5b9-rrrml",
+        "version": "1.0.0",
+        "terminating": false,
+        "ready": true
+      },
+      {
+        "name": "notice-board-green-7bd95bbcf-7dk9d",
+        "version": "1.1.0",
+        "terminating": false,
+        "ready": true
+      },
+      {
+        "name": "notice-board-green-7bd95bbcf-hgwzn",
+        "version": "1.1.0",
+        "terminating": false,
+        "ready": true
+      },
+      {
+        "name": "notice-board-green-7bd95bbcf-rgcgm",
+        "version": "1.1.0",
+        "terminating": false,
+        "ready": false
+      },
+      {
+        "name": "notice-board-green-848b84b5f5-dnn4c",
+        "version": "1.1.0",
+        "terminating": false,
+        "ready": true
+      },
+      {
+        "name": "notice-board-green-848b84b5f5-xml9l",
+        "version": "1.1.0",
+        "terminating": true,
+        "ready": true
+      }
+    ],
+    "student": "02230135"
+  },
+  {
+    "timestamp": "2026-10-14T12:33:32.043Z",
+    "total": 8,
+    "nonTerminating": 7,
+    "pods": [
+      {
+        "name": "notice-board-blue-845f74c5b9-cx92z",
+        "version": "1.0.0",
+        "terminating": false,
+        "ready": true
+      },
+      {
+        "name": "notice-board-blue-845f74c5b9-mxz62",
+        "version": "1.0.0",
+        "terminating": false,
+        "ready": true
+      },
+      {
+        "name": "notice-board-blue-845f74c5b9-rrrml",
+        "version": "1.0.0",
+        "terminating": false,
+        "ready": true
+      },
+      {
+        "name": "notice-board-green-7bd95bbcf-7dk9d",
+        "version": "1.1.0",
+        "terminating": false,
+        "ready": true
+      },
+      {
+        "name": "notice-board-green-7bd95bbcf-hgwzn",
+        "version": "1.1.0",
+        "terminating": false,
+        "ready": true
+      },
+      {
+        "name": "notice-board-green-7bd95bbcf-rgcgm",
+        "version": "1.1.0",
+        "terminating": false,
+        "ready": false
+      },
+      {
+        "name": "notice-board-green-848b84b5f5-dnn4c",
+        "version": "1.1.0",
+        "terminating": false,
+        "ready": true
+      },
+      {
+        "name": "notice-board-green-848b84b5f5-xml9l",
+        "version": "1.1.0",
+        "terminating": true,
+        "ready": true
+      }
+    ],
+    "student": "02230135"
+  },
+  {
+    "timestamp": "2026-10-14T12:33:32.874Z",
+    "total": 8,
+    "nonTerminating": 7,
+    "pods": [
+      {
+        "name": "notice-board-blue-845f74c5b9-cx92z",
+        "version": "1.0.0",
+        "terminating": false,
+        "ready": true
+      },
+      {
+        "name": "notice-board-blue-845f74c5b9-mxz62",
+        "version": "1.0.0",
+        "terminating": false,
+        "ready": true
+      },
+      {
+        "name": "notice-board-blue-845f74c5b9-rrrml",
+        "version": "1.0.0",
+        "terminating": false,
+        "ready": true
+      },
+      {
+        "name": "notice-board-green-7bd95bbcf-7dk9d",
+        "version": "1.1.0",
+        "terminating": false,
+        "ready": true
+      },
+      {
+        "name": "notice-board-green-7bd95bbcf-hgwzn",
+        "version": "1.1.0",
+        "terminating": false,
+        "ready": true
+      },
+      {
+        "name": "notice-board-green-7bd95bbcf-rgcgm",
+        "version": "1.1.0",
+        "terminating": false,
+        "ready": false
+      },
+      {
+        "name": "notice-board-green-848b84b5f5-dnn4c",
+        "version": "1.1.0",
+        "terminating": false,
+        "ready": true
+      },
+      {
+        "name": "notice-board-green-848b84b5f5-xml9l",
+        "version": "1.1.0",
+        "terminating": true,
+        "ready": true
+      }
+    ],
+    "student": "02230135"
+  },
+  {
+    "timestamp": "2026-10-14T12:33:33.708Z",
+    "total": 8,
+    "nonTerminating": 7,
+    "pods": [
+      {
+        "name": "notice-board-blue-845f74c5b9-cx92z",
+        "version": "1.0.0",
+        "terminating": false,
+        "ready": true
+      },
+      {
+        "name": "notice-board-blue-845f74c5b9-mxz62",
+        "version": "1.0.0",
+        "terminating": false,
+        "ready": true
+      },
+      {
+        "name": "notice-board-blue-845f74c5b9-rrrml",
+        "version": "1.0.0",
+        "terminating": false,
+        "ready": true
+      },
+      {
+        "name": "notice-board-green-7bd95bbcf-7dk9d",
+        "version": "1.1.0",
+        "terminating": false,
+        "ready": true
+      },
+      {
+        "name": "notice-board-green-7bd95bbcf-hgwzn",
+        "version": "1.1.0",
+        "terminating": false,
+        "ready": true
+      },
+      {
+        "name": "notice-board-green-7bd95bbcf-rgcgm",
+        "version": "1.1.0",
+        "terminating": false,
+        "ready": false
+      },
+      {
+        "name": "notice-board-green-848b84b5f5-dnn4c",
+        "version": "1.1.0",
+        "terminating": false,
+        "ready": true
+      },
+      {
+        "name": "notice-board-green-848b84b5f5-xml9l",
+        "version": "1.1.0",
+        "terminating": true,
+        "ready": true
+      }
+    ],
+    "student": "02230135"
+  },
+  {
+    "timestamp": "2026-10-14T12:33:34.552Z",
+    "total": 8,
+    "nonTerminating": 7,
+    "pods": [
+      {
+        "name": "notice-board-blue-845f74c5b9-cx92z",
+        "version": "1.0.0",
+        "terminating": false,
+        "ready": true
+      },
+      {
+        "name": "notice-board-blue-845f74c5b9-mxz62",
+        "version": "1.0.0",
+        "terminating": false,
+        "ready": true
+      },
+      {
+        "name": "notice-board-blue-845f74c5b9-rrrml",
+        "version": "1.0.0",
+        "terminating": false,
+        "ready": true
+      },
+      {
+        "name": "notice-board-green-7bd95bbcf-7dk9d",
+        "version": "1.1.0",
+        "terminating": false,
+        "ready": true
+      },
+      {
+        "name": "notice-board-green-7bd95bbcf-hgwzn",
+        "version": "1.1.0",
+        "terminating": false,
+        "ready": true
+      },
+      {
+        "name": "notice-board-green-7bd95bbcf-rgcgm",
+        "version": "1.1.0",
+        "terminating": false,
+        "ready": false
+      },
+      {
+        "name": "notice-board-green-848b84b5f5-dnn4c",
+        "version": "1.1.0",
+        "terminating": false,
+        "ready": true
+      },
+      {
+        "name": "notice-board-green-848b84b5f5-xml9l",
+        "version": "1.1.0",
+        "terminating": true,
+        "ready": true
+      }
+    ],
+    "student": "02230135"
+  },
+  {
+    "timestamp": "2026-10-14T12:33:35.371Z",
+    "total": 8,
+    "nonTerminating": 7,
+    "pods": [
+      {
+        "name": "notice-board-blue-845f74c5b9-cx92z",
+        "version": "1.0.0",
+        "terminating": false,
+        "ready": true
+      },
+      {
+        "name": "notice-board-blue-845f74c5b9-mxz62",
+        "version": "1.0.0",
+        "terminating": false,
+        "ready": true
+      },
+      {
+        "name": "notice-board-blue-845f74c5b9-rrrml",
+        "version": "1.0.0",
+        "terminating": false,
+        "ready": true
+      },
+      {
+        "name": "notice-board-green-7bd95bbcf-7dk9d",
+        "version": "1.1.0",
+        "terminating": false,
+        "ready": true
+      },
+      {
+        "name": "notice-board-green-7bd95bbcf-hgwzn",
+        "version": "1.1.0",
+        "terminating": false,
+        "ready": true
+      },
+      {
+        "name": "notice-board-green-7bd95bbcf-rgcgm",
+        "version": "1.1.0",
+        "terminating": false,
+        "ready": false
+      },
+      {
+        "name": "notice-board-green-848b84b5f5-dnn4c",
+        "version": "1.1.0",
+        "terminating": false,
+        "ready": true
+      },
+      {
+        "name": "notice-board-green-848b84b5f5-xml9l",
+        "version": "1.1.0",
+        "terminating": true,
+        "ready": true
+      }
+    ],
+    "student": "02230135"
+  },
+  {
+    "timestamp": "2026-10-14T12:33:36.193Z",
+    "total": 8,
+    "nonTerminating": 7,
+    "pods": [
+      {
+        "name": "notice-board-blue-845f74c5b9-cx92z",
+        "version": "1.0.0",
+        "terminating": false,
+        "ready": true
+      },
+      {
+        "name": "notice-board-blue-845f74c5b9-mxz62",
+        "version": "1.0.0",
+        "terminating": false,
+        "ready": true
+      },
+      {
+        "name": "notice-board-blue-845f74c5b9-rrrml",
+        "version": "1.0.0",
+        "terminating": false,
+        "ready": true
+      },
+      {
+        "name": "notice-board-green-7bd95bbcf-7dk9d",
+        "version": "1.1.0",
+        "terminating": false,
+        "ready": true
+      },
+      {
+        "name": "notice-board-green-7bd95bbcf-hgwzn",
+        "version": "1.1.0",
+        "terminating": false,
+        "ready": true
+      },
+      {
+        "name": "notice-board-green-7bd95bbcf-rgcgm",
+        "version": "1.1.0",
+        "terminating": false,
+        "ready": false
+      },
+      {
+        "name": "notice-board-green-848b84b5f5-dnn4c",
+        "version": "1.1.0",
+        "terminating": false,
+        "ready": true
+      },
+      {
+        "name": "notice-board-green-848b84b5f5-xml9l",
+        "version": "1.1.0",
+        "terminating": true,
+        "ready": true
+      }
+    ],
+    "student": "02230135"
+  },
+  {
+    "timestamp": "2026-10-14T12:33:37.070Z",
+    "total": 8,
+    "nonTerminating": 7,
+    "pods": [
+      {
+        "name": "notice-board-blue-845f74c5b9-cx92z",
+        "version": "1.0.0",
+        "terminating": false,
+        "ready": true
+      },
+      {
+        "name": "notice-board-blue-845f74c5b9-mxz62",
+        "version": "1.0.0",
+        "terminating": false,
+        "ready": true
+      },
+      {
+        "name": "notice-board-blue-845f74c5b9-rrrml",
+        "version": "1.0.0",
+        "terminating": false,
+        "ready": true
+      },
+      {
+        "name": "notice-board-green-7bd95bbcf-7dk9d",
+        "version": "1.1.0",
+        "terminating": false,
+        "ready": true
+      },
+      {
+        "name": "notice-board-green-7bd95bbcf-hgwzn",
+        "version": "1.1.0",
+        "terminating": false,
+        "ready": true
+      },
+      {
+        "name": "notice-board-green-7bd95bbcf-rgcgm",
+        "version": "1.1.0",
+        "terminating": false,
+        "ready": false
+      },
+      {
+        "name": "notice-board-green-848b84b5f5-dnn4c",
+        "version": "1.1.0",
+        "terminating": false,
+        "ready": true
+      },
+      {
+        "name": "notice-board-green-848b84b5f5-xml9l",
+        "version": "1.1.0",
+        "terminating": true,
+        "ready": true
+      }
+    ],
+    "student": "02230135"
+  },
+  {
+    "timestamp": "2026-10-14T12:33:37.901Z",
+    "total": 8,
+    "nonTerminating": 7,
+    "pods": [
+      {
+        "name": "notice-board-blue-845f74c5b9-cx92z",
+        "version": "1.0.0",
+        "terminating": false,
+        "ready": true
+      },
+      {
+        "name": "notice-board-blue-845f74c5b9-mxz62",
+        "version": "1.0.0",
+        "terminating": false,
+        "ready": true
+      },
+      {
+        "name": "notice-board-blue-845f74c5b9-rrrml",
+        "version": "1.0.0",
+        "terminating": false,
+        "ready": true
+      },
+      {
+        "name": "notice-board-green-7bd95bbcf-7dk9d",
+        "version": "1.1.0",
+        "terminating": false,
+        "ready": true
+      },
+      {
+        "name": "notice-board-green-7bd95bbcf-hgwzn",
+        "version": "1.1.0",
+        "terminating": false,
+        "ready": true
+      },
+      {
+        "name": "notice-board-green-7bd95bbcf-rgcgm",
+        "version": "1.1.0",
+        "terminating": false,
+        "ready": false
+      },
+      {
+        "name": "notice-board-green-848b84b5f5-dnn4c",
+        "version": "1.1.0",
+        "terminating": false,
+        "ready": true
+      },
+      {
+        "name": "notice-board-green-848b84b5f5-xml9l",
+        "version": "1.1.0",
+        "terminating": true,
+        "ready": false
+      }
+    ],
+    "student": "02230135"
+  },
+  {
+    "timestamp": "2026-10-14T12:33:38.731Z",
+    "total": 7,
+    "nonTerminating": 7,
+    "pods": [
+      {
+        "name": "notice-board-blue-845f74c5b9-cx92z",
+        "version": "1.0.0",
+        "terminating": false,
+        "ready": true
+      },
+      {
+        "name": "notice-board-blue-845f74c5b9-mxz62",
+        "version": "1.0.0",
+        "terminating": false,
+        "ready": true
+      },
+      {
+        "name": "notice-board-blue-845f74c5b9-rrrml",
+        "version": "1.0.0",
+        "terminating": false,
+        "ready": true
+      },
+      {
+        "name": "notice-board-green-7bd95bbcf-7dk9d",
+        "version": "1.1.0",
+        "terminating": false,
+        "ready": true
+      },
+      {
+        "name": "notice-board-green-7bd95bbcf-hgwzn",
+        "version": "1.1.0",
+        "terminating": false,
+        "ready": true
+      },
+      {
+        "name": "notice-board-green-7bd95bbcf-rgcgm",
+        "version": "1.1.0",
+        "terminating": false,
+        "ready": false
+      },
+      {
+        "name": "notice-board-green-848b84b5f5-dnn4c",
+        "version": "1.1.0",
+        "terminating": false,
+        "ready": true
+      }
+    ],
+    "student": "02230135"
+  },
+  {
+    "timestamp": "2026-10-14T12:33:39.553Z",
+    "total": 7,
+    "nonTerminating": 7,
+    "pods": [
+      {
+        "name": "notice-board-blue-845f74c5b9-cx92z",
+        "version": "1.0.0",
+        "terminating": false,
+        "ready": true
+      },
+      {
+        "name": "notice-board-blue-845f74c5b9-mxz62",
+        "version": "1.0.0",
+        "terminating": false,
+        "ready": true
+      },
+      {
+        "name": "notice-board-blue-845f74c5b9-rrrml",
+        "version": "1.0.0",
+        "terminating": false,
+        "ready": true
+      },
+      {
+        "name": "notice-board-green-7bd95bbcf-7dk9d",
+        "version": "1.1.0",
+        "terminating": false,
+        "ready": true
+      },
+      {
+        "name": "notice-board-green-7bd95bbcf-hgwzn",
+        "version": "1.1.0",
+        "terminating": false,
+        "ready": true
+      },
+      {
+        "name": "notice-board-green-7bd95bbcf-rgcgm",
+        "version": "1.1.0",
+        "terminating": false,
+        "ready": true
+      },
+      {
+        "name": "notice-board-green-848b84b5f5-dnn4c",
+        "version": "1.1.0",
+        "terminating": false,
+        "ready": true
+      }
+    ],
+    "student": "02230135"
+  },
+  {
+    "timestamp": "2026-10-14T12:33:40.367Z",
+    "total": 7,
+    "nonTerminating": 7,
+    "pods": [
+      {
+        "name": "notice-board-blue-845f74c5b9-cx92z",
+        "version": "1.0.0",
+        "terminating": false,
+        "ready": true
+      },
+      {
+        "name": "notice-board-blue-845f74c5b9-mxz62",
+        "version": "1.0.0",
+        "terminating": false,
+        "ready": true
+      },
+      {
+        "name": "notice-board-blue-845f74c5b9-rrrml",
+        "version": "1.0.0",
+        "terminating": false,
+        "ready": true
+      },
+      {
+        "name": "notice-board-green-7bd95bbcf-7dk9d",
+        "version": "1.1.0",
+        "terminating": false,
+        "ready": true
+      },
+      {
+        "name": "notice-board-green-7bd95bbcf-hgwzn",
+        "version": "1.1.0",
+        "terminating": false,
+        "ready": true
+      },
+      {
+        "name": "notice-board-green-7bd95bbcf-rgcgm",
+        "version": "1.1.0",
+        "terminating": false,
+        "ready": true
+      },
+      {
+        "name": "notice-board-green-848b84b5f5-dnn4c",
+        "version": "1.1.0",
+        "terminating": false,
+        "ready": true
+      }
+    ],
+    "student": "02230135"
+  },
+  {
+    "timestamp": "2026-10-14T12:33:41.200Z",
+    "total": 7,
+    "nonTerminating": 7,
+    "pods": [
+      {
+        "name": "notice-board-blue-845f74c5b9-cx92z",
+        "version": "1.0.0",
+        "terminating": false,
+        "ready": true
+      },
+      {
+        "name": "notice-board-blue-845f74c5b9-mxz62",
+        "version": "1.0.0",
+        "terminating": false,
+        "ready": true
+      },
+      {
+        "name": "notice-board-blue-845f74c5b9-rrrml",
+        "version": "1.0.0",
+        "terminating": false,
+        "ready": true
+      },
+      {
+        "name": "notice-board-green-7bd95bbcf-7dk9d",
+        "version": "1.1.0",
+        "terminating": false,
+        "ready": true
+      },
+      {
+        "name": "notice-board-green-7bd95bbcf-hgwzn",
+        "version": "1.1.0",
+        "terminating": false,
+        "ready": true
+      },
+      {
+        "name": "notice-board-green-7bd95bbcf-rgcgm",
+        "version": "1.1.0",
+        "terminating": false,
+        "ready": true
+      },
+      {
+        "name": "notice-board-green-848b84b5f5-dnn4c",
+        "version": "1.1.0",
+        "terminating": false,
+        "ready": true
+      }
+    ],
+    "student": "02230135"
+  },
+  {
+    "timestamp": "2026-10-14T12:33:42.016Z",
+    "total": 7,
+    "nonTerminating": 7,
+    "pods": [
+      {
+        "name": "notice-board-blue-845f74c5b9-cx92z",
+        "version": "1.0.0",
+        "terminating": false,
+        "ready": true
+      },
+      {
+        "name": "notice-board-blue-845f74c5b9-mxz62",
+        "version": "1.0.0",
+        "terminating": false,
+        "ready": true
+      },
+      {
+        "name": "notice-board-blue-845f74c5b9-rrrml",
+        "version": "1.0.0",
+        "terminating": false,
+        "ready": true
+      },
+      {
+        "name": "notice-board-green-7bd95bbcf-7dk9d",
+        "version": "1.1.0",
+        "terminating": false,
+        "ready": true
+      },
+      {
+        "name": "notice-board-green-7bd95bbcf-hgwzn",
+        "version": "1.1.0",
+        "terminating": false,
+        "ready": true
+      },
+      {
+        "name": "notice-board-green-7bd95bbcf-rgcgm",
+        "version": "1.1.0",
+        "terminating": false,
+        "ready": true
+      },
+      {
+        "name": "notice-board-green-848b84b5f5-dnn4c",
+        "version": "1.1.0",
+        "terminating": false,
+        "ready": true
+      }
+    ],
+    "student": "02230135"
+  },
+  {
+    "timestamp": "2026-10-14T12:33:42.830Z",
+    "total": 7,
+    "nonTerminating": 7,
+    "pods": [
+      {
+        "name": "notice-board-blue-845f74c5b9-cx92z",
+        "version": "1.0.0",
+        "terminating": false,
+        "ready": true
+      },
+      {
+        "name": "notice-board-blue-845f74c5b9-mxz62",
+        "version": "1.0.0",
+        "terminating": false,
+        "ready": true
+      },
+      {
+        "name": "notice-board-blue-845f74c5b9-rrrml",
+        "version": "1.0.0",
+        "terminating": false,
+        "ready": true
+      },
+      {
+        "name": "notice-board-green-7bd95bbcf-7dk9d",
+        "version": "1.1.0",
+        "terminating": false,
+        "ready": true
+      },
+      {
+        "name": "notice-board-green-7bd95bbcf-hgwzn",
+        "version": "1.1.0",
+        "terminating": false,
+        "ready": true
+      },
+      {
+        "name": "notice-board-green-7bd95bbcf-rgcgm",
+        "version": "1.1.0",
+        "terminating": false,
+        "ready": true
+      },
+      {
+        "name": "notice-board-green-848b84b5f5-dnn4c",
+        "version": "1.1.0",
+        "terminating": false,
+        "ready": true
+      }
+    ],
+    "student": "02230135"
+  },
+  {
+    "timestamp": "2026-10-14T12:33:43.721Z",
+    "total": 7,
+    "nonTerminating": 7,
+    "pods": [
+      {
+        "name": "notice-board-blue-845f74c5b9-cx92z",
+        "version": "1.0.0",
+        "terminating": false,
+        "ready": true
+      },
+      {
+        "name": "notice-board-blue-845f74c5b9-mxz62",
+        "version": "1.0.0",
+        "terminating": false,
+        "ready": true
+      },
+      {
+        "name": "notice-board-blue-845f74c5b9-rrrml",
+        "version": "1.0.0",
+        "terminating": false,
+        "ready": true
+      },
+      {
+        "name": "notice-board-green-7bd95bbcf-7dk9d",
+        "version": "1.1.0",
+        "terminating": false,
+        "ready": true
+      },
+      {
+        "name": "notice-board-green-7bd95bbcf-hgwzn",
+        "version": "1.1.0",
+        "terminating": false,
+        "ready": true
+      },
+      {
+        "name": "notice-board-green-7bd95bbcf-rgcgm",
+        "version": "1.1.0",
+        "terminating": false,
+        "ready": true
+      },
+      {
+        "name": "notice-board-green-848b84b5f5-dnn4c",
+        "version": "1.1.0",
+        "terminating": false,
+        "ready": true
+      }
+    ],
+    "student": "02230135"
+  },
+  {
+    "timestamp": "2026-10-14T12:33:44.584Z",
+    "total": 7,
+    "nonTerminating": 6,
+    "pods": [
+      {
+        "name": "notice-board-blue-845f74c5b9-cx92z",
+        "version": "1.0.0",
+        "terminating": false,
+        "ready": true
+      },
+      {
+        "name": "notice-board-blue-845f74c5b9-mxz62",
+        "version": "1.0.0",
+        "terminating": false,
+        "ready": true
+      },
+      {
+        "name": "notice-board-blue-845f74c5b9-rrrml",
+        "version": "1.0.0",
+        "terminating": false,
+        "ready": true
+      },
+      {
+        "name": "notice-board-green-7bd95bbcf-7dk9d",
+        "version": "1.1.0",
+        "terminating": false,
+        "ready": true
+      },
+      {
+        "name": "notice-board-green-7bd95bbcf-hgwzn",
+        "version": "1.1.0",
+        "terminating": false,
+        "ready": true
+      },
+      {
+        "name": "notice-board-green-7bd95bbcf-rgcgm",
+        "version": "1.1.0",
+        "terminating": false,
+        "ready": true
+      },
+      {
+        "name": "notice-board-green-848b84b5f5-dnn4c",
+        "version": "1.1.0",
+        "terminating": true,
+        "ready": true
+      }
+    ],
+    "student": "02230135"
+  },
+  {
+    "timestamp": "2026-10-14T12:33:45.405Z",
+    "total": 7,
+    "nonTerminating": 6,
+    "pods": [
+      {
+        "name": "notice-board-blue-845f74c5b9-cx92z",
+        "version": "1.0.0",
+        "terminating": false,
+        "ready": true
+      },
+      {
+        "name": "notice-board-blue-845f74c5b9-mxz62",
+        "version": "1.0.0",
+        "terminating": false,
+        "ready": true
+      },
+      {
+        "name": "notice-board-blue-845f74c5b9-rrrml",
+        "version": "1.0.0",
+        "terminating": false,
+        "ready": true
+      },
+      {
+        "name": "notice-board-green-7bd95bbcf-7dk9d",
+        "version": "1.1.0",
+        "terminating": false,
+        "ready": true
+      },
+      {
+        "name": "notice-board-green-7bd95bbcf-hgwzn",
+        "version": "1.1.0",
+        "terminating": false,
+        "ready": true
+      },
+      {
+        "name": "notice-board-green-7bd95bbcf-rgcgm",
+        "version": "1.1.0",
+        "terminating": false,
+        "ready": true
+      },
+      {
+        "name": "notice-board-green-848b84b5f5-dnn4c",
+        "version": "1.1.0",
+        "terminating": true,
+        "ready": true
+      }
+    ],
+    "student": "02230135"
+  },
+  {
+    "timestamp": "2026-10-14T12:33:46.212Z",
+    "total": 7,
+    "nonTerminating": 6,
+    "pods": [
+      {
+        "name": "notice-board-blue-845f74c5b9-cx92z",
+        "version": "1.0.0",
+        "terminating": false,
+        "ready": true
+      },
+      {
+        "name": "notice-board-blue-845f74c5b9-mxz62",
+        "version": "1.0.0",
+        "terminating": false,
+        "ready": true
+      },
+      {
+        "name": "notice-board-blue-845f74c5b9-rrrml",
+        "version": "1.0.0",
+        "terminating": false,
+        "ready": true
+      },
+      {
+        "name": "notice-board-green-7bd95bbcf-7dk9d",
+        "version": "1.1.0",
+        "terminating": false,
+        "ready": true
+      },
+      {
+        "name": "notice-board-green-7bd95bbcf-hgwzn",
+        "version": "1.1.0",
+        "terminating": false,
+        "ready": true
+      },
+      {
+        "name": "notice-board-green-7bd95bbcf-rgcgm",
+        "version": "1.1.0",
+        "terminating": false,
+        "ready": true
+      },
+      {
+        "name": "notice-board-green-848b84b5f5-dnn4c",
+        "version": "1.1.0",
+        "terminating": true,
+        "ready": true
+      }
+    ],
+    "student": "02230135"
+  },
+  {
+    "timestamp": "2026-10-14T12:33:47.051Z",
+    "total": 7,
+    "nonTerminating": 6,
+    "pods": [
+      {
+        "name": "notice-board-blue-845f74c5b9-cx92z",
+        "version": "1.0.0",
+        "terminating": false,
+        "ready": true
+      },
+      {
+        "name": "notice-board-blue-845f74c5b9-mxz62",
+        "version": "1.0.0",
+        "terminating": false,
+        "ready": true
+      },
+      {
+        "name": "notice-board-blue-845f74c5b9-rrrml",
+        "version": "1.0.0",
+        "terminating": false,
+        "ready": true
+      },
+      {
+        "name": "notice-board-green-7bd95bbcf-7dk9d",
+        "version": "1.1.0",
+        "terminating": false,
+        "ready": true
+      },
+      {
+        "name": "notice-board-green-7bd95bbcf-hgwzn",
+        "version": "1.1.0",
+        "terminating": false,
+        "ready": true
+      },
+      {
+        "name": "notice-board-green-7bd95bbcf-rgcgm",
+        "version": "1.1.0",
+        "terminating": false,
+        "ready": true
+      },
+      {
+        "name": "notice-board-green-848b84b5f5-dnn4c",
+        "version": "1.1.0",
+        "terminating": true,
+        "ready": true
+      }
+    ],
+    "student": "02230135"
+  },
+  {
+    "timestamp": "2026-10-14T12:33:47.865Z",
+    "total": 7,
+    "nonTerminating": 6,
+    "pods": [
+      {
+        "name": "notice-board-blue-845f74c5b9-cx92z",
+        "version": "1.0.0",
+        "terminating": false,
+        "ready": true
+      },
+      {
+        "name": "notice-board-blue-845f74c5b9-mxz62",
+        "version": "1.0.0",
+        "terminating": false,
+        "ready": true
+      },
+      {
+        "name": "notice-board-blue-845f74c5b9-rrrml",
+        "version": "1.0.0",
+        "terminating": false,
+        "ready": true
+      },
+      {
+        "name": "notice-board-green-7bd95bbcf-7dk9d",
+        "version": "1.1.0",
+        "terminating": false,
+        "ready": true
+      },
+      {
+        "name": "notice-board-green-7bd95bbcf-hgwzn",
+        "version": "1.1.0",
+        "terminating": false,
+        "ready": true
+      },
+      {
+        "name": "notice-board-green-7bd95bbcf-rgcgm",
+        "version": "1.1.0",
+        "terminating": false,
+        "ready": true
+      },
+      {
+        "name": "notice-board-green-848b84b5f5-dnn4c",
+        "version": "1.1.0",
+        "terminating": true,
+        "ready": true
+      }
+    ],
+    "student": "02230135"
+  },
+  {
+    "timestamp": "2026-10-14T12:33:48.704Z",
+    "total": 7,
+    "nonTerminating": 6,
+    "pods": [
+      {
+        "name": "notice-board-blue-845f74c5b9-cx92z",
+        "version": "1.0.0",
+        "terminating": false,
+        "ready": true
+      },
+      {
+        "name": "notice-board-blue-845f74c5b9-mxz62",
+        "version": "1.0.0",
+        "terminating": false,
+        "ready": true
+      },
+      {
+        "name": "notice-board-blue-845f74c5b9-rrrml",
+        "version": "1.0.0",
+        "terminating": false,
+        "ready": true
+      },
+      {
+        "name": "notice-board-green-7bd95bbcf-7dk9d",
+        "version": "1.1.0",
+        "terminating": false,
+        "ready": true
+      },
+      {
+        "name": "notice-board-green-7bd95bbcf-hgwzn",
+        "version": "1.1.0",
+        "terminating": false,
+        "ready": true
+      },
+      {
+        "name": "notice-board-green-7bd95bbcf-rgcgm",
+        "version": "1.1.0",
+        "terminating": false,
+        "ready": true
+      },
+      {
+        "name": "notice-board-green-848b84b5f5-dnn4c",
+        "version": "1.1.0",
+        "terminating": true,
+        "ready": true
+      }
+    ],
+    "student": "02230135"
+  },
+  {
+    "timestamp": "2026-10-14T12:33:49.536Z",
+    "total": 7,
+    "nonTerminating": 6,
+    "pods": [
+      {
+        "name": "notice-board-blue-845f74c5b9-cx92z",
+        "version": "1.0.0",
+        "terminating": false,
+        "ready": true
+      },
+      {
+        "name": "notice-board-blue-845f74c5b9-mxz62",
+        "version": "1.0.0",
+        "terminating": false,
+        "ready": true
+      },
+      {
+        "name": "notice-board-blue-845f74c5b9-rrrml",
+        "version": "1.0.0",
+        "terminating": false,
+        "ready": true
+      },
+      {
+        "name": "notice-board-green-7bd95bbcf-7dk9d",
+        "version": "1.1.0",
+        "terminating": false,
+        "ready": true
+      },
+      {
+        "name": "notice-board-green-7bd95bbcf-hgwzn",
+        "version": "1.1.0",
+        "terminating": false,
+        "ready": true
+      },
+      {
+        "name": "notice-board-green-7bd95bbcf-rgcgm",
+        "version": "1.1.0",
+        "terminating": false,
+        "ready": true
+      },
+      {
+        "name": "notice-board-green-848b84b5f5-dnn4c",
+        "version": "1.1.0",
+        "terminating": true,
+        "ready": true
+      }
+    ],
+    "student": "02230135"
+  },
+  {
+    "timestamp": "2026-10-14T12:33:50.349Z",
+    "total": 7,
+    "nonTerminating": 6,
+    "pods": [
+      {
+        "name": "notice-board-blue-845f74c5b9-cx92z",
+        "version": "1.0.0",
+        "terminating": false,
+        "ready": true
+      },
+      {
+        "name": "notice-board-blue-845f74c5b9-mxz62",
+        "version": "1.0.0",
+        "terminating": false,
+        "ready": true
+      },
+      {
+        "name": "notice-board-blue-845f74c5b9-rrrml",
+        "version": "1.0.0",
+        "terminating": false,
+        "ready": true
+      },
+      {
+        "name": "notice-board-green-7bd95bbcf-7dk9d",
+        "version": "1.1.0",
+        "terminating": false,
+        "ready": true
+      },
+      {
+        "name": "notice-board-green-7bd95bbcf-hgwzn",
+        "version": "1.1.0",
+        "terminating": false,
+        "ready": true
+      },
+      {
+        "name": "notice-board-green-7bd95bbcf-rgcgm",
+        "version": "1.1.0",
+        "terminating": false,
+        "ready": true
+      },
+      {
+        "name": "notice-board-green-848b84b5f5-dnn4c",
+        "version": "1.1.0",
+        "terminating": true,
+        "ready": true
+      }
+    ],
+    "student": "02230135"
+  },
+  {
+    "timestamp": "2026-10-14T12:33:51.185Z",
+    "total": 7,
+    "nonTerminating": 6,
+    "pods": [
+      {
+        "name": "notice-board-blue-845f74c5b9-cx92z",
+        "version": "1.0.0",
+        "terminating": false,
+        "ready": true
+      },
+      {
+        "name": "notice-board-blue-845f74c5b9-mxz62",
+        "version": "1.0.0",
+        "terminating": false,
+        "ready": true
+      },
+      {
+        "name": "notice-board-blue-845f74c5b9-rrrml",
+        "version": "1.0.0",
+        "terminating": false,
+        "ready": true
+      },
+      {
+        "name": "notice-board-green-7bd95bbcf-7dk9d",
+        "version": "1.1.0",
+        "terminating": false,
+        "ready": true
+      },
+      {
+        "name": "notice-board-green-7bd95bbcf-hgwzn",
+        "version": "1.1.0",
+        "terminating": false,
+        "ready": true
+      },
+      {
+        "name": "notice-board-green-7bd95bbcf-rgcgm",
+        "version": "1.1.0",
+        "terminating": false,
+        "ready": true
+      },
+      {
+        "name": "notice-board-green-848b84b5f5-dnn4c",
+        "version": "1.1.0",
+        "terminating": true,
+        "ready": true
+      }
+    ],
+    "student": "02230135"
+  },
+  {
+    "timestamp": "2026-10-14T12:33:52.016Z",
+    "total": 7,
+    "nonTerminating": 6,
+    "pods": [
+      {
+        "name": "notice-board-blue-845f74c5b9-cx92z",
+        "version": "1.0.0",
+        "terminating": false,
+        "ready": true
+      },
+      {
+        "name": "notice-board-blue-845f74c5b9-mxz62",
+        "version": "1.0.0",
+        "terminating": false,
+        "ready": true
+      },
+      {
+        "name": "notice-board-blue-845f74c5b9-rrrml",
+        "version": "1.0.0",
+        "terminating": false,
+        "ready": true
+      },
+      {
+        "name": "notice-board-green-7bd95bbcf-7dk9d",
+        "version": "1.1.0",
+        "terminating": false,
+        "ready": true
+      },
+      {
+        "name": "notice-board-green-7bd95bbcf-hgwzn",
+        "version": "1.1.0",
+        "terminating": false,
+        "ready": true
+      },
+      {
+        "name": "notice-board-green-7bd95bbcf-rgcgm",
+        "version": "1.1.0",
+        "terminating": false,
+        "ready": true
+      },
+      {
+        "name": "notice-board-green-848b84b5f5-dnn4c",
+        "version": "1.1.0",
+        "terminating": true,
+        "ready": true
+      }
+    ],
+    "student": "02230135"
+  },
+  {
+    "timestamp": "2026-10-14T12:33:52.887Z",
+    "total": 7,
+    "nonTerminating": 6,
+    "pods": [
+      {
+        "name": "notice-board-blue-845f74c5b9-cx92z",
+        "version": "1.0.0",
+        "terminating": false,
+        "ready": true
+      },
+      {
+        "name": "notice-board-blue-845f74c5b9-mxz62",
+        "version": "1.0.0",
+        "terminating": false,
+        "ready": true
+      },
+      {
+        "name": "notice-board-blue-845f74c5b9-rrrml",
+        "version": "1.0.0",
+        "terminating": false,
+        "ready": true
+      },
+      {
+        "name": "notice-board-green-7bd95bbcf-7dk9d",
+        "version": "1.1.0",
+        "terminating": false,
+        "ready": true
+      },
+      {
+        "name": "notice-board-green-7bd95bbcf-hgwzn",
+        "version": "1.1.0",
+        "terminating": false,
+        "ready": true
+      },
+      {
+        "name": "notice-board-green-7bd95bbcf-rgcgm",
+        "version": "1.1.0",
+        "terminating": false,
+        "ready": true
+      },
+      {
+        "name": "notice-board-green-848b84b5f5-dnn4c",
+        "version": "1.1.0",
+        "terminating": true,
+        "ready": true
+      }
+    ],
+    "student": "02230135"
+  },
+  {
+    "timestamp": "2026-10-14T12:33:53.746Z",
+    "total": 7,
+    "nonTerminating": 6,
+    "pods": [
+      {
+        "name": "notice-board-blue-845f74c5b9-cx92z",
+        "version": "1.0.0",
+        "terminating": false,
+        "ready": true
+      },
+      {
+        "name": "notice-board-blue-845f74c5b9-mxz62",
+        "version": "1.0.0",
+        "terminating": false,
+        "ready": true
+      },
+      {
+        "name": "notice-board-blue-845f74c5b9-rrrml",
+        "version": "1.0.0",
+        "terminating": false,
+        "ready": true
+      },
+      {
+        "name": "notice-board-green-7bd95bbcf-7dk9d",
+        "version": "1.1.0",
+        "terminating": false,
+        "ready": true
+      },
+      {
+        "name": "notice-board-green-7bd95bbcf-hgwzn",
+        "version": "1.1.0",
+        "terminating": false,
+        "ready": true
+      },
+      {
+        "name": "notice-board-green-7bd95bbcf-rgcgm",
+        "version": "1.1.0",
+        "terminating": false,
+        "ready": true
+      },
+      {
+        "name": "notice-board-green-848b84b5f5-dnn4c",
+        "version": "1.1.0",
+        "terminating": true,
+        "ready": true
+      }
+    ],
+    "student": "02230135"
+  },
+  {
+    "timestamp": "2026-10-14T12:33:54.578Z",
+    "total": 7,
+    "nonTerminating": 6,
+    "pods": [
+      {
+        "name": "notice-board-blue-845f74c5b9-cx92z",
+        "version": "1.0.0",
+        "terminating": false,
+        "ready": true
+      },
+      {
+        "name": "notice-board-blue-845f74c5b9-mxz62",
+        "version": "1.0.0",
+        "terminating": false,
+        "ready": true
+      },
+      {
+        "name": "notice-board-blue-845f74c5b9-rrrml",
+        "version": "1.0.0",
+        "terminating": false,
+        "ready": true
+      },
+      {
+        "name": "notice-board-green-7bd95bbcf-7dk9d",
+        "version": "1.1.0",
+        "terminating": false,
+        "ready": true
+      },
+      {
+        "name": "notice-board-green-7bd95bbcf-hgwzn",
+        "version": "1.1.0",
+        "terminating": false,
+        "ready": true
+      },
+      {
+        "name": "notice-board-green-7bd95bbcf-rgcgm",
+        "version": "1.1.0",
+        "terminating": false,
+        "ready": true
+      },
+      {
+        "name": "notice-board-green-848b84b5f5-dnn4c",
+        "version": "1.1.0",
+        "terminating": true,
+        "ready": false
+      }
+    ],
+    "student": "02230135"
+  },
+  {
+    "timestamp": "2026-10-14T12:33:55.401Z",
+    "total": 7,
+    "nonTerminating": 6,
+    "pods": [
+      {
+        "name": "notice-board-blue-845f74c5b9-cx92z",
+        "version": "1.0.0",
+        "terminating": false,
+        "ready": true
+      },
+      {
+        "name": "notice-board-blue-845f74c5b9-mxz62",
+        "version": "1.0.0",
+        "terminating": false,
+        "ready": true
+      },
+      {
+        "name": "notice-board-blue-845f74c5b9-rrrml",
+        "version": "1.0.0",
+        "terminating": false,
+        "ready": true
+      },
+      {
+        "name": "notice-board-green-7bd95bbcf-7dk9d",
+        "version": "1.1.0",
+        "terminating": false,
+        "ready": true
+      },
+      {
+        "name": "notice-board-green-7bd95bbcf-hgwzn",
+        "version": "1.1.0",
+        "terminating": false,
+        "ready": true
+      },
+      {
+        "name": "notice-board-green-7bd95bbcf-rgcgm",
+        "version": "1.1.0",
+        "terminating": false,
+        "ready": true
+      },
+      {
+        "name": "notice-board-green-848b84b5f5-dnn4c",
+        "version": "1.1.0",
+        "terminating": true,
+        "ready": false
+      }
+    ],
+    "student": "02230135"
+  }
+]

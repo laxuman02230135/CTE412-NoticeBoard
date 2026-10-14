@@ -9,4 +9,4 @@ metadata:
   namespace: nb-02230135 # Place the flags beside the green Deployment.
 
 data:
-  FEATURE_PINNED: "true" # Initially preserve the original notice ordering.
+  FEATURE_PINNED: "true" # Final state: enable pinned-first ordering.

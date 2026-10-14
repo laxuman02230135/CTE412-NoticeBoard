@@ -1,0 +1,4 @@
+Student ID: 02230135
+Rechecked after Task 8 on stable green 1.1.0 using the original continuous monitor.
+Observed duration: 60.996 seconds
+Initial new-session capture had fewer than sixty seconds of emitted samples; this replaces it.

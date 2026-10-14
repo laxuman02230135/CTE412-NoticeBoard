@@ -10,4 +10,4 @@ metadata:
     app.kubernetes.io/part-of: campus-notice-board # Required application grouping.
     cte412/practical: "06" # Required practical label from the task specification.
   annotations:
-    cte412/student-name: "YOUR FULL NAME" # Records the student's full name.
+    cte412/student-name: "Laxu Man Ghalley" # Records the student's full name.

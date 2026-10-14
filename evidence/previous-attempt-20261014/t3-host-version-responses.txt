@@ -1,0 +1,12 @@
+{"version": "1.0.0", "student": "02230135", "pod": "notice-board-64c7fbcb7c-985l2", "uptimeSeconds": 218.551}
+{"version": "1.0.0", "student": "02230135", "pod": "notice-board-64c7fbcb7c-985l2", "uptimeSeconds": 219.132}
+{"version": "1.0.0", "student": "02230135", "pod": "notice-board-64c7fbcb7c-985l2", "uptimeSeconds": 219.674}
+{"version": "1.0.0", "student": "02230135", "pod": "notice-board-64c7fbcb7c-8lvjf", "uptimeSeconds": 220.473}
+{"version": "1.0.0", "student": "02230135", "pod": "notice-board-64c7fbcb7c-s2vzv", "uptimeSeconds": 219.525}
+{"version": "1.0.0", "student": "02230135", "pod": "notice-board-64c7fbcb7c-8lvjf", "uptimeSeconds": 221.543}
+{"version": "1.0.0", "student": "02230135", "pod": "notice-board-64c7fbcb7c-8lvjf", "uptimeSeconds": 222.081}
+{"version": "1.0.0", "student": "02230135", "pod": "notice-board-64c7fbcb7c-8lvjf", "uptimeSeconds": 222.624}
+{"version": "1.0.0", "student": "02230135", "pod": "notice-board-64c7fbcb7c-8lvjf", "uptimeSeconds": 223.175}
+{"version": "1.0.0", "student": "02230135", "pod": "notice-board-64c7fbcb7c-s2vzv", "uptimeSeconds": 222.244}
+{"version": "1.0.0", "student": "02230135", "pod": "notice-board-64c7fbcb7c-985l2", "uptimeSeconds": 224.01}
+{"version": "1.0.0", "student": "02230135", "pod": "notice-board-64c7fbcb7c-985l2", "uptimeSeconds": 224.537}

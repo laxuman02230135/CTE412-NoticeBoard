@@ -1,129 +1,100 @@
-﻿2026-10-13T14:49:17.490Z OK {"version":"1.0.0","student":"02230135","pod":"notice-board-64c7fbcb7c-8lvjf","uptimeSeconds":1762.962}
-2026-10-13T14:49:17.990Z OK {"version":"1.0.0","student":"02230135","pod":"notice-board-64c7fbcb7c-985l2","uptimeSeconds":1763.384}
-2026-10-13T14:49:18.490Z OK {"version":"1.0.0","student":"02230135","pod":"notice-board-64c7fbcb7c-s2vzv","uptimeSeconds":1763.585}
-2026-10-13T14:49:18.990Z OK {"version":"1.0.0","student":"02230135","pod":"notice-board-64c7fbcb7c-8lvjf","uptimeSeconds":1764.462}
-2026-10-13T14:49:19.490Z OK {"version":"1.0.0","student":"02230135","pod":"notice-board-64c7fbcb7c-985l2","uptimeSeconds":1764.884}
-2026-10-13T14:49:19.990Z OK {"version":"1.0.0","student":"02230135","pod":"notice-board-64c7fbcb7c-8lvjf","uptimeSeconds":1765.462}
-2026-10-13T14:49:20.490Z OK {"version":"1.0.0","student":"02230135","pod":"notice-board-64c7fbcb7c-s2vzv","uptimeSeconds":1765.585}
-2026-10-13T14:49:20.990Z OK {"version":"1.0.0","student":"02230135","pod":"notice-board-64c7fbcb7c-s2vzv","uptimeSeconds":1766.085}
-2026-10-13T14:49:21.490Z OK {"version":"1.0.0","student":"02230135","pod":"notice-board-64c7fbcb7c-985l2","uptimeSeconds":1766.884}
-2026-10-13T14:49:21.990Z OK {"version":"1.0.0","student":"02230135","pod":"notice-board-64c7fbcb7c-985l2","uptimeSeconds":1767.384}
-2026-10-13T14:49:22.490Z OK {"version":"1.0.0","student":"02230135","pod":"notice-board-64c7fbcb7c-8lvjf","uptimeSeconds":1767.962}
-2026-10-13T14:49:22.990Z OK {"version":"1.0.0","student":"02230135","pod":"notice-board-64c7fbcb7c-985l2","uptimeSeconds":1768.384}
-2026-10-13T14:49:23.490Z OK {"version":"1.0.0","student":"02230135","pod":"notice-board-64c7fbcb7c-985l2","uptimeSeconds":1768.884}
-2026-10-13T14:49:23.988Z OK {"version":"1.0.0","student":"02230135","pod":"notice-board-64c7fbcb7c-985l2","uptimeSeconds":1769.384}
-2026-10-13T14:49:24.488Z OK {"version":"1.0.0","student":"02230135","pod":"notice-board-64c7fbcb7c-8lvjf","uptimeSeconds":1769.962}
-2026-10-13T14:49:24.988Z OK {"version":"1.0.0","student":"02230135","pod":"notice-board-64c7fbcb7c-985l2","uptimeSeconds":1770.384}
-2026-10-13T14:49:25.488Z OK {"version":"1.0.0","student":"02230135","pod":"notice-board-64c7fbcb7c-s2vzv","uptimeSeconds":1770.585}
-2026-10-13T14:49:25.988Z OK {"version":"1.0.0","student":"02230135","pod":"notice-board-64c7fbcb7c-985l2","uptimeSeconds":1771.384}
-2026-10-13T14:49:26.488Z OK {"version":"1.0.0","student":"02230135","pod":"notice-board-64c7fbcb7c-985l2","uptimeSeconds":1771.884}
-2026-10-13T14:49:26.988Z OK {"version":"1.0.0","student":"02230135","pod":"notice-board-64c7fbcb7c-8lvjf","uptimeSeconds":1772.462}
-2026-10-13T14:49:27.488Z OK {"version":"1.0.0","student":"02230135","pod":"notice-board-64c7fbcb7c-8lvjf","uptimeSeconds":1772.962}
-2026-10-13T14:49:27.988Z OK {"version":"1.0.0","student":"02230135","pod":"notice-board-64c7fbcb7c-8lvjf","uptimeSeconds":1773.473}
-2026-10-13T14:49:28.488Z OK {"version":"1.0.0","student":"02230135","pod":"notice-board-64c7fbcb7c-8lvjf","uptimeSeconds":1773.963}
-2026-10-13T14:49:28.988Z OK {"version":"1.0.0","student":"02230135","pod":"notice-board-64c7fbcb7c-s2vzv","uptimeSeconds":1774.085}
-2026-10-13T14:49:29.488Z OK {"version":"1.0.0","student":"02230135","pod":"notice-board-64c7fbcb7c-8lvjf","uptimeSeconds":1774.962}
-2026-10-13T14:49:29.988Z OK {"version":"1.0.0","student":"02230135","pod":"notice-board-64c7fbcb7c-985l2","uptimeSeconds":1775.384}
-2026-10-13T14:49:30.488Z OK {"version":"1.0.0","student":"02230135","pod":"notice-board-64c7fbcb7c-8lvjf","uptimeSeconds":1775.962}
-2026-10-13T14:49:30.988Z OK {"version":"1.0.0","student":"02230135","pod":"notice-board-64c7fbcb7c-8lvjf","uptimeSeconds":1776.462}
-2026-10-13T14:49:31.488Z OK {"version":"1.0.0","student":"02230135","pod":"notice-board-64c7fbcb7c-8lvjf","uptimeSeconds":1776.962}
-2026-10-13T14:49:31.988Z OK {"version":"1.0.0","student":"02230135","pod":"notice-board-64c7fbcb7c-s2vzv","uptimeSeconds":1777.085}
-2026-10-13T14:49:32.488Z OK {"version":"1.0.0","student":"02230135","pod":"notice-board-64c7fbcb7c-s2vzv","uptimeSeconds":1777.585}
-2026-10-13T14:49:32.988Z OK {"version":"1.0.0","student":"02230135","pod":"notice-board-64c7fbcb7c-s2vzv","uptimeSeconds":1778.085}
-2026-10-13T14:49:33.488Z OK {"version":"1.0.0","student":"02230135","pod":"notice-board-64c7fbcb7c-985l2","uptimeSeconds":1778.884}
-2026-10-13T14:49:33.988Z OK {"version":"1.0.0","student":"02230135","pod":"notice-board-64c7fbcb7c-s2vzv","uptimeSeconds":1779.085}
-2026-10-13T14:49:34.488Z OK {"version":"1.0.0","student":"02230135","pod":"notice-board-64c7fbcb7c-985l2","uptimeSeconds":1779.884}
-2026-10-13T14:49:34.988Z OK {"version":"1.0.0","student":"02230135","pod":"notice-board-64c7fbcb7c-8lvjf","uptimeSeconds":1780.462}
-2026-10-13T14:49:35.488Z OK {"version":"1.0.0","student":"02230135","pod":"notice-board-64c7fbcb7c-985l2","uptimeSeconds":1780.884}
-2026-10-13T14:49:35.988Z OK {"version":"1.0.0","student":"02230135","pod":"notice-board-64c7fbcb7c-8lvjf","uptimeSeconds":1781.462}
-2026-10-13T14:49:36.488Z OK {"version":"1.0.0","student":"02230135","pod":"notice-board-64c7fbcb7c-985l2","uptimeSeconds":1781.885}
-2026-10-13T14:49:36.988Z OK {"version":"1.0.0","student":"02230135","pod":"notice-board-64c7fbcb7c-s2vzv","uptimeSeconds":1782.085}
-2026-10-13T14:49:37.488Z OK {"version":"1.0.0","student":"02230135","pod":"notice-board-64c7fbcb7c-s2vzv","uptimeSeconds":1782.585}
-2026-10-13T14:49:37.988Z OK {"version":"1.0.0","student":"02230135","pod":"notice-board-64c7fbcb7c-8lvjf","uptimeSeconds":1783.462}
-2026-10-13T14:49:38.488Z OK {"version":"1.0.0","student":"02230135","pod":"notice-board-64c7fbcb7c-8lvjf","uptimeSeconds":1783.962}
-2026-10-13T14:49:38.988Z OK {"version":"1.0.0","student":"02230135","pod":"notice-board-64c7fbcb7c-s2vzv","uptimeSeconds":1784.085}
-2026-10-13T14:49:39.488Z OK {"version":"1.0.0","student":"02230135","pod":"notice-board-64c7fbcb7c-s2vzv","uptimeSeconds":1784.585}
-2026-10-13T14:49:39.988Z OK {"version":"1.0.0","student":"02230135","pod":"notice-board-64c7fbcb7c-8lvjf","uptimeSeconds":1785.462}
-2026-10-13T14:49:40.488Z OK {"version":"1.0.0","student":"02230135","pod":"notice-board-64c7fbcb7c-s2vzv","uptimeSeconds":1785.585}
-2026-10-13T14:49:40.988Z OK {"version":"1.0.0","student":"02230135","pod":"notice-board-64c7fbcb7c-s2vzv","uptimeSeconds":1786.086}
-2026-10-13T14:49:41.488Z OK {"version":"1.0.0","student":"02230135","pod":"notice-board-64c7fbcb7c-8lvjf","uptimeSeconds":1786.962}
-2026-10-13T14:49:41.988Z OK {"version":"1.0.0","student":"02230135","pod":"notice-board-64c7fbcb7c-985l2","uptimeSeconds":1787.384}
-2026-10-13T14:49:42.488Z OK {"version":"1.0.0","student":"02230135","pod":"notice-board-64c7fbcb7c-8lvjf","uptimeSeconds":1787.962}
-2026-10-13T14:49:42.988Z OK {"version":"1.0.0","student":"02230135","pod":"notice-board-64c7fbcb7c-8lvjf","uptimeSeconds":1788.462}
-2026-10-13T14:49:43.488Z OK {"version":"1.0.0","student":"02230135","pod":"notice-board-64c7fbcb7c-985l2","uptimeSeconds":1788.884}
-2026-10-13T14:49:43.988Z OK {"version":"1.0.0","student":"02230135","pod":"notice-board-64c7fbcb7c-s2vzv","uptimeSeconds":1789.085}
-2026-10-13T14:49:44.488Z OK {"version":"1.0.0","student":"02230135","pod":"notice-board-64c7fbcb7c-8lvjf","uptimeSeconds":1789.962}
-2026-10-13T14:49:44.988Z OK {"version":"1.0.0","student":"02230135","pod":"notice-board-64c7fbcb7c-s2vzv","uptimeSeconds":1790.085}
-2026-10-13T14:49:45.488Z OK {"version":"1.0.0","student":"02230135","pod":"notice-board-64c7fbcb7c-8lvjf","uptimeSeconds":1790.962}
-2026-10-13T14:49:45.988Z OK {"version":"1.0.0","student":"02230135","pod":"notice-board-64c7fbcb7c-8lvjf","uptimeSeconds":1791.462}
-2026-10-13T14:49:46.488Z OK {"version":"1.0.0","student":"02230135","pod":"notice-board-64c7fbcb7c-985l2","uptimeSeconds":1791.884}
-2026-10-13T14:49:46.988Z OK {"version":"1.0.0","student":"02230135","pod":"notice-board-64c7fbcb7c-s2vzv","uptimeSeconds":1792.085}
-2026-10-13T14:49:47.488Z OK {"version":"1.0.0","student":"02230135","pod":"notice-board-64c7fbcb7c-8lvjf","uptimeSeconds":1792.962}
-2026-10-13T14:49:47.988Z OK {"version":"1.0.0","student":"02230135","pod":"notice-board-64c7fbcb7c-s2vzv","uptimeSeconds":1793.086}
-2026-10-13T14:49:48.488Z OK {"version":"1.0.0","student":"02230135","pod":"notice-board-64c7fbcb7c-985l2","uptimeSeconds":1793.884}
-2026-10-13T14:49:48.988Z OK {"version":"1.0.0","student":"02230135","pod":"notice-board-64c7fbcb7c-985l2","uptimeSeconds":1794.384}
-2026-10-13T14:49:49.488Z OK {"version":"1.0.0","student":"02230135","pod":"notice-board-64c7fbcb7c-s2vzv","uptimeSeconds":1794.585}
-2026-10-13T14:49:49.988Z OK {"version":"1.0.0","student":"02230135","pod":"notice-board-64c7fbcb7c-s2vzv","uptimeSeconds":1795.085}
-2026-10-13T14:49:50.488Z OK {"version":"1.0.0","student":"02230135","pod":"notice-board-64c7fbcb7c-s2vzv","uptimeSeconds":1795.585}
-2026-10-13T14:49:50.988Z OK {"version":"1.0.0","student":"02230135","pod":"notice-board-64c7fbcb7c-s2vzv","uptimeSeconds":1796.085}
-2026-10-13T14:49:51.488Z OK {"version":"1.0.0","student":"02230135","pod":"notice-board-64c7fbcb7c-8lvjf","uptimeSeconds":1796.962}
-2026-10-13T14:49:51.988Z OK {"version":"1.0.0","student":"02230135","pod":"notice-board-64c7fbcb7c-8lvjf","uptimeSeconds":1797.462}
-2026-10-13T14:49:52.488Z OK {"version":"1.0.0","student":"02230135","pod":"notice-board-64c7fbcb7c-985l2","uptimeSeconds":1797.884}
-2026-10-13T14:49:52.988Z OK {"version":"1.0.0","student":"02230135","pod":"notice-board-64c7fbcb7c-8lvjf","uptimeSeconds":1798.462}
-2026-10-13T14:49:53.488Z OK {"version":"1.0.0","student":"02230135","pod":"notice-board-64c7fbcb7c-8lvjf","uptimeSeconds":1798.962}
-2026-10-13T14:49:53.986Z OK {"version":"1.0.0","student":"02230135","pod":"notice-board-64c7fbcb7c-985l2","uptimeSeconds":1799.384}
-2026-10-13T14:49:54.486Z OK {"version":"1.0.0","student":"02230135","pod":"notice-board-64c7fbcb7c-s2vzv","uptimeSeconds":1799.585}
-2026-10-13T14:49:54.986Z OK {"version":"1.0.0","student":"02230135","pod":"notice-board-64c7fbcb7c-s2vzv","uptimeSeconds":1800.085}
-2026-10-13T14:49:55.486Z OK {"version":"1.0.0","student":"02230135","pod":"notice-board-64c7fbcb7c-985l2","uptimeSeconds":1800.884}
-2026-10-13T14:49:55.986Z OK {"version":"1.0.0","student":"02230135","pod":"notice-board-64c7fbcb7c-8lvjf","uptimeSeconds":1801.462}
-2026-10-13T14:49:56.486Z OK {"version":"1.0.0","student":"02230135","pod":"notice-board-64c7fbcb7c-985l2","uptimeSeconds":1801.884}
-2026-10-13T14:49:56.986Z OK {"version":"1.0.0","student":"02230135","pod":"notice-board-64c7fbcb7c-985l2","uptimeSeconds":1802.384}
-2026-10-13T14:49:57.486Z OK {"version":"1.0.0","student":"02230135","pod":"notice-board-64c7fbcb7c-8lvjf","uptimeSeconds":1802.962}
-2026-10-13T14:49:57.986Z OK {"version":"1.0.0","student":"02230135","pod":"notice-board-64c7fbcb7c-8lvjf","uptimeSeconds":1803.462}
-2026-10-13T14:49:58.486Z FAIL student=02230135 URLError: <urlopen error timed out>
-2026-10-13T14:49:58.986Z FAIL student=02230135 URLError: <urlopen error timed out>
-2026-10-13T14:49:59.486Z FAIL student=02230135 URLError: <urlopen error [Errno 111] Connection refused>
-2026-10-13T14:49:59.986Z FAIL student=02230135 URLError: <urlopen error [Errno 111] Connection refused>
-2026-10-13T14:50:00.486Z FAIL student=02230135 URLError: <urlopen error [Errno 111] Connection refused>
-2026-10-13T14:50:00.986Z FAIL student=02230135 URLError: <urlopen error [Errno 111] Connection refused>
-2026-10-13T14:50:01.486Z FAIL student=02230135 URLError: <urlopen error [Errno 111] Connection refused>
-2026-10-13T14:50:01.986Z FAIL student=02230135 URLError: <urlopen error [Errno 111] Connection refused>
-2026-10-13T14:50:02.486Z FAIL student=02230135 URLError: <urlopen error [Errno 111] Connection refused>
-2026-10-13T14:50:02.986Z FAIL student=02230135 URLError: <urlopen error [Errno 111] Connection refused>
-2026-10-13T14:50:03.486Z FAIL student=02230135 URLError: <urlopen error [Errno 111] Connection refused>
-2026-10-13T14:50:03.986Z FAIL student=02230135 URLError: <urlopen error [Errno 111] Connection refused>
-2026-10-13T14:50:04.486Z FAIL student=02230135 URLError: <urlopen error [Errno 111] Connection refused>
-2026-10-13T14:50:04.986Z FAIL student=02230135 URLError: <urlopen error timed out>
-2026-10-13T14:50:05.486Z FAIL student=02230135 URLError: <urlopen error [Errno 111] Connection refused>
-2026-10-13T14:50:05.986Z FAIL student=02230135 URLError: <urlopen error timed out>
-2026-10-13T14:50:06.486Z FAIL student=02230135 URLError: <urlopen error [Errno 111] Connection refused>
-2026-10-13T14:50:06.986Z FAIL student=02230135 URLError: <urlopen error timed out>
-2026-10-13T14:50:07.486Z FAIL student=02230135 URLError: <urlopen error [Errno 111] Connection refused>
-2026-10-13T14:50:07.986Z FAIL student=02230135 URLError: <urlopen error timed out>
-2026-10-13T14:50:08.486Z FAIL student=02230135 URLError: <urlopen error [Errno 111] Connection refused>
-2026-10-13T14:50:08.986Z FAIL student=02230135 URLError: <urlopen error timed out>
-2026-10-13T14:50:09.486Z FAIL student=02230135 URLError: <urlopen error [Errno 111] Connection refused>
-2026-10-13T14:50:09.986Z FAIL student=02230135 URLError: <urlopen error timed out>
-2026-10-13T14:50:10.486Z FAIL student=02230135 URLError: <urlopen error [Errno 111] Connection refused>
-2026-10-13T14:50:10.986Z OK {"version":"1.1.0","student":"02230135","pod":"notice-board-587f546dc-k96kf","uptimeSeconds":5.486}
-2026-10-13T14:50:11.486Z OK {"version":"1.1.0","student":"02230135","pod":"notice-board-587f546dc-k96kf","uptimeSeconds":5.986}
-2026-10-13T14:50:11.986Z OK {"version":"1.1.0","student":"02230135","pod":"notice-board-587f546dc-kg5dz","uptimeSeconds":6.295}
-2026-10-13T14:50:12.486Z OK {"version":"1.1.0","student":"02230135","pod":"notice-board-587f546dc-tcccb","uptimeSeconds":7.019}
-2026-10-13T14:50:12.986Z OK {"version":"1.1.0","student":"02230135","pod":"notice-board-587f546dc-k96kf","uptimeSeconds":7.486}
-2026-10-13T14:50:13.486Z OK {"version":"1.1.0","student":"02230135","pod":"notice-board-587f546dc-tcccb","uptimeSeconds":8.019}
-2026-10-13T14:50:13.986Z OK {"version":"1.1.0","student":"02230135","pod":"notice-board-587f546dc-tcccb","uptimeSeconds":8.519}
-2026-10-13T14:50:14.486Z OK {"version":"1.1.0","student":"02230135","pod":"notice-board-587f546dc-kg5dz","uptimeSeconds":8.796}
-2026-10-13T14:50:14.986Z OK {"version":"1.1.0","student":"02230135","pod":"notice-board-587f546dc-tcccb","uptimeSeconds":9.519}
-2026-10-13T14:50:15.486Z OK {"version":"1.1.0","student":"02230135","pod":"notice-board-587f546dc-k96kf","uptimeSeconds":9.986}
-2026-10-13T14:50:15.986Z OK {"version":"1.1.0","student":"02230135","pod":"notice-board-587f546dc-k96kf","uptimeSeconds":10.486}
-2026-10-13T14:50:16.486Z OK {"version":"1.1.0","student":"02230135","pod":"notice-board-587f546dc-tcccb","uptimeSeconds":11.018}
-2026-10-13T14:50:16.986Z OK {"version":"1.1.0","student":"02230135","pod":"notice-board-587f546dc-kg5dz","uptimeSeconds":11.295}
-2026-10-13T14:50:17.486Z OK {"version":"1.1.0","student":"02230135","pod":"notice-board-587f546dc-tcccb","uptimeSeconds":12.019}
-2026-10-13T14:50:17.986Z OK {"version":"1.1.0","student":"02230135","pod":"notice-board-587f546dc-tcccb","uptimeSeconds":12.519}
-2026-10-13T14:50:18.486Z OK {"version":"1.1.0","student":"02230135","pod":"notice-board-587f546dc-kg5dz","uptimeSeconds":12.795}
-2026-10-13T14:50:18.986Z OK {"version":"1.1.0","student":"02230135","pod":"notice-board-587f546dc-tcccb","uptimeSeconds":13.519}
-2026-10-13T14:50:19.486Z OK {"version":"1.1.0","student":"02230135","pod":"notice-board-587f546dc-tcccb","uptimeSeconds":14.019}
-2026-10-13T14:50:19.986Z OK {"version":"1.1.0","student":"02230135","pod":"notice-board-587f546dc-tcccb","uptimeSeconds":14.519}
-2026-10-13T14:50:20.486Z OK {"version":"1.1.0","student":"02230135","pod":"notice-board-587f546dc-tcccb","uptimeSeconds":15.019}
-2026-10-13T14:50:20.986Z OK {"version":"1.1.0","student":"02230135","pod":"notice-board-587f546dc-tcccb","uptimeSeconds":15.519}
-2026-10-13T14:50:21.486Z OK {"version":"1.1.0","student":"02230135","pod":"notice-board-587f546dc-tcccb","uptimeSeconds":16.018}
+2026-10-14T12:26:45.019Z OK {"version":"1.0.0","student":"02230135","pod":"notice-board-85755cf4f5-tblp8","uptimeSeconds":77.061}
+2026-10-14T12:26:45.519Z OK {"version":"1.0.0","student":"02230135","pod":"notice-board-85755cf4f5-qjpbc","uptimeSeconds":76.979}
+2026-10-14T12:26:46.019Z OK {"version":"1.0.0","student":"02230135","pod":"notice-board-85755cf4f5-tblp8","uptimeSeconds":78.061}
+2026-10-14T12:26:46.519Z OK {"version":"1.0.0","student":"02230135","pod":"notice-board-85755cf4f5-sqcxw","uptimeSeconds":78.375}
+2026-10-14T12:26:47.019Z OK {"version":"1.0.0","student":"02230135","pod":"notice-board-85755cf4f5-tblp8","uptimeSeconds":79.062}
+2026-10-14T12:26:47.519Z OK {"version":"1.0.0","student":"02230135","pod":"notice-board-85755cf4f5-qjpbc","uptimeSeconds":78.979}
+2026-10-14T12:26:48.019Z OK {"version":"1.0.0","student":"02230135","pod":"notice-board-85755cf4f5-tblp8","uptimeSeconds":80.061}
+2026-10-14T12:26:48.519Z OK {"version":"1.0.0","student":"02230135","pod":"notice-board-85755cf4f5-qjpbc","uptimeSeconds":79.979}
+2026-10-14T12:26:49.019Z OK {"version":"1.0.0","student":"02230135","pod":"notice-board-85755cf4f5-qjpbc","uptimeSeconds":80.479}
+2026-10-14T12:26:49.519Z OK {"version":"1.0.0","student":"02230135","pod":"notice-board-85755cf4f5-qjpbc","uptimeSeconds":80.979}
+2026-10-14T12:26:50.019Z OK {"version":"1.0.0","student":"02230135","pod":"notice-board-85755cf4f5-qjpbc","uptimeSeconds":81.479}
+2026-10-14T12:26:50.519Z OK {"version":"1.0.0","student":"02230135","pod":"notice-board-85755cf4f5-tblp8","uptimeSeconds":82.561}
+2026-10-14T12:26:51.019Z OK {"version":"1.0.0","student":"02230135","pod":"notice-board-85755cf4f5-qjpbc","uptimeSeconds":82.479}
+2026-10-14T12:26:51.519Z OK {"version":"1.0.0","student":"02230135","pod":"notice-board-85755cf4f5-sqcxw","uptimeSeconds":83.375}
+2026-10-14T12:26:52.019Z OK {"version":"1.0.0","student":"02230135","pod":"notice-board-85755cf4f5-tblp8","uptimeSeconds":84.061}
+2026-10-14T12:26:52.519Z OK {"version":"1.0.0","student":"02230135","pod":"notice-board-85755cf4f5-qjpbc","uptimeSeconds":83.979}
+2026-10-14T12:26:53.019Z OK {"version":"1.0.0","student":"02230135","pod":"notice-board-85755cf4f5-sqcxw","uptimeSeconds":84.875}
+2026-10-14T12:26:53.519Z OK {"version":"1.0.0","student":"02230135","pod":"notice-board-85755cf4f5-sqcxw","uptimeSeconds":85.375}
+2026-10-14T12:26:54.019Z OK {"version":"1.0.0","student":"02230135","pod":"notice-board-85755cf4f5-tblp8","uptimeSeconds":86.061}
+2026-10-14T12:26:54.519Z OK {"version":"1.0.0","student":"02230135","pod":"notice-board-85755cf4f5-tblp8","uptimeSeconds":86.562}
+2026-10-14T12:26:55.019Z OK {"version":"1.0.0","student":"02230135","pod":"notice-board-85755cf4f5-qjpbc","uptimeSeconds":86.479}
+2026-10-14T12:26:55.519Z OK {"version":"1.0.0","student":"02230135","pod":"notice-board-85755cf4f5-tblp8","uptimeSeconds":87.562}
+2026-10-14T12:26:56.019Z OK {"version":"1.0.0","student":"02230135","pod":"notice-board-85755cf4f5-tblp8","uptimeSeconds":88.062}
+2026-10-14T12:26:56.519Z OK {"version":"1.0.0","student":"02230135","pod":"notice-board-85755cf4f5-tblp8","uptimeSeconds":88.561}
+2026-10-14T12:26:57.019Z OK {"version":"1.0.0","student":"02230135","pod":"notice-board-85755cf4f5-tblp8","uptimeSeconds":89.062}
+2026-10-14T12:26:57.519Z OK {"version":"1.0.0","student":"02230135","pod":"notice-board-85755cf4f5-sqcxw","uptimeSeconds":89.375}
+2026-10-14T12:26:58.019Z OK {"version":"1.0.0","student":"02230135","pod":"notice-board-85755cf4f5-sqcxw","uptimeSeconds":89.875}
+2026-10-14T12:26:58.519Z OK {"version":"1.0.0","student":"02230135","pod":"notice-board-85755cf4f5-qjpbc","uptimeSeconds":89.979}
+2026-10-14T12:26:59.019Z OK {"version":"1.0.0","student":"02230135","pod":"notice-board-85755cf4f5-tblp8","uptimeSeconds":91.062}
+2026-10-14T12:26:59.519Z OK {"version":"1.0.0","student":"02230135","pod":"notice-board-85755cf4f5-tblp8","uptimeSeconds":91.562}
+2026-10-14T12:27:00.019Z OK {"version":"1.0.0","student":"02230135","pod":"notice-board-85755cf4f5-tblp8","uptimeSeconds":92.062}
+2026-10-14T12:27:00.519Z OK {"version":"1.0.0","student":"02230135","pod":"notice-board-85755cf4f5-qjpbc","uptimeSeconds":91.979}
+2026-10-14T12:27:01.019Z OK {"version":"1.0.0","student":"02230135","pod":"notice-board-85755cf4f5-sqcxw","uptimeSeconds":92.875}
+2026-10-14T12:27:01.519Z OK {"version":"1.0.0","student":"02230135","pod":"notice-board-85755cf4f5-tblp8","uptimeSeconds":93.562}
+2026-10-14T12:27:02.019Z OK {"version":"1.0.0","student":"02230135","pod":"notice-board-85755cf4f5-qjpbc","uptimeSeconds":93.479}
+2026-10-14T12:27:02.519Z OK {"version":"1.0.0","student":"02230135","pod":"notice-board-85755cf4f5-sqcxw","uptimeSeconds":94.375}
+2026-10-14T12:27:03.019Z OK {"version":"1.0.0","student":"02230135","pod":"notice-board-85755cf4f5-tblp8","uptimeSeconds":95.063}
+2026-10-14T12:27:03.519Z OK {"version":"1.0.0","student":"02230135","pod":"notice-board-85755cf4f5-qjpbc","uptimeSeconds":94.979}
+2026-10-14T12:27:04.019Z OK {"version":"1.0.0","student":"02230135","pod":"notice-board-85755cf4f5-sqcxw","uptimeSeconds":95.875}
+2026-10-14T12:27:04.519Z OK {"version":"1.0.0","student":"02230135","pod":"notice-board-85755cf4f5-sqcxw","uptimeSeconds":96.375}
+2026-10-14T12:27:05.019Z OK {"version":"1.0.0","student":"02230135","pod":"notice-board-85755cf4f5-sqcxw","uptimeSeconds":96.875}
+2026-10-14T12:27:05.519Z OK {"version":"1.0.0","student":"02230135","pod":"notice-board-85755cf4f5-sqcxw","uptimeSeconds":97.375}
+2026-10-14T12:27:06.019Z OK {"version":"1.0.0","student":"02230135","pod":"notice-board-85755cf4f5-qjpbc","uptimeSeconds":97.479}
+2026-10-14T12:27:06.519Z OK {"version":"1.0.0","student":"02230135","pod":"notice-board-85755cf4f5-sqcxw","uptimeSeconds":98.375}
+2026-10-14T12:27:07.019Z FAIL student=02230135 URLError: <urlopen error timed out>
+2026-10-14T12:27:07.519Z FAIL student=02230135 URLError: <urlopen error timed out>
+2026-10-14T12:27:08.028Z FAIL student=02230135 URLError: <urlopen error [Errno 111] Connection refused>
+2026-10-14T12:27:08.519Z FAIL student=02230135 URLError: <urlopen error [Errno 111] Connection refused>
+2026-10-14T12:27:09.019Z FAIL student=02230135 URLError: <urlopen error [Errno 111] Connection refused>
+2026-10-14T12:27:09.516Z FAIL student=02230135 URLError: <urlopen error [Errno 111] Connection refused>
+2026-10-14T12:27:10.016Z FAIL student=02230135 URLError: <urlopen error [Errno 111] Connection refused>
+2026-10-14T12:27:10.516Z FAIL student=02230135 URLError: <urlopen error [Errno 111] Connection refused>
+2026-10-14T12:27:11.016Z FAIL student=02230135 URLError: <urlopen error [Errno 111] Connection refused>
+2026-10-14T12:27:11.516Z FAIL student=02230135 URLError: <urlopen error [Errno 111] Connection refused>
+2026-10-14T12:27:12.016Z FAIL student=02230135 URLError: <urlopen error [Errno 111] Connection refused>
+2026-10-14T12:27:12.516Z FAIL student=02230135 URLError: <urlopen error [Errno 111] Connection refused>
+2026-10-14T12:27:13.016Z FAIL student=02230135 URLError: <urlopen error timed out>
+2026-10-14T12:27:13.516Z FAIL student=02230135 URLError: <urlopen error [Errno 111] Connection refused>
+2026-10-14T12:27:14.016Z FAIL student=02230135 URLError: <urlopen error timed out>
+2026-10-14T12:27:14.516Z FAIL student=02230135 URLError: <urlopen error [Errno 111] Connection refused>
+2026-10-14T12:27:15.016Z FAIL student=02230135 URLError: <urlopen error timed out>
+2026-10-14T12:27:15.516Z FAIL student=02230135 URLError: <urlopen error [Errno 111] Connection refused>
+2026-10-14T12:27:16.016Z FAIL student=02230135 URLError: <urlopen error timed out>
+2026-10-14T12:27:16.516Z FAIL student=02230135 URLError: <urlopen error [Errno 111] Connection refused>
+2026-10-14T12:27:17.016Z FAIL student=02230135 URLError: <urlopen error timed out>
+2026-10-14T12:27:17.516Z FAIL student=02230135 URLError: <urlopen error [Errno 111] Connection refused>
+2026-10-14T12:27:18.016Z FAIL student=02230135 URLError: <urlopen error timed out>
+2026-10-14T12:27:18.516Z FAIL student=02230135 URLError: <urlopen error [Errno 111] Connection refused>
+2026-10-14T12:27:19.016Z FAIL student=02230135 URLError: <urlopen error timed out>
+2026-10-14T12:27:19.516Z OK {"version":"1.1.0","student":"02230135","pod":"notice-board-756bdfdf57-46d8q","uptimeSeconds":5.291}
+2026-10-14T12:27:20.016Z OK {"version":"1.1.0","student":"02230135","pod":"notice-board-756bdfdf57-46d8q","uptimeSeconds":5.791}
+2026-10-14T12:27:20.516Z OK {"version":"1.1.0","student":"02230135","pod":"notice-board-756bdfdf57-m42n6","uptimeSeconds":6.905}
+2026-10-14T12:27:21.016Z OK {"version":"1.1.0","student":"02230135","pod":"notice-board-756bdfdf57-46d8q","uptimeSeconds":6.791}
+2026-10-14T12:27:21.516Z OK {"version":"1.1.0","student":"02230135","pod":"notice-board-756bdfdf57-m42n6","uptimeSeconds":7.905}
+2026-10-14T12:27:22.016Z OK {"version":"1.1.0","student":"02230135","pod":"notice-board-756bdfdf57-lffwr","uptimeSeconds":8.246}
+2026-10-14T12:27:22.516Z OK {"version":"1.1.0","student":"02230135","pod":"notice-board-756bdfdf57-46d8q","uptimeSeconds":8.291}
+2026-10-14T12:27:23.016Z OK {"version":"1.1.0","student":"02230135","pod":"notice-board-756bdfdf57-46d8q","uptimeSeconds":8.791}
+2026-10-14T12:27:23.516Z OK {"version":"1.1.0","student":"02230135","pod":"notice-board-756bdfdf57-46d8q","uptimeSeconds":9.291}
+2026-10-14T12:27:24.016Z OK {"version":"1.1.0","student":"02230135","pod":"notice-board-756bdfdf57-m42n6","uptimeSeconds":10.405}
+2026-10-14T12:27:24.516Z OK {"version":"1.1.0","student":"02230135","pod":"notice-board-756bdfdf57-m42n6","uptimeSeconds":10.905}
+2026-10-14T12:27:25.016Z OK {"version":"1.1.0","student":"02230135","pod":"notice-board-756bdfdf57-46d8q","uptimeSeconds":10.791}
+2026-10-14T12:27:25.516Z OK {"version":"1.1.0","student":"02230135","pod":"notice-board-756bdfdf57-46d8q","uptimeSeconds":11.291}
+2026-10-14T12:27:26.016Z OK {"version":"1.1.0","student":"02230135","pod":"notice-board-756bdfdf57-lffwr","uptimeSeconds":12.248}
+2026-10-14T12:27:26.516Z OK {"version":"1.1.0","student":"02230135","pod":"notice-board-756bdfdf57-46d8q","uptimeSeconds":12.291}
+2026-10-14T12:27:27.016Z OK {"version":"1.1.0","student":"02230135","pod":"notice-board-756bdfdf57-lffwr","uptimeSeconds":13.247}
+2026-10-14T12:27:27.516Z OK {"version":"1.1.0","student":"02230135","pod":"notice-board-756bdfdf57-lffwr","uptimeSeconds":13.747}
+2026-10-14T12:27:28.016Z OK {"version":"1.1.0","student":"02230135","pod":"notice-board-756bdfdf57-m42n6","uptimeSeconds":14.405}
+2026-10-14T12:27:28.516Z OK {"version":"1.1.0","student":"02230135","pod":"notice-board-756bdfdf57-46d8q","uptimeSeconds":14.291}
+2026-10-14T12:27:29.016Z OK {"version":"1.1.0","student":"02230135","pod":"notice-board-756bdfdf57-46d8q","uptimeSeconds":14.791}
+2026-10-14T12:27:29.516Z OK {"version":"1.1.0","student":"02230135","pod":"notice-board-756bdfdf57-lffwr","uptimeSeconds":15.746}
+2026-10-14T12:27:30.016Z OK {"version":"1.1.0","student":"02230135","pod":"notice-board-756bdfdf57-lffwr","uptimeSeconds":16.246}
+2026-10-14T12:27:30.516Z OK {"version":"1.1.0","student":"02230135","pod":"notice-board-756bdfdf57-lffwr","uptimeSeconds":16.746}
+2026-10-14T12:27:31.016Z OK {"version":"1.1.0","student":"02230135","pod":"notice-board-756bdfdf57-lffwr","uptimeSeconds":17.246}
+2026-10-14T12:27:31.516Z OK {"version":"1.1.0","student":"02230135","pod":"notice-board-756bdfdf57-lffwr","uptimeSeconds":17.746}
+2026-10-14T12:27:32.016Z OK {"version":"1.1.0","student":"02230135","pod":"notice-board-756bdfdf57-m42n6","uptimeSeconds":18.405}
+2026-10-14T12:27:32.516Z OK {"version":"1.1.0","student":"02230135","pod":"notice-board-756bdfdf57-46d8q","uptimeSeconds":18.291}
+2026-10-14T12:27:33.016Z OK {"version":"1.1.0","student":"02230135","pod":"notice-board-756bdfdf57-lffwr","uptimeSeconds":19.248}
+2026-10-14T12:27:33.516Z OK {"version":"1.1.0","student":"02230135","pod":"notice-board-756bdfdf57-m42n6","uptimeSeconds":19.905}
+2026-10-14T12:27:34.016Z OK {"version":"1.1.0","student":"02230135","pod":"notice-board-756bdfdf57-46d8q","uptimeSeconds":19.791}
+2026-10-14T12:27:34.516Z OK {"version":"1.1.0","student":"02230135","pod":"notice-board-756bdfdf57-lffwr","uptimeSeconds":20.746}

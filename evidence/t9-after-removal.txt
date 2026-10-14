@@ -1,0 +1,15 @@
+Student ID: 02230135
+Command: kubectl --context kind-cte412-02230135 -n nb-02230135 get deployments,replicasets,pods,services,configmaps,secrets,serviceaccounts,resourcequota,limitrange
+NAME                         DATA   AGE
+configmap/kube-root-ca.crt   1      46s
+
+NAME                     AGE
+serviceaccount/default   46s
+
+NAME                               REQUEST                                                                      LIMIT                                   AGE
+resourcequota/notice-board-quota   count/services: 0/4, pods: 0/15, requests.cpu: 0/1, requests.memory: 0/1Gi   limits.cpu: 0/2, limits.memory: 0/2Gi   11m
+
+NAME                               CREATED AT
+limitrange/notice-board-defaults   2026-10-14T12:24:48Z
+
+Exit code: 0

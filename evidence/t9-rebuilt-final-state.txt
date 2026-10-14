@@ -1,0 +1,32 @@
+Student ID: 02230135
+Command: kubectl --context kind-cte412-02230135 -n nb-02230135 get deployments,pods,services,configmaps,resourcequota,limitrange
+NAME                                 READY   UP-TO-DATE   AVAILABLE   AGE
+deployment.apps/notice-board-blue    3/3     3            3           23s
+deployment.apps/notice-board-green   3/3     3            3           23s
+
+NAME                                     READY   STATUS    RESTARTS   AGE
+pod/monitor                              1/1     Running   0          6s
+pod/notice-board-blue-845f74c5b9-86jbs   1/1     Running   0          23s
+pod/notice-board-blue-845f74c5b9-dtp4r   1/1     Running   0          23s
+pod/notice-board-blue-845f74c5b9-qn22f   1/1     Running   0          23s
+pod/notice-board-green-7bd95bbcf-9lm6w   1/1     Running   0          23s
+pod/notice-board-green-7bd95bbcf-w7dwx   1/1     Running   0          23s
+pod/notice-board-green-7bd95bbcf-x7sf7   1/1     Running   0          23s
+
+NAME                           TYPE        CLUSTER-IP      EXTERNAL-IP   PORT(S)        AGE
+service/notice-board           ClusterIP   10.96.235.238   <none>        80/TCP         23s
+service/notice-board-ext       NodePort    10.96.20.193    <none>        80:30090/TCP   23s
+service/notice-board-preview   ClusterIP   10.96.97.132    <none>        80/TCP         22s
+
+NAME                                  DATA   AGE
+configmap/kube-root-ca.crt            1      83s
+configmap/notice-board-flags          1      23s
+configmap/notice-board-monitor-code   1      6s
+
+NAME                               REQUEST                                                                             LIMIT                                          AGE
+resourcequota/notice-board-quota   count/services: 3/4, pods: 7/15, requests.cpu: 310m/1, requests.memory: 400Mi/1Gi   limits.cpu: 650m/2, limits.memory: 832Mi/2Gi   12m
+
+NAME                               CREATED AT
+limitrange/notice-board-defaults   2026-10-14T12:24:48Z
+
+Exit code: 0

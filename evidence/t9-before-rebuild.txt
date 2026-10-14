@@ -1,0 +1,32 @@
+Student ID: 02230135
+Command: kubectl --context kind-cte412-02230135 -n nb-02230135 get deployment,pod,service,configmap,quota,limitrange
+NAME                                 READY   UP-TO-DATE   AVAILABLE   AGE
+deployment.apps/notice-board-blue    3/3     3            3           4m28s
+deployment.apps/notice-board-green   3/3     3            3           4m28s
+
+NAME                                     READY   STATUS    RESTARTS   AGE
+pod/monitor                              1/1     Running   0          9m33s
+pod/notice-board-blue-845f74c5b9-cx92z   1/1     Running   0          4m28s
+pod/notice-board-blue-845f74c5b9-mxz62   1/1     Running   0          4m28s
+pod/notice-board-blue-845f74c5b9-rrrml   1/1     Running   0          4m28s
+pod/notice-board-green-7bd95bbcf-7dk9d   1/1     Running   0          2m21s
+pod/notice-board-green-7bd95bbcf-hgwzn   1/1     Running   0          2m3s
+pod/notice-board-green-7bd95bbcf-rgcgm   1/1     Running   0          106s
+
+NAME                           TYPE        CLUSTER-IP      EXTERNAL-IP   PORT(S)        AGE
+service/notice-board           ClusterIP   10.96.118.19    <none>        80/TCP         9m52s
+service/notice-board-ext       NodePort    10.96.191.233   <none>        80:30090/TCP   9m52s
+service/notice-board-preview   ClusterIP   10.96.255.160   <none>        80/TCP         4m27s
+
+NAME                                  DATA   AGE
+configmap/kube-root-ca.crt            1      10m
+configmap/notice-board-flags          1      4m28s
+configmap/notice-board-monitor-code   1      9m33s
+
+NAME                               REQUEST                                                                             LIMIT                                          AGE
+resourcequota/notice-board-quota   count/services: 3/4, pods: 7/15, requests.cpu: 310m/1, requests.memory: 400Mi/1Gi   limits.cpu: 650m/2, limits.memory: 832Mi/2Gi   10m
+
+NAME                               CREATED AT
+limitrange/notice-board-defaults   2026-10-14T12:24:48Z
+
+Exit code: 0

@@ -12,7 +12,7 @@ spec:
   type: ClusterIP # Provide internal production access.
   selector:
     app: notice-board # Select application Pods.
-    slot: green # Initially route production to blue.
+    slot: green # Final state: route production to green.
   ports:
     - name: http # Identify the HTTP port.
       port: 80 # Required internal Service port.

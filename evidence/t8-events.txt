@@ -1,5 +1,6 @@
 Student ID: 02230135
-Flag-only apply: 2026-10-13T15:59:09.9408178Z
-Flag-only apply: 2026-10-14T04:31:04.5359931Z
-Flag rollout started: 2026-10-14T12:04:58.0705973Z
-Flag rollout completed: 2026-10-14T12:04:58.3893014Z
+2026-10-14T12:32:48.146Z ConfigMap-only apply started
+2026-10-14T12:32:48.433Z ConfigMap-only apply completed
+2026-10-14T12:32:52.301Z flag rollout apply started
+2026-10-14T12:33:44.071Z flag rollout completed
+2026-10-14T12:33:55.419Z capture ended

@@ -1,0 +1,44 @@
+Student ID: 02230135
+Command: docker build --build-arg APP_VERSION=1.2.0-broken --build-arg STUDENT_ID=02230135 -t notice-board:02230135-1.2.0-broken ./app
+#0 building with "desktop-linux" instance using docker driver
+
+#1 [internal] load build definition from Dockerfile
+#1 transferring dockerfile: 657B 0.0s done
+#1 DONE 0.0s
+
+#2 [internal] load metadata for docker.io/library/python:3.12-alpine
+#2 DONE 0.0s
+
+#3 [internal] load .dockerignore
+#3 transferring context: 73B done
+#3 DONE 0.0s
+
+#4 [internal] load build context
+#4 transferring context: 28B done
+#4 DONE 0.0s
+
+#5 [1/4] FROM docker.io/library/python:3.12-alpine@sha256:d09d15e60962ca365d1cd544a48773bac9d33f2fb1b00f2aa0deec78ade7dc31
+#5 resolve docker.io/library/python:3.12-alpine@sha256:d09d15e60962ca365d1cd544a48773bac9d33f2fb1b00f2aa0deec78ade7dc31 0.0s done
+#5 DONE 0.0s
+
+#6 [2/4] WORKDIR /app
+#6 CACHED
+
+#7 [3/4] RUN addgroup -S noticeboard     && adduser -S -G noticeboard -u 10001 noticeboard
+#7 CACHED
+
+#8 [4/4] COPY --chown=noticeboard:noticeboard app.py /app/app.py
+#8 CACHED
+
+#9 exporting to image
+#9 exporting layers done
+#9 exporting manifest sha256:430ea4721d3aad2d17f89949ae37e20cd62e172a3334cba9bc01fa427f4e2b61 done
+#9 exporting config sha256:cbb3e9b6b7c3bbd5040742dde4db13707d4e67131954b88ff5eb07b582eb3f61 done
+#9 exporting attestation manifest sha256:73c350522892655b70c88e2910bb2a063476e6089c5a01f2185d55c402dea3a7 0.0s done
+#9 exporting manifest list sha256:219a4db167daa8c710b64ec726d53f7143519cdf4b52170b8181c2bdb71a2f7c
+#9 exporting manifest list sha256:219a4db167daa8c710b64ec726d53f7143519cdf4b52170b8181c2bdb71a2f7c 0.0s done
+#9 naming to docker.io/library/notice-board:02230135-1.2.0-broken done
+#9 unpacking to docker.io/library/notice-board:02230135-1.2.0-broken 0.0s done
+#9 DONE 0.2s
+
+Exit code: 0

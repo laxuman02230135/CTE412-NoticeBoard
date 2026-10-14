@@ -1,0 +1,146 @@
+[
+  {
+    "experiment": "t5-recreate",
+    "start": "2026-10-14T12:26:45.298Z",
+    "end": "2026-10-14T12:27:34.526Z",
+    "requests": 100,
+    "failed": 25,
+    "versions": {
+      "1.0.0": 44,
+      "1.1.0": 31
+    },
+    "mixedSeconds": 0.0,
+    "peakPods": 3,
+    "peakNonTerminatingPods": 3,
+    "events": [
+      "2026-10-14T12:26:55.804Z apply started",
+      "2026-10-14T12:26:56.006Z apply completed",
+      "2026-10-14T12:27:24.025Z rollout completed",
+      "2026-10-14T12:27:34.526Z capture ended"
+    ],
+    "student": "02230135"
+  },
+  {
+    "experiment": "t5-rolling",
+    "start": "2026-10-14T12:28:06.021Z",
+    "end": "2026-10-14T12:29:17.566Z",
+    "requests": 144,
+    "failed": 0,
+    "versions": {
+      "1.0.0": 91,
+      "1.1.0": 53
+    },
+    "mixedSeconds": 35.498,
+    "peakPods": 5,
+    "peakNonTerminatingPods": 4,
+    "events": [
+      "2026-10-14T12:28:16.538Z apply started",
+      "2026-10-14T12:28:16.892Z apply completed",
+      "2026-10-14T12:29:07.065Z rollout completed",
+      "2026-10-14T12:29:17.566Z capture ended"
+    ],
+    "student": "02230135"
+  },
+  {
+    "experiment": "t6-monitor",
+    "start": "2026-10-14T12:29:21.172Z",
+    "end": "2026-10-14T12:30:43.790Z",
+    "requests": 166,
+    "failed": 0,
+    "versions": {
+      "1.1.0": 166
+    },
+    "mixedSeconds": 0.0,
+    "peakPods": 4,
+    "peakNonTerminatingPods": 4,
+    "events": [
+      "2026-10-14T12:29:31.676Z broken apply started",
+      "2026-10-14T12:29:31.850Z broken apply completed",
+      "2026-10-14T12:30:32.397Z rollback started",
+      "2026-10-14T12:30:32.690Z rollback completed",
+      "2026-10-14T12:30:43.790Z capture ended"
+    ],
+    "student": "02230135"
+  },
+  {
+    "experiment": "t7-switch1",
+    "start": "2026-10-14T12:31:28.011Z",
+    "end": "2026-10-14T12:31:49.410Z",
+    "requests": 43,
+    "failed": 0,
+    "versions": {
+      "1.0.0": 22,
+      "1.1.0": 21
+    },
+    "mixedSeconds": 0.0,
+    "peakPods": 6,
+    "peakNonTerminatingPods": 6,
+    "events": [
+      "2026-10-14T12:31:38.514Z switch apply started target=green",
+      "2026-10-14T12:31:38.909Z switch apply completed target=green",
+      "2026-10-14T12:31:49.410Z capture ended"
+    ],
+    "student": "02230135"
+  },
+  {
+    "experiment": "t7-switch2",
+    "start": "2026-10-14T12:31:51.019Z",
+    "end": "2026-10-14T12:32:12.360Z",
+    "requests": 43,
+    "failed": 0,
+    "versions": {
+      "1.1.0": 22,
+      "1.0.0": 21
+    },
+    "mixedSeconds": 0.0,
+    "peakPods": 6,
+    "peakNonTerminatingPods": 6,
+    "events": [
+      "2026-10-14T12:32:01.520Z switch apply started target=blue",
+      "2026-10-14T12:32:01.859Z switch apply completed target=blue",
+      "2026-10-14T12:32:12.360Z capture ended"
+    ],
+    "student": "02230135"
+  },
+  {
+    "experiment": "t7-switch3",
+    "start": "2026-10-14T12:32:13.643Z",
+    "end": "2026-10-14T12:32:35.053Z",
+    "requests": 44,
+    "failed": 0,
+    "versions": {
+      "1.0.0": 22,
+      "1.1.0": 22
+    },
+    "mixedSeconds": 0.0,
+    "peakPods": 6,
+    "peakNonTerminatingPods": 6,
+    "events": [
+      "2026-10-14T12:32:24.146Z switch apply started target=green",
+      "2026-10-14T12:32:24.553Z switch apply completed target=green",
+      "2026-10-14T12:32:35.053Z capture ended"
+    ],
+    "student": "02230135"
+  },
+  {
+    "experiment": "t8-monitor",
+    "start": "2026-10-14T12:32:37.502Z",
+    "end": "2026-10-14T12:33:55.419Z",
+    "requests": 156,
+    "failed": 0,
+    "versions": {
+      "1.1.0": 156
+    },
+    "mixedSeconds": 0.0,
+    "peakPods": 8,
+    "peakNonTerminatingPods": 7,
+    "events": [
+      "2026-10-14T12:32:48.146Z ConfigMap-only apply started",
+      "2026-10-14T12:32:48.433Z ConfigMap-only apply completed",
+      "2026-10-14T12:32:52.301Z flag rollout apply started",
+      "2026-10-14T12:33:44.071Z flag rollout completed",
+      "2026-10-14T12:33:55.419Z capture ended"
+    ],
+    "student": "02230135"
+  }
+]
