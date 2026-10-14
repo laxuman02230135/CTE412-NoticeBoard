@@ -10,7 +10,7 @@ metadata:
   labels:
     app: notice-board # Allow application-wide evidence queries.
   annotations:
-    kubernetes.io/change-cause: "Task 7: green 02230135-1.1.0" # Identify the green release.
+    kubernetes.io/change-cause: "Task 8: green reads FEATURE_PINNED=false" # Record the flag integration.
 spec:
   replicas: 3 # Run three replicas of this colour.
   progressDeadlineSeconds: 60 # Report a stalled rollout after sixty seconds.
@@ -24,19 +24,27 @@ spec:
     matchLabels:
       app: notice-board # Select application Pods.
       slot: green # Manage only green Pods.
-      
+
   template:
     metadata:
+      annotations:
+        cte412/flag-revision: "enabled-1" # Replace Pods so they read the updated flag.
       labels:
         app: notice-board # Match the Deployment and Service selectors.
         slot: green # This template only creates green Pods.
-        version: "1.1.0" # Match the successfully restored release.
+        version: "1.1.0" # Keep the same application image version.
 
     spec:
       containers:
         - name: notice-board # Identify the application container.
           image:  notice-board:02230135-1.1.0 # Match the restored live Deployment.
           imagePullPolicy: Never # Never attempt to pull this image from a registry.
+          env:
+            - name: FEATURE_PINNED # Configure pinned-notice ordering.
+              valueFrom:
+                configMapKeyRef:
+                  name: notice-board-flags # Read the flag from this ConfigMap.
+                  key: FEATURE_PINNED # Use its FEATURE_PINNED value.
 
           ports:
             - name: http # Services and probes reference this named port.

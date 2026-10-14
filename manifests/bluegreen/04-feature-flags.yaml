@@ -1,0 +1,12 @@
+# Purpose: Configure pinned-notice ordering without rebuilding the application image.
+# Apply: kubectl --context kind-cte412-02230135 apply -f manifests/bluegreen/04-feature-flags.yaml
+
+apiVersion: v1
+kind: ConfigMap
+
+metadata:
+  name: notice-board-flags # Required feature-flag ConfigMap.
+  namespace: nb-02230135 # Place the flags beside the green Deployment.
+
+data:
+  FEATURE_PINNED: "true" # Initially preserve the original notice ordering.
